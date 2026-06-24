@@ -3,44 +3,44 @@
     "date": "2026-06-24",
     "pools": [
       {
-        "name": "Seminary",
-        "rank": 1,
-        "totalPoints": 65
-      },
-      {
         "name": "Los Angeles",
-        "rank": 2,
-        "totalPoints": 53
+        "rank": 1,
+        "totalPoints": 124.5
       },
       {
-        "name": "Boise",
+        "name": "Sea Ranch",
+        "rank": 2,
+        "totalPoints": 119.5
+      },
+      {
+        "name": "San Luis Obispo",
         "rank": 3,
-        "totalPoints": 34.5
+        "totalPoints": 116
       },
       {
         "name": "Pine Street",
         "rank": 4,
-        "totalPoints": 26.5
+        "totalPoints": 115
       },
       {
-        "name": "San Luis Obispo",
+        "name": "Seminary",
         "rank": 5,
-        "totalPoints": 14.5
-      },
-      {
-        "name": "Sea Ranch",
-        "rank": 6,
-        "totalPoints": 0
+        "totalPoints": 94
       },
       {
         "name": "Kentfield",
-        "rank": 7,
-        "totalPoints": 0
+        "rank": 6,
+        "totalPoints": 91.5
       },
       {
         "name": "Dublin",
+        "rank": 7,
+        "totalPoints": 83.5
+      },
+      {
+        "name": "Boise",
         "rank": 8,
-        "totalPoints": 0
+        "totalPoints": 75.5
       }
     ]
   }

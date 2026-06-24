@@ -1,29 +1,867 @@
 {
-  "updatedAt": "2026-06-24T03:31:30.637Z",
+  "updatedAt": "2026-06-24T03:33:00.899Z",
   "bracket": [
     {
       "round": "Round of 32",
-      "matches": []
+      "matches": [
+        {
+          "mid": "305525",
+          "matchNumber": "75",
+          "date": "2026-06-28 19:00:00",
+          "status": "upcoming",
+          "live": false,
+          "home": {
+            "tid": 19815,
+            "name": "2a",
+            "abbr": "2A",
+            "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/'0.png'",
+            "placeholder": false
+          },
+          "away": {
+            "tid": 19817,
+            "name": "2b",
+            "abbr": "2B",
+            "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/'0.png'",
+            "placeholder": false
+          },
+          "result": {
+            "home": "0",
+            "away": "0",
+            "winner": ""
+          }
+        },
+        {
+          "mid": "305528",
+          "matchNumber": "76",
+          "date": "2026-06-29 17:00:00",
+          "status": "upcoming",
+          "live": false,
+          "home": {
+            "tid": 19816,
+            "name": "1c",
+            "abbr": "1C",
+            "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/'0.png'",
+            "placeholder": false
+          },
+          "away": {
+            "tid": 19818,
+            "name": "2f",
+            "abbr": "2F",
+            "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/'0.png'",
+            "placeholder": false
+          },
+          "result": {
+            "home": "0",
+            "away": "0",
+            "winner": ""
+          }
+        },
+        {
+          "mid": "305526",
+          "matchNumber": "78",
+          "date": "2026-06-29 20:30:00",
+          "status": "upcoming",
+          "live": false,
+          "home": {
+            "tid": 10,
+            "name": "Germany",
+            "abbr": "GER",
+            "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4711.png",
+            "placeholder": false
+          },
+          "away": {
+            "tid": 19819,
+            "name": "3a3b3c3d3f",
+            "abbr": "3A3",
+            "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/'0.png'",
+            "placeholder": false
+          },
+          "result": {
+            "home": "0",
+            "away": "0",
+            "winner": ""
+          }
+        },
+        {
+          "mid": "305527",
+          "matchNumber": "80",
+          "date": "2026-06-30 01:00:00",
+          "status": "upcoming",
+          "live": false,
+          "home": {
+            "tid": 19820,
+            "name": "1f",
+            "abbr": "1F",
+            "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/'0.png'",
+            "placeholder": false
+          },
+          "away": {
+            "tid": 19821,
+            "name": "2c",
+            "abbr": "2C",
+            "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/'0.png'",
+            "placeholder": false
+          },
+          "result": {
+            "home": "0",
+            "away": "0",
+            "winner": ""
+          }
+        },
+        {
+          "mid": "305530",
+          "matchNumber": "83",
+          "date": "2026-06-30 17:00:00",
+          "status": "upcoming",
+          "live": false,
+          "home": {
+            "tid": 19849,
+            "name": "2e",
+            "abbr": "2E",
+            "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/'0.png'",
+            "placeholder": false
+          },
+          "away": {
+            "tid": 19851,
+            "name": "2i",
+            "abbr": "2I",
+            "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/'0.png'",
+            "placeholder": false
+          },
+          "result": {
+            "home": "0",
+            "away": "0",
+            "winner": ""
+          }
+        },
+        {
+          "mid": "305529",
+          "matchNumber": "84",
+          "date": "2026-06-30 21:00:00",
+          "status": "upcoming",
+          "live": false,
+          "home": {
+            "tid": 19850,
+            "name": "1i",
+            "abbr": "1I",
+            "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/'0.png'",
+            "placeholder": false
+          },
+          "away": {
+            "tid": 19852,
+            "name": "3c3d3f3g3h",
+            "abbr": "3C3",
+            "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/'0.png'",
+            "placeholder": false
+          },
+          "result": {
+            "home": "0",
+            "away": "0",
+            "winner": ""
+          }
+        },
+        {
+          "mid": "305531",
+          "matchNumber": "86",
+          "date": "2026-07-01 01:00:00",
+          "status": "upcoming",
+          "live": false,
+          "home": {
+            "tid": 25,
+            "name": "Mexico",
+            "abbr": "MEX",
+            "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4781.png",
+            "placeholder": false
+          },
+          "away": {
+            "tid": 19853,
+            "name": "3c3e3f3h3i",
+            "abbr": "3C3",
+            "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/'0.png'",
+            "placeholder": false
+          },
+          "result": {
+            "home": "0",
+            "away": "0",
+            "winner": ""
+          }
+        },
+        {
+          "mid": "305534",
+          "matchNumber": "89",
+          "date": "2026-07-01 16:00:00",
+          "status": "upcoming",
+          "live": false,
+          "home": {
+            "tid": 19854,
+            "name": "1l",
+            "abbr": "1L",
+            "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/'0.png'",
+            "placeholder": false
+          },
+          "away": {
+            "tid": 19855,
+            "name": "3e3h3i3j3k",
+            "abbr": "3E3",
+            "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/'0.png'",
+            "placeholder": false
+          },
+          "result": {
+            "home": "0",
+            "away": "0",
+            "winner": ""
+          }
+        },
+        {
+          "mid": "305533",
+          "matchNumber": "91",
+          "date": "2026-07-01 20:00:00",
+          "status": "upcoming",
+          "live": false,
+          "home": {
+            "tid": 19857,
+            "name": "g1",
+            "abbr": "1G",
+            "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/'0.png'",
+            "placeholder": false
+          },
+          "away": {
+            "tid": 19860,
+            "name": "3a3e3h3i3j",
+            "abbr": "3A3",
+            "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/'0.png'",
+            "placeholder": false
+          },
+          "result": {
+            "home": "0",
+            "away": "0",
+            "winner": ""
+          }
+        },
+        {
+          "mid": "305532",
+          "matchNumber": "93",
+          "date": "2026-07-02 00:00:00",
+          "status": "upcoming",
+          "live": false,
+          "home": {
+            "tid": 1155,
+            "name": "USA",
+            "abbr": "USA",
+            "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4724.png",
+            "placeholder": false
+          },
+          "away": {
+            "tid": 19856,
+            "name": "3b3e3f3i3j",
+            "abbr": "3B3",
+            "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/'0.png'",
+            "placeholder": false
+          },
+          "result": {
+            "home": "0",
+            "away": "0",
+            "winner": ""
+          }
+        },
+        {
+          "mid": "305537",
+          "matchNumber": "95",
+          "date": "2026-07-02 19:00:00",
+          "status": "upcoming",
+          "live": false,
+          "home": {
+            "tid": 19840,
+            "name": "h1",
+            "abbr": "1H",
+            "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/'0.png'",
+            "placeholder": false
+          },
+          "away": {
+            "tid": 19841,
+            "name": "2j",
+            "abbr": "2J",
+            "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/'0.png'",
+            "placeholder": false
+          },
+          "result": {
+            "home": "0",
+            "away": "0",
+            "winner": ""
+          }
+        },
+        {
+          "mid": "305536",
+          "matchNumber": "96",
+          "date": "2026-07-02 23:00:00",
+          "status": "upcoming",
+          "live": false,
+          "home": {
+            "tid": 19842,
+            "name": "2k",
+            "abbr": "2K",
+            "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/'0.png'",
+            "placeholder": false
+          },
+          "away": {
+            "tid": 19843,
+            "name": "2l",
+            "abbr": "2L",
+            "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/'0.png'",
+            "placeholder": false
+          },
+          "result": {
+            "home": "0",
+            "away": "0",
+            "winner": ""
+          }
+        },
+        {
+          "mid": "305535",
+          "matchNumber": "98",
+          "date": "2026-07-03 03:00:00",
+          "status": "upcoming",
+          "live": false,
+          "home": {
+            "tid": 19858,
+            "name": "1b",
+            "abbr": "1B",
+            "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/'0.png'",
+            "placeholder": false
+          },
+          "away": {
+            "tid": 19859,
+            "name": "3e3f3g3i3j",
+            "abbr": "3E3",
+            "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/'0.png'",
+            "placeholder": false
+          },
+          "result": {
+            "home": "0",
+            "away": "0",
+            "winner": ""
+          }
+        },
+        {
+          "mid": "305538",
+          "matchNumber": "100",
+          "date": "2026-07-03 18:00:00",
+          "status": "upcoming",
+          "live": false,
+          "home": {
+            "tid": 19861,
+            "name": "2d",
+            "abbr": "2D",
+            "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/'0.png'",
+            "placeholder": false
+          },
+          "away": {
+            "tid": 19863,
+            "name": "g2",
+            "abbr": "2G",
+            "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/'0.png'",
+            "placeholder": false
+          },
+          "result": {
+            "home": "0",
+            "away": "0",
+            "winner": ""
+          }
+        },
+        {
+          "mid": "305540",
+          "matchNumber": "102",
+          "date": "2026-07-03 22:00:00",
+          "status": "upcoming",
+          "live": false,
+          "home": {
+            "tid": 28,
+            "name": "Argentina",
+            "abbr": "ARG",
+            "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4819.png",
+            "placeholder": false
+          },
+          "away": {
+            "tid": 19839,
+            "name": "h2",
+            "abbr": "2H",
+            "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/'0.png'",
+            "placeholder": false
+          },
+          "result": {
+            "home": "0",
+            "away": "0",
+            "winner": ""
+          }
+        },
+        {
+          "mid": "305539",
+          "matchNumber": "105",
+          "date": "2026-07-04 01:30:00",
+          "status": "upcoming",
+          "live": false,
+          "home": {
+            "tid": 19862,
+            "name": "1k",
+            "abbr": "1K",
+            "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/'0.png'",
+            "placeholder": false
+          },
+          "away": {
+            "tid": 19864,
+            "name": "3d3e3i3j3l",
+            "abbr": "3D3",
+            "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/'0.png'",
+            "placeholder": false
+          },
+          "result": {
+            "home": "0",
+            "away": "0",
+            "winner": ""
+          }
+        }
+      ]
     },
     {
       "round": "Round of 16",
-      "matches": []
+      "matches": [
+        {
+          "mid": "305542",
+          "matchNumber": "106",
+          "date": "2026-07-04 17:00:00",
+          "status": "upcoming",
+          "live": false,
+          "home": {
+            "tid": 19865,
+            "name": "w73",
+            "abbr": "W73",
+            "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/'0.png'",
+            "placeholder": false
+          },
+          "away": {
+            "tid": 19866,
+            "name": "w75",
+            "abbr": "W75",
+            "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/'0.png'",
+            "placeholder": false
+          },
+          "result": {
+            "home": "0",
+            "away": "0",
+            "winner": ""
+          }
+        },
+        {
+          "mid": "305541",
+          "matchNumber": "108",
+          "date": "2026-07-04 21:00:00",
+          "status": "upcoming",
+          "live": false,
+          "home": {
+            "tid": 19867,
+            "name": "w74",
+            "abbr": "W74",
+            "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/'0.png'",
+            "placeholder": false
+          },
+          "away": {
+            "tid": 19868,
+            "name": "w77",
+            "abbr": "W77",
+            "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/'0.png'",
+            "placeholder": false
+          },
+          "result": {
+            "home": "0",
+            "away": "0",
+            "winner": ""
+          }
+        },
+        {
+          "mid": "305543",
+          "matchNumber": "110",
+          "date": "2026-07-05 20:00:00",
+          "status": "upcoming",
+          "live": false,
+          "home": {
+            "tid": 19869,
+            "name": "w76",
+            "abbr": "W76",
+            "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/'0.png'",
+            "placeholder": false
+          },
+          "away": {
+            "tid": 19871,
+            "name": "w78",
+            "abbr": "W78",
+            "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/'0.png'",
+            "placeholder": false
+          },
+          "result": {
+            "home": "0",
+            "away": "0",
+            "winner": ""
+          }
+        },
+        {
+          "mid": "305544",
+          "matchNumber": "113",
+          "date": "2026-07-06 00:00:00",
+          "status": "upcoming",
+          "live": false,
+          "home": {
+            "tid": 19872,
+            "name": "w79",
+            "abbr": "W79",
+            "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/'0.png'",
+            "placeholder": false
+          },
+          "away": {
+            "tid": 19881,
+            "name": "w80",
+            "abbr": "W80",
+            "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/'0.png'",
+            "placeholder": false
+          },
+          "result": {
+            "home": "0",
+            "away": "0",
+            "winner": ""
+          }
+        },
+        {
+          "mid": "305545",
+          "matchNumber": "115",
+          "date": "2026-07-06 19:00:00",
+          "status": "upcoming",
+          "live": false,
+          "home": {
+            "tid": 19870,
+            "name": "w83",
+            "abbr": "W83",
+            "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/'0.png'",
+            "placeholder": false
+          },
+          "away": {
+            "tid": 19873,
+            "name": "w84",
+            "abbr": "W84",
+            "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/'0.png'",
+            "placeholder": false
+          },
+          "result": {
+            "home": "0",
+            "away": "0",
+            "winner": ""
+          }
+        },
+        {
+          "mid": "305546",
+          "matchNumber": "116",
+          "date": "2026-07-07 00:00:00",
+          "status": "upcoming",
+          "live": false,
+          "home": {
+            "tid": 19822,
+            "name": "w81",
+            "abbr": "W81",
+            "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/'0.png'",
+            "placeholder": false
+          },
+          "away": {
+            "tid": 19823,
+            "name": "w82",
+            "abbr": "W82",
+            "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/'0.png'",
+            "placeholder": false
+          },
+          "result": {
+            "home": "0",
+            "away": "0",
+            "winner": ""
+          }
+        },
+        {
+          "mid": "305547",
+          "matchNumber": "118",
+          "date": "2026-07-07 16:00:00",
+          "status": "upcoming",
+          "live": false,
+          "home": {
+            "tid": 19874,
+            "name": "w86",
+            "abbr": "W86",
+            "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/'0.png'",
+            "placeholder": false
+          },
+          "away": {
+            "tid": 19877,
+            "name": "w88",
+            "abbr": "W88",
+            "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/'0.png'",
+            "placeholder": false
+          },
+          "result": {
+            "home": "0",
+            "away": "0",
+            "winner": ""
+          }
+        },
+        {
+          "mid": "305548",
+          "matchNumber": "121",
+          "date": "2026-07-07 20:00:00",
+          "status": "upcoming",
+          "live": false,
+          "home": {
+            "tid": 19875,
+            "name": "w85",
+            "abbr": "W85",
+            "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/'0.png'",
+            "placeholder": false
+          },
+          "away": {
+            "tid": 19878,
+            "name": "w87",
+            "abbr": "W87",
+            "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/'0.png'",
+            "placeholder": false
+          },
+          "result": {
+            "home": "0",
+            "away": "0",
+            "winner": ""
+          }
+        }
+      ]
     },
     {
       "round": "Quarterfinals",
-      "matches": []
+      "matches": [
+        {
+          "mid": "305549",
+          "matchNumber": "123",
+          "date": "2026-07-09 20:00:00",
+          "status": "upcoming",
+          "live": false,
+          "home": {
+            "tid": 19876,
+            "name": "w89",
+            "abbr": "W89",
+            "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/'0.png'",
+            "placeholder": false
+          },
+          "away": {
+            "tid": 19879,
+            "name": "w90",
+            "abbr": "W90",
+            "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/'0.png'",
+            "placeholder": false
+          },
+          "result": {
+            "home": "0",
+            "away": "0",
+            "winner": ""
+          }
+        },
+        {
+          "mid": "305550",
+          "matchNumber": "125",
+          "date": "2026-07-10 19:00:00",
+          "status": "upcoming",
+          "live": false,
+          "home": {
+            "tid": 19880,
+            "name": "w93",
+            "abbr": "W93",
+            "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/'0.png'",
+            "placeholder": false
+          },
+          "away": {
+            "tid": 19882,
+            "name": "w94",
+            "abbr": "W94",
+            "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/'0.png'",
+            "placeholder": false
+          },
+          "result": {
+            "home": "0",
+            "away": "0",
+            "winner": ""
+          }
+        },
+        {
+          "mid": "305551",
+          "matchNumber": "127",
+          "date": "2026-07-11 21:00:00",
+          "status": "upcoming",
+          "live": false,
+          "home": {
+            "tid": 12376,
+            "name": "TBD",
+            "abbr": "TBD",
+            "logo": "",
+            "placeholder": true
+          },
+          "away": {
+            "tid": 12377,
+            "name": "TBD",
+            "abbr": "TBD",
+            "logo": "",
+            "placeholder": true
+          },
+          "result": {
+            "home": "0",
+            "away": "0",
+            "winner": ""
+          }
+        },
+        {
+          "mid": "305552",
+          "matchNumber": "129",
+          "date": "2026-07-12 01:00:00",
+          "status": "upcoming",
+          "live": false,
+          "home": {
+            "tid": 12378,
+            "name": "TBD",
+            "abbr": "TBD",
+            "logo": "",
+            "placeholder": true
+          },
+          "away": {
+            "tid": 12379,
+            "name": "TBD",
+            "abbr": "TBD",
+            "logo": "",
+            "placeholder": true
+          },
+          "result": {
+            "home": "0",
+            "away": "0",
+            "winner": ""
+          }
+        }
+      ]
     },
     {
       "round": "Semifinals",
-      "matches": []
+      "matches": [
+        {
+          "mid": "305553",
+          "matchNumber": "131",
+          "date": "2026-07-14 19:00:00",
+          "status": "upcoming",
+          "live": false,
+          "home": {
+            "tid": 12380,
+            "name": "TBD",
+            "abbr": "TBD",
+            "logo": "",
+            "placeholder": true
+          },
+          "away": {
+            "tid": 12381,
+            "name": "TBD",
+            "abbr": "TBD",
+            "logo": "",
+            "placeholder": true
+          },
+          "result": {
+            "home": "0",
+            "away": "0",
+            "winner": ""
+          }
+        },
+        {
+          "mid": "305554",
+          "matchNumber": "133",
+          "date": "2026-07-15 19:00:00",
+          "status": "upcoming",
+          "live": false,
+          "home": {
+            "tid": 12382,
+            "name": "TBD",
+            "abbr": "TBD",
+            "logo": "",
+            "placeholder": true
+          },
+          "away": {
+            "tid": 12383,
+            "name": "TBD",
+            "abbr": "TBD",
+            "logo": "",
+            "placeholder": true
+          },
+          "result": {
+            "home": "0",
+            "away": "0",
+            "winner": ""
+          }
+        }
+      ]
     },
     {
       "round": "Match for 3rd place",
-      "matches": []
+      "matches": [
+        {
+          "mid": "305555",
+          "matchNumber": "135",
+          "date": "2026-07-18 21:00:00",
+          "status": "upcoming",
+          "live": false,
+          "home": {
+            "tid": 12384,
+            "name": "TBD",
+            "abbr": "TBD",
+            "logo": "",
+            "placeholder": true
+          },
+          "away": {
+            "tid": 12385,
+            "name": "TBD",
+            "abbr": "TBD",
+            "logo": "",
+            "placeholder": true
+          },
+          "result": {
+            "home": "0",
+            "away": "0",
+            "winner": ""
+          }
+        }
+      ]
     },
     {
       "round": "Final",
-      "matches": []
+      "matches": [
+        {
+          "mid": "305556",
+          "matchNumber": "136",
+          "date": "2026-07-19 19:00:00",
+          "status": "upcoming",
+          "live": false,
+          "home": {
+            "tid": 12386,
+            "name": "TBD",
+            "abbr": "TBD",
+            "logo": "",
+            "placeholder": true
+          },
+          "away": {
+            "tid": 12387,
+            "name": "TBD",
+            "abbr": "TBD",
+            "logo": "",
+            "placeholder": true
+          },
+          "result": {
+            "home": "0",
+            "away": "0",
+            "winner": ""
+          }
+        }
+      ]
     }
   ]
 }
