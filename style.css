@@ -31,14 +31,25 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   color: var(--text);
   background-color: var(--bg);
-  background-image:
-    radial-gradient(circle at 8% 12%, var(--pool-purple) 0%, transparent 55%),
-    radial-gradient(circle at 90% 6%, var(--pool-teal) 0%, transparent 48%),
-    radial-gradient(circle at 96% 58%, var(--pool-lime) 0%, transparent 50%),
-    radial-gradient(circle at 45% 96%, var(--pool-orange) 0%, transparent 48%),
-    radial-gradient(circle at 6% 80%, var(--pool-blue) 0%, transparent 48%),
-    radial-gradient(circle at 70% 28%, var(--pool-red) 0%, transparent 42%),
-    radial-gradient(circle at 28% 48%, var(--pool-pink) 0%, transparent 38%);
+  background-image: repeating-radial-gradient(
+    circle at 50% 50%,
+    var(--pool-purple) 0px,
+    var(--pool-purple) 60px,
+    var(--pool-red) 60px,
+    var(--pool-red) 120px,
+    var(--pool-blue) 120px,
+    var(--pool-blue) 180px,
+    var(--pool-lime) 180px,
+    var(--pool-lime) 240px,
+    var(--pool-teal) 240px,
+    var(--pool-teal) 300px,
+    var(--pool-orange) 300px,
+    var(--pool-orange) 360px,
+    var(--pool-green) 360px,
+    var(--pool-green) 420px,
+    var(--pool-pink) 420px,
+    var(--pool-pink) 480px
+  );
   background-attachment: fixed;
   background-size: cover;
   min-height: 100vh;
@@ -50,7 +61,7 @@ body::before {
   content: "";
   position: fixed;
   inset: 0;
-  background: rgba(6, 7, 9, 0.38);
+  background: rgba(6, 7, 9, 0.3);
   z-index: -1;
 }
 
