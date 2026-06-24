@@ -32,13 +32,13 @@ body {
   color: var(--text);
   background-color: var(--bg);
   background-image:
-    radial-gradient(circle at 8% 12%, var(--pool-purple) 0%, transparent 32%),
-    radial-gradient(circle at 88% 8%, var(--pool-teal) 0%, transparent 28%),
-    radial-gradient(circle at 95% 55%, var(--pool-lime) 0%, transparent 30%),
-    radial-gradient(circle at 45% 92%, var(--pool-orange) 0%, transparent 28%),
-    radial-gradient(circle at 12% 78%, var(--pool-blue) 0%, transparent 28%),
-    radial-gradient(circle at 65% 30%, var(--pool-red) 0%, transparent 26%),
-    radial-gradient(circle at 30% 45%, var(--pool-pink) 0%, transparent 22%);
+    radial-gradient(circle at 8% 12%, var(--pool-purple) 0%, transparent 55%),
+    radial-gradient(circle at 90% 6%, var(--pool-teal) 0%, transparent 48%),
+    radial-gradient(circle at 96% 58%, var(--pool-lime) 0%, transparent 50%),
+    radial-gradient(circle at 45% 96%, var(--pool-orange) 0%, transparent 48%),
+    radial-gradient(circle at 6% 80%, var(--pool-blue) 0%, transparent 48%),
+    radial-gradient(circle at 70% 28%, var(--pool-red) 0%, transparent 42%),
+    radial-gradient(circle at 28% 48%, var(--pool-pink) 0%, transparent 38%);
   background-attachment: fixed;
   background-size: cover;
   min-height: 100vh;
@@ -50,7 +50,7 @@ body::before {
   content: "";
   position: fixed;
   inset: 0;
-  background: rgba(6, 7, 9, 0.66);
+  background: rgba(6, 7, 9, 0.38);
   z-index: -1;
 }
 
