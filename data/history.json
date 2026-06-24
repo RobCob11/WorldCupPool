@@ -1,1 +1,47 @@
-[]
+[
+  {
+    "date": "2026-06-24",
+    "pools": [
+      {
+        "name": "Pine Street",
+        "rank": 1,
+        "totalPoints": 134
+      },
+      {
+        "name": "Los Angeles",
+        "rank": 2,
+        "totalPoints": 124.5
+      },
+      {
+        "name": "Sea Ranch",
+        "rank": 3,
+        "totalPoints": 119.5
+      },
+      {
+        "name": "San Luis Obispo",
+        "rank": 4,
+        "totalPoints": 116
+      },
+      {
+        "name": "Seminary",
+        "rank": 5,
+        "totalPoints": 94
+      },
+      {
+        "name": "Kentfield",
+        "rank": 6,
+        "totalPoints": 91.5
+      },
+      {
+        "name": "Dublin",
+        "rank": 7,
+        "totalPoints": 83.5
+      },
+      {
+        "name": "Boise",
+        "rank": 8,
+        "totalPoints": 75.5
+      }
+    ]
+  }
+]
