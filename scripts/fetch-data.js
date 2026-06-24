@@ -44,10 +44,15 @@ async function apiGet(endpoint, params = {}) {
       "x-rapidapi-key": RAPIDAPI_KEY,
     },
   });
+  const text = await res.text();
   if (!res.ok) {
-    throw new Error(`API request failed: ${endpoint} -> ${res.status}`);
+    throw new Error(`API request failed: ${endpoint} -> ${res.status}: ${text.slice(0, 500)}`);
   }
-  return res.json();
+  try {
+    return JSON.parse(text);
+  } catch (e) {
+    throw new Error(`API did not return JSON for ${endpoint}: ${text.slice(0, 500)}`);
+  }
 }
 
 function isGroupStageRound(roundField) {
