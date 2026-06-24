@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-06-24T12:30:01.513Z",
+  "updatedAt": "2026-06-24T19:16:20.930Z",
   "stage": "live",
   "groupMatchesScored": 48,
-  "live": false,
+  "live": true,
   "topPerformer": {
     "tid": 1295,
     "name": "Ghana",
@@ -14,7 +14,7 @@
       "name": "Pine Street",
       "totalPoints": 126,
       "scoringCount": 5,
-      "live": false,
+      "live": true,
       "teams": [
         {
           "name": "Ghana",
@@ -52,7 +52,7 @@
             "W",
             "D"
           ],
-          "live": false,
+          "live": true,
           "isTopPerformer": false
         },
         {
@@ -102,7 +102,7 @@
       "name": "Los Angeles",
       "totalPoints": 124.5,
       "scoringCount": 6,
-      "live": false,
+      "live": true,
       "teams": [
         {
           "name": "South Korea",
@@ -166,7 +166,7 @@
             "L",
             "D"
           ],
-          "live": false,
+          "live": true,
           "isTopPerformer": false
         },
         {
@@ -278,7 +278,7 @@
       "name": "San Luis Obispo",
       "totalPoints": 116,
       "scoringCount": 6,
-      "live": false,
+      "live": true,
       "teams": [
         {
           "name": "Canada",
@@ -290,7 +290,7 @@
             "W",
             "D"
           ],
-          "live": false,
+          "live": true,
           "isTopPerformer": false
         },
         {
@@ -630,7 +630,7 @@
       "name": "Boise",
       "totalPoints": 75.5,
       "scoringCount": 5,
-      "live": false,
+      "live": true,
       "teams": [
         {
           "name": "USA",
@@ -655,7 +655,7 @@
             "L",
             "D"
           ],
-          "live": false,
+          "live": true,
           "isTopPerformer": false
         },
         {
