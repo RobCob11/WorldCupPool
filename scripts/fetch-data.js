@@ -129,17 +129,13 @@ async function main() {
 
   // Pull the full match list (paginated) so we have every group-stage and knockout match,
   // including ones not in "recent_matches".
-  let allMatches = [];
-  let page = 0;
-  let totalPages = 1;
-  do {
-    const res = await apiGet(`/competition/${COMPETITION_ID}/matches`, {
-      paged: page,
-    });
-    allMatches = allMatches.concat(res.response.items);
-    totalPages = res.response.total_pages;
-    page++;
-  } while (page < totalPages);
+  // per_page large enough to grab the whole tournament (105 matches) in a single call,
+  // so we stay well within the 100 requests/day free-tier limit.
+  const matchesRes = await apiGet(`/competition/${COMPETITION_ID}/matches`, {
+    paged: 1,
+    per_page: 200,
+  });
+  const allMatches = matchesRes.response.items;
 
   const groupAndDrawMatches = allMatches; // contains both group + knockout
 
