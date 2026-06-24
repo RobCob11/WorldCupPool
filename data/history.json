@@ -3,14 +3,14 @@
     "date": "2026-06-24",
     "pools": [
       {
-        "name": "Pine Street",
+        "name": "Los Angeles",
         "rank": 1,
-        "totalPoints": 126
+        "totalPoints": 156.5
       },
       {
-        "name": "Los Angeles",
+        "name": "Pine Street",
         "rank": 2,
-        "totalPoints": 124.5
+        "totalPoints": 141
       },
       {
         "name": "Sea Ranch",
