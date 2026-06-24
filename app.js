@@ -185,7 +185,7 @@ function spawnBall() {
 }
 
 function spawnConfetti() {
-  const colors = ["#6c3ce0", "#d1372b", "#1fb6a6", "#b6e62e", "#1e5fd9", "#f2622e", "#e0397c"];
+  const colors = ["#7b2fff", "#ff3b30", "#00d9c0", "#c6ff3d", "#2d6cff", "#ff6a2b", "#ff2e87"];
   for (let i = 0; i < 18; i++) {
     const piece = document.createElement("div");
     piece.className = "confetti-piece";

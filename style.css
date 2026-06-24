@@ -14,14 +14,14 @@
   --draw: #8a99a8;
 
   /* Bold FIFA-style palette, also used for per-pool color identity */
-  --pool-purple: #6c3ce0;
-  --pool-red: #d1372b;
-  --pool-teal: #1fb6a6;
-  --pool-lime: #b6e62e;
-  --pool-blue: #1e5fd9;
-  --pool-orange: #f2622e;
-  --pool-green: #1c6b3b;
-  --pool-pink: #e0397c;
+  --pool-purple: #7b2fff;
+  --pool-red: #ff3b30;
+  --pool-teal: #00d9c0;
+  --pool-lime: #c6ff3d;
+  --pool-blue: #2d6cff;
+  --pool-orange: #ff6a2b;
+  --pool-green: #1fa34a;
+  --pool-pink: #ff2e87;
 }
 
 * { box-sizing: border-box; }
@@ -58,7 +58,7 @@ body {
   color: var(--text);
   min-height: 100vh;
   position: relative;
-  background: rgba(6, 7, 9, 0.3);
+  background: rgba(6, 7, 9, 0.16);
 }
 
 .page {
@@ -86,7 +86,7 @@ body {
 .hero h1 .accent { color: var(--accent); }
 
 .hero .subtitle {
-  color: var(--muted);
+  color: var(--text);
   max-width: 560px;
   font-size: 17px;
   margin-bottom: 22px;
@@ -98,7 +98,7 @@ body {
   gap: 10px;
   font-family: "SF Mono", Menlo, Consolas, monospace;
   font-size: 14px;
-  color: var(--muted);
+  color: var(--text);
   border-top: 1px solid var(--border);
   padding-top: 18px;
 }
