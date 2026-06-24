@@ -55,6 +55,24 @@ async function apiGet(endpoint, params = {}) {
   }
 }
 
+function dedupeMatches(matches) {
+  // The API occasionally lists the same fixture twice under different match IDs
+  // (same teams, same kickoff time). Keep the verified/most-complete copy.
+  const byFixture = new Map();
+  for (const m of matches) {
+    const key = `${m.timestampstart}_${Number(m.teams.home.tid)}_${Number(m.teams.away.tid)}`;
+    const existing = byFixture.get(key);
+    if (!existing) {
+      byFixture.set(key, m);
+      continue;
+    }
+    const existingScore = (existing.verified === "true" ? 2 : 0) + (existing.status_str === "result" ? 1 : 0);
+    const candidateScore = (m.verified === "true" ? 2 : 0) + (m.status_str === "result" ? 1 : 0);
+    if (candidateScore > existingScore) byFixture.set(key, m);
+  }
+  return Array.from(byFixture.values());
+}
+
 function isGroupStageRound(roundField) {
   // Group stage rounds are plain numeric strings like "1", "2", "3".
   return /^\d+$/.test(String(roundField).trim());
@@ -129,13 +147,15 @@ async function main() {
 
   // Pull the full match list (paginated) so we have every group-stage and knockout match,
   // including ones not in "recent_matches".
-  // per_page large enough to grab the whole tournament (105 matches) in a single call,
-  // so we stay well within the 100 requests/day free-tier limit.
+  // per_page defaults to 0, which this API treats as "no limit" - that gets us the
+  // whole tournament (105 matches) in a single call, keeping us well within the
+  // 100 requests/day free-tier limit. Explicit values like per_page=200 silently
+  // capped the response, so we deliberately omit it.
   const matchesRes = await apiGet(`/competition/${COMPETITION_ID}/matches`, {
     paged: 1,
-    per_page: 200,
   });
-  const allMatches = matchesRes.response.items;
+  const allMatches = dedupeMatches(matchesRes.response.items);
+  console.log(`Fetched ${matchesRes.response.items.length} of ${matchesRes.response.total_items} total matches (${allMatches.length} after de-duping).`);
 
   const groupAndDrawMatches = allMatches; // contains both group + knockout
 
