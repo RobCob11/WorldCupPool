@@ -26,10 +26,7 @@
 
 * { box-sizing: border-box; }
 
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  color: var(--text);
+html {
   background-color: var(--bg);
   background-image: repeating-radial-gradient(
     circle at 50% 50%,
@@ -52,17 +49,16 @@ body {
   );
   background-attachment: fixed;
   background-size: cover;
-  min-height: 100vh;
-  position: relative;
   overflow-x: hidden;
 }
 
-body::before {
-  content: "";
-  position: fixed;
-  inset: 0;
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: var(--text);
+  min-height: 100vh;
+  position: relative;
   background: rgba(6, 7, 9, 0.3);
-  z-index: -1;
 }
 
 .page {
