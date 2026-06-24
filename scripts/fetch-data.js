@@ -147,15 +147,20 @@ async function main() {
 
   // Pull the full match list (paginated) so we have every group-stage and knockout match,
   // including ones not in "recent_matches".
-  // per_page defaults to 0, which this API treats as "no limit" - that gets us the
-  // whole tournament (105 matches) in a single call, keeping us well within the
-  // 100 requests/day free-tier limit. Explicit values like per_page=200 silently
-  // capped the response, so we deliberately omit it.
-  const matchesRes = await apiGet(`/competition/${COMPETITION_ID}/matches`, {
-    paged: 1,
-  });
-  const allMatches = dedupeMatches(matchesRes.response.items);
-  console.log(`Fetched ${matchesRes.response.items.length} of ${matchesRes.response.total_items} total matches (${allMatches.length} after de-duping).`);
+  let rawMatches = [];
+  let page = 1;
+  let totalPages = 1;
+  do {
+    const res = await apiGet(`/competition/${COMPETITION_ID}/matches`, {
+      paged: page,
+      per_page: 100,
+    });
+    rawMatches = rawMatches.concat(res.response.items);
+    totalPages = res.response.total_pages;
+    page++;
+  } while (page <= totalPages);
+  const allMatches = dedupeMatches(rawMatches);
+  console.log(`Fetched ${rawMatches.length} raw matches across pagination (${allMatches.length} after de-duping). Used ${page - 1} request(s) for matches.`);
 
   const groupAndDrawMatches = allMatches; // contains both group + knockout
 
