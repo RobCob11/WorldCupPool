@@ -69,6 +69,7 @@ body {
 
 .hero {
   background: var(--card);
+  border: 2px solid var(--pool-teal);
   border-radius: 18px;
   padding: 28px 28px 22px;
 }
