@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>World Cup Pool Standings</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page">
+    <header class="hero">
+      <p class="eyebrow">USA &middot; CANADA &middot; MEXICO 2026</p>
+      <h1>WORLD CUP<br /><span class="accent">POOL STANDINGS</span></h1>
+      <p class="subtitle">Eight pools. Six countries each. Points scale with the round &mdash; longshots that go deep win it.</p>
+      <div class="status-row" id="status-row">
+        <span class="status-dot"></span>
+        <span id="stage-label">Loading&hellip;</span>
+        <span class="sep">&middot;</span>
+        <span><strong id="matches-scored">&ndash;</strong> matches scored</span>
+        <span class="sep">&middot;</span>
+        <span>Updated <strong id="updated-at">&ndash;</strong></span>
+      </div>
+    </header>
+
+    <nav class="tabs">
+      <button class="tab-btn active" data-tab="leaderboard">Leaderboard</button>
+      <button class="tab-btn" data-tab="bracket">Knockout Bracket</button>
+      <button class="tab-btn" data-tab="scoring">How Scoring Works</button>
+    </nav>
+
+    <main>
+      <section id="tab-leaderboard" class="tab-panel active">
+        <h2 class="section-label">Leaderboard</h2>
+        <div id="leaderboard" class="leaderboard"></div>
+      </section>
+
+      <section id="tab-bracket" class="tab-panel">
+        <h2 class="section-label">Knockout Bracket</h2>
+        <div id="bracket" class="bracket-scroll"></div>
+      </section>
+
+      <section id="tab-scoring" class="tab-panel">
+        <h2 class="section-label">How Scoring Works</h2>
+        <div class="scoring-card">
+          <p><strong>Points = Power Ranking (PR) &times; Round Multiplier</strong></p>
+          <p class="muted">Each team carries a fixed PR value assigned at draft time &mdash; underdogs carry higher PR, favorites lower. Multipliers grow the deeper a team goes, so a longshot that wins big rounds pays off far more than a favorite doing the same.</p>
+          <table class="mult-table">
+            <thead><tr><th>Round</th><th>Multiplier</th></tr></thead>
+            <tbody>
+              <tr><td>Group stage win</td><td>1&times;</td></tr>
+              <tr><td>Group stage draw</td><td>0.5&times;</td></tr>
+              <tr><td>Round of 32</td><td>3&times;</td></tr>
+              <tr><td>Round of 16</td><td>5&times;</td></tr>
+              <tr><td>Quarterfinal</td><td>7&times;</td></tr>
+              <tr><td>Semifinal</td><td>9&times;</td></tr>
+              <tr><td>3rd Place Match (win)</td><td>11&times;</td></tr>
+              <tr><td>Final (win)</td><td>15&times;</td></tr>
+            </tbody>
+          </table>
+          <p class="muted">Losses earn nothing. Knockout draws are decided by extra time/penalties, so only the eventual winner scores.</p>
+          <p class="legend-gold"><span class="gold-dot"></span> Gold highlight marks the single team that has scored the most points across the entire tournament so far &mdash; this updates automatically as results come in.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Built for the family pool &middot; data refreshes automatically during live matches</p>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
