@@ -30,7 +30,9 @@ function renderLeaderboard(data) {
 
     const teamsHtml = pool.teams
       .map((team) => {
-        const formHtml = team.form
+        // team.form is most-recent-first; reverse so oldest reads left, most recent right.
+        const formHtml = [...team.form]
+          .reverse()
           .map((r) => `<span class="badge ${r}">${r}</span>`)
           .join("");
         return `
@@ -86,8 +88,9 @@ function renderBracket(data) {
     col.appendChild(title);
 
     round.matches.forEach((m) => {
+      const bothTbd = m.home.placeholder && m.away.placeholder;
       const matchEl = document.createElement("div");
-      matchEl.className = "bracket-match";
+      matchEl.className = "bracket-match" + (bothTbd ? " is-tbd" : "");
       const homeScore = m.status === "result" || m.status === "live" ? m.result.home : "";
       const awayScore = m.status === "result" || m.status === "live" ? m.result.away : "";
       matchEl.innerHTML = `
@@ -112,6 +115,27 @@ function renderBracket(data) {
 
     wrap.appendChild(col);
   });
+
+  const finalRound = data.bracket.find((r) => r.round === "Final");
+  const finalMatch = finalRound && finalRound.matches[0];
+  const championCol = document.createElement("div");
+  championCol.className = "bracket-champion";
+  if (finalMatch && finalMatch.status === "result") {
+    const winnerSide = finalMatch.result.winner === "home" ? finalMatch.home : finalMatch.away;
+    championCol.innerHTML = `
+      <div class="bracket-champion-title">Champion</div>
+      <div class="champion-name">
+        ${winnerSide.logo ? `<img src="${winnerSide.logo}" alt="" />` : ""}
+        ${winnerSide.name}
+      </div>
+    `;
+  } else {
+    championCol.innerHTML = `
+      <div class="bracket-champion-title">Champion</div>
+      <div class="trophy-icon">&#127942;</div>
+    `;
+  }
+  wrap.appendChild(championCol);
 
   container.innerHTML = "";
   container.appendChild(wrap);

@@ -213,9 +213,9 @@ body {
 .pool-card.open .pool-teams { display: block; }
 
 .team-row {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 80px 56px;
   align-items: center;
-  justify-content: space-between;
   padding: 9px 0;
   border-bottom: 1px solid var(--border);
   gap: 10px;
@@ -246,7 +246,7 @@ body {
   color: var(--muted);
 }
 
-.form-badges { display: flex; gap: 3px; }
+.form-badges { display: flex; gap: 3px; justify-content: center; }
 
 .badge {
   width: 18px;
@@ -316,6 +316,11 @@ body {
   font-size: 13px;
 }
 
+.bracket-match.is-tbd {
+  background: transparent;
+  border: 1px dashed var(--border);
+}
+
 .bracket-team {
   display: flex;
   justify-content: space-between;
@@ -347,6 +352,49 @@ body {
   color: var(--muted);
   text-align: center;
   margin-top: 4px;
+}
+
+.bracket-champion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-width: 140px;
+}
+
+.bracket-champion-title {
+  text-align: center;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--gold);
+  margin-bottom: 4px;
+}
+
+.trophy-icon {
+  font-size: 48px;
+  animation: spin-trophy 4s linear infinite;
+  filter: drop-shadow(0 0 8px rgba(245, 197, 66, 0.5));
+}
+
+@keyframes spin-trophy {
+  0% { transform: rotateY(0deg); }
+  100% { transform: rotateY(360deg); }
+}
+
+.champion-name {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 800;
+  font-size: 15px;
+}
+
+.champion-name img {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
 }
 
 .scoring-card {
