@@ -1,6 +1,6 @@
 :root {
   --bg: #0b0c10;
-  --card: #15161c;
+  --card: rgba(21, 22, 28, 0.88);
   --border: #2a2c35;
   --text: #f3f6f1;
   --muted: #9aa0ab;
@@ -67,6 +67,12 @@ body {
   padding: 40px 20px 80px;
 }
 
+.hero {
+  background: var(--card);
+  border-radius: 18px;
+  padding: 28px 28px 22px;
+}
+
 .hero .eyebrow {
   color: var(--accent);
   font-weight: 700;
@@ -99,8 +105,7 @@ body {
   font-family: "SF Mono", Menlo, Consolas, monospace;
   font-size: 14px;
   color: var(--text);
-  border-top: 1px solid var(--border);
-  padding-top: 18px;
+  padding-top: 6px;
 }
 
 .status-dot {
