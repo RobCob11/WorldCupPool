@@ -1,3 +1,21 @@
+const POOL_COLORS = {
+  "Los Angeles": "var(--pool-purple)",
+  "San Luis Obispo": "var(--pool-red)",
+  "Sea Ranch": "var(--pool-teal)",
+  "Pine Street": "var(--pool-lime)",
+  "Seminary": "var(--pool-blue)",
+  "Kentfield": "var(--pool-orange)",
+  "Dublin": "var(--pool-green)",
+  "Boise": "var(--pool-pink)",
+};
+
+function medalClass(rank) {
+  if (rank === 1) return "gold";
+  if (rank === 2) return "silver";
+  if (rank === 3) return "bronze";
+  return null;
+}
+
 async function loadJSON(path) {
   const res = await fetch(path + "?t=" + Date.now());
   return res.json();
@@ -27,6 +45,7 @@ function renderLeaderboard(data) {
   data.pools.forEach((pool) => {
     const card = document.createElement("div");
     card.className = `pool-card rank-${pool.rank}` + (pool.live ? " is-live" : "");
+    card.style.borderColor = POOL_COLORS[pool.name] || "var(--border)";
 
     const teamsHtml = pool.teams
       .map((team) => {
@@ -49,10 +68,15 @@ function renderLeaderboard(data) {
       })
       .join("");
 
+    const medal = medalClass(pool.rank);
+    const rankHtml = medal
+      ? `<span class="medal ${medal}"></span>`
+      : `<span class="pool-rank">${pool.rank}</span>`;
+
     card.innerHTML = `
       <div class="pool-head">
         <div class="pool-head-left">
-          <span class="pool-rank">${pool.rank}</span>
+          ${rankHtml}
           <span class="pool-name">${pool.name}</span>
           <span class="pool-meta">${pool.scoringCount} of ${pool.teams.length} countries scoring</span>
         </div>
@@ -152,8 +176,39 @@ function setupTabs() {
   });
 }
 
+function spawnBall() {
+  const ball = document.createElement("div");
+  ball.className = "bounce-ball";
+  ball.textContent = "⚽";
+  document.body.appendChild(ball);
+  setTimeout(() => ball.remove(), 4200);
+}
+
+function spawnConfetti() {
+  const colors = ["#6c3ce0", "#d1372b", "#1fb6a6", "#b6e62e", "#1e5fd9", "#f2622e", "#e0397c"];
+  for (let i = 0; i < 18; i++) {
+    const piece = document.createElement("div");
+    piece.className = "confetti-piece";
+    piece.style.left = `${Math.random() * 100}vw`;
+    piece.style.background = colors[Math.floor(Math.random() * colors.length)];
+    piece.style.animationDelay = `${Math.random() * 0.4}s`;
+    document.body.appendChild(piece);
+    setTimeout(() => piece.remove(), 3200);
+  }
+}
+
+function startAmbientAnimations() {
+  const triggerOneRandomly = () => {
+    if (Math.random() < 0.5) spawnBall();
+    else spawnConfetti();
+  };
+  setTimeout(triggerOneRandomly, 6000);
+  setInterval(triggerOneRandomly, 45000);
+}
+
 async function init() {
   setupTabs();
+  startAmbientAnimations();
   try {
     const standings = await loadJSON("data/standings.json");
     renderLeaderboard(standings);

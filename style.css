@@ -1,16 +1,27 @@
 :root {
-  --bg: #0b1f12;
-  --bg-stripe: #0e2415;
-  --card: #122a17;
-  --border: #1f3d26;
+  --bg: #0b0c10;
+  --card: #15161c;
+  --border: #2a2c35;
   --text: #f3f6f1;
-  --muted: #9fb3a4;
+  --muted: #9aa0ab;
   --accent: #c6ff3d;
   --gold: #f5c542;
+  --silver: #c7ccd6;
+  --bronze: #c97b4a;
   --red: #e8493a;
   --win: #3bbf6a;
   --loss: #e8493a;
   --draw: #8a99a8;
+
+  /* Bold FIFA-style palette, also used for per-pool color identity */
+  --pool-purple: #6c3ce0;
+  --pool-red: #d1372b;
+  --pool-teal: #1fb6a6;
+  --pool-lime: #b6e62e;
+  --pool-blue: #1e5fd9;
+  --pool-orange: #f2622e;
+  --pool-green: #1c6b3b;
+  --pool-pink: #e0397c;
 }
 
 * { box-sizing: border-box; }
@@ -18,8 +29,29 @@
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  background: repeating-linear-gradient(90deg, var(--bg) 0px, var(--bg) 60px, var(--bg-stripe) 60px, var(--bg-stripe) 120px);
   color: var(--text);
+  background-color: var(--bg);
+  background-image:
+    radial-gradient(circle at 8% 12%, var(--pool-purple) 0%, transparent 32%),
+    radial-gradient(circle at 88% 8%, var(--pool-teal) 0%, transparent 28%),
+    radial-gradient(circle at 95% 55%, var(--pool-lime) 0%, transparent 30%),
+    radial-gradient(circle at 45% 92%, var(--pool-orange) 0%, transparent 28%),
+    radial-gradient(circle at 12% 78%, var(--pool-blue) 0%, transparent 28%),
+    radial-gradient(circle at 65% 30%, var(--pool-red) 0%, transparent 26%),
+    radial-gradient(circle at 30% 45%, var(--pool-pink) 0%, transparent 22%);
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: rgba(6, 7, 9, 0.66);
+  z-index: -1;
 }
 
 .page {
@@ -114,13 +146,24 @@ body {
 
 .pool-card {
   background: var(--card);
-  border: 1px solid var(--border);
+  border: 2px solid var(--border);
   border-radius: 14px;
   padding: 18px 20px;
 }
 
-.pool-card.rank-1 { border-color: var(--gold); }
 .pool-card.is-live { box-shadow: 0 0 0 1px var(--accent) inset; }
+
+.medal {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+.medal.gold { background: var(--gold); }
+.medal.silver { background: var(--silver); }
+.medal.bronze { background: var(--bronze); }
 
 .pool-head {
   display: flex;
@@ -143,8 +186,6 @@ body {
   color: var(--muted);
   min-width: 24px;
 }
-
-.pool-card.rank-1 .pool-rank { color: var(--gold); }
 
 .pool-name {
   font-size: 19px;
@@ -437,6 +478,40 @@ body {
   background: var(--gold);
   display: inline-block;
   flex-shrink: 0;
+}
+
+.bounce-ball {
+  position: fixed;
+  bottom: 10px;
+  left: -40px;
+  font-size: 26px;
+  pointer-events: none;
+  z-index: 50;
+  animation: bounce-across 4s ease-in-out forwards;
+}
+
+@keyframes bounce-across {
+  0% { left: -40px; transform: translateY(0) rotate(0deg); opacity: 1; }
+  20% { transform: translateY(-60px) rotate(120deg); }
+  40% { transform: translateY(0) rotate(240deg); }
+  60% { transform: translateY(-40px) rotate(360deg); }
+  80% { transform: translateY(0) rotate(480deg); }
+  100% { left: 100vw; transform: translateY(0) rotate(600deg); opacity: 1; }
+}
+
+.confetti-piece {
+  position: fixed;
+  top: -20px;
+  width: 8px;
+  height: 14px;
+  pointer-events: none;
+  z-index: 50;
+  animation: confetti-fall 2.6s ease-in forwards;
+}
+
+@keyframes confetti-fall {
+  0% { transform: translateY(0) rotate(0deg); opacity: 1; }
+  100% { transform: translateY(110vh) rotate(540deg); opacity: 0; }
 }
 
 footer {
