@@ -2,9 +2,10 @@ name: Update World Cup Pool Data
 
 on:
   schedule:
-    # Every 30 minutes, all day. Keeps us at ~2 API calls per run (96/day),
-    # comfortably under the 100/day free-tier limit.
-    - cron: "*/30 * * * *"
+    # Every 60 minutes, all day. Each run uses ~4 API calls (full match list
+    # pagination + competition info), so 24 runs/day keeps us at ~96/day,
+    # just under the 100/day free-tier limit.
+    - cron: "0 * * * *"
   workflow_dispatch: {}
 
 permissions:
