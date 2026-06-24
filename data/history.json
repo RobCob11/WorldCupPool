@@ -3,24 +3,24 @@
     "date": "2026-06-24",
     "pools": [
       {
-        "name": "Los Angeles",
+        "name": "Pine Street",
         "rank": 1,
+        "totalPoints": 126
+      },
+      {
+        "name": "Los Angeles",
+        "rank": 2,
         "totalPoints": 124.5
       },
       {
         "name": "Sea Ranch",
-        "rank": 2,
+        "rank": 3,
         "totalPoints": 119.5
       },
       {
         "name": "San Luis Obispo",
-        "rank": 3,
-        "totalPoints": 116
-      },
-      {
-        "name": "Pine Street",
         "rank": 4,
-        "totalPoints": 115
+        "totalPoints": 116
       },
       {
         "name": "Seminary",
