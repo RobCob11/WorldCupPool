@@ -488,7 +488,7 @@
   {
     "mid": "392919",
     "round": "3",
-    "status": "upcoming",
+    "status": "result",
     "timestampstart": 1782417600,
     "timestampend": 1782428400,
     "home": "Ecuador",
@@ -497,7 +497,7 @@
   {
     "mid": "392920",
     "round": "3",
-    "status": "upcoming",
+    "status": "result",
     "timestampstart": 1782417600,
     "timestampend": 1782428400,
     "home": "Curacao",
@@ -506,7 +506,7 @@
   {
     "mid": "392921",
     "round": "3",
-    "status": "upcoming",
+    "status": "live",
     "timestampstart": 1782428400,
     "timestampend": 1782439200,
     "home": "Tunisia",
@@ -515,7 +515,7 @@
   {
     "mid": "392922",
     "round": "3",
-    "status": "upcoming",
+    "status": "live",
     "timestampstart": 1782428400,
     "timestampend": 1782439200,
     "home": "Japan",
