@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-24T23:52:32.391Z",
+  "updatedAt": "2026-06-25T10:29:47.696Z",
   "bracket": [
     {
       "round": "Round of 32",
@@ -11,17 +11,17 @@
           "status": "upcoming",
           "live": false,
           "home": {
-            "tid": 19815,
-            "name": "2a",
-            "abbr": "2A",
-            "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/'0.png'",
+            "tid": 1291,
+            "name": "South Africa",
+            "abbr": "SA",
+            "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4736.png",
             "placeholder": false
           },
           "away": {
-            "tid": 19817,
-            "name": "2b",
-            "abbr": "2B",
-            "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/'0.png'",
+            "tid": 1945,
+            "name": "Canada",
+            "abbr": "CAN",
+            "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4752.png",
             "placeholder": false
           },
           "result": {
@@ -37,10 +37,10 @@
           "status": "upcoming",
           "live": false,
           "home": {
-            "tid": 19816,
-            "name": "1c",
-            "abbr": "1C",
-            "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/'0.png'",
+            "tid": 19,
+            "name": "Brazil",
+            "abbr": "BRA",
+            "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4748.png",
             "placeholder": false
           },
           "away": {
@@ -96,10 +96,10 @@
             "placeholder": false
           },
           "away": {
-            "tid": 19821,
-            "name": "2c",
-            "abbr": "2C",
-            "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/'0.png'",
+            "tid": 24,
+            "name": "Morocco",
+            "abbr": "MAR",
+            "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4778.png",
             "placeholder": false
           },
           "result": {
