@@ -347,7 +347,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 34px;
   min-width: fit-content;
   padding: 12px 4px;
 }
@@ -362,16 +362,16 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  gap: 8px;
+  gap: 22px;
 }
 
-.bn-children.side-left { border-right: 2px solid var(--border); padding-right: 0; }
-.bn-children.side-right { border-left: 2px solid var(--border); padding-left: 0; }
+.bn-children.side-left { border-right: 1.5px solid var(--border); padding-right: 0; }
+.bn-children.side-right { border-left: 1.5px solid var(--border); padding-left: 0; }
 
 .bn-connector {
-  width: 8px;
+  width: 22px;
   height: 0;
-  border-top: 2px solid var(--border);
+  border-top: 1.5px solid var(--border);
   flex-shrink: 0;
 }
 
