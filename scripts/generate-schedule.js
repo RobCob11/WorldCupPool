@@ -50,9 +50,10 @@ function main() {
   }
 
   triggerTimes.sort((a, b) => a - b);
-  const capped = triggerTimes.slice(0, MAX_TRIGGERS_PER_DAY);
+  const cronStrings = [...new Set(triggerTimes.map(cronFor))];
+  const capped = cronStrings.slice(0, MAX_TRIGGERS_PER_DAY);
 
-  const cronLines = capped.map(cronFor).join("\n");
+  const cronLines = capped.join("\n");
 
   let workflow = fs.readFileSync(WORKFLOW_PATH, "utf8");
   const startIdx = workflow.indexOf(START_MARKER);
