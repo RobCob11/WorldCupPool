@@ -15,6 +15,7 @@ const POOLS_PATH = path.join(DATA_DIR, "pools.json");
 const STANDINGS_PATH = path.join(DATA_DIR, "standings.json");
 const BRACKET_PATH = path.join(DATA_DIR, "bracket.json");
 const HISTORY_PATH = path.join(DATA_DIR, "history.json");
+const MATCHES_RAW_PATH = path.join(DATA_DIR, "matches-raw.json");
 
 // Group-stage win = 1x, group draw = 0.5x. Knockout rounds scale by how far a team goes.
 const KNOCKOUT_MULTIPLIERS = {
@@ -163,6 +164,19 @@ async function main() {
   console.log(`Fetched ${rawMatches.length} raw matches across pagination (${allMatches.length} after de-duping). Used ${page - 1} request(s) for matches.`);
 
   const groupAndDrawMatches = allMatches; // contains both group + knockout
+
+  // Lightweight cache of match timing, used by the scheduler job to set up
+  // precise post-match refresh triggers without needing its own API calls.
+  const matchesRawOutput = allMatches.map((m) => ({
+    mid: m.mid,
+    round: m.round,
+    status: m.status_str,
+    timestampstart: Number(m.timestampstart),
+    timestampend: Number(m.timestampend),
+    home: m.teams.home.tname,
+    away: m.teams.away.tname,
+  }));
+  fs.writeFileSync(MATCHES_RAW_PATH, JSON.stringify(matchesRawOutput, null, 2));
 
   // ---- Compute standings ----
   const computedPools = pools.map((pool) => {

@@ -2,10 +2,11 @@ name: Update World Cup Pool Data
 
 on:
   schedule:
-    # Every 60 minutes, all day. Each run uses ~4 API calls (full match list
-    # pagination + competition info), so 24 runs/day keeps us at ~96/day,
-    # just under the 100/day free-tier limit.
-    - cron: "0 * * * *"
+    # Low-frequency safety net (every 3 hours). Most of the freshness comes from
+    # the precise match-end triggers below, regenerated daily by schedule-updates.yml.
+    - cron: "0 */3 * * *"
+    # BEGIN AUTO-GENERATED MATCH TRIGGERS
+    # END AUTO-GENERATED MATCH TRIGGERS
   workflow_dispatch: {}
 
 permissions:
@@ -30,6 +31,6 @@ jobs:
         run: |
           git config user.name "world-cup-pool-bot"
           git config user.email "actions@github.com"
-          git add data/standings.json data/bracket.json data/history.json
+          git add data/standings.json data/bracket.json data/history.json data/matches-raw.json
           git diff --quiet --cached || git commit -m "Update standings and bracket data"
           git push

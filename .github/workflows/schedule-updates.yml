@@ -1,0 +1,33 @@
+name: Regenerate Match-End Refresh Schedule
+
+on:
+  schedule:
+    # Once a day, looks ahead ~26 hours and sets up precise refresh triggers
+    # right after each scheduled match ends. Reads cached match data only -
+    # no API calls of its own.
+    - cron: "0 4 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  schedule:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Regenerate match-end triggers
+        run: node scripts/generate-schedule.js
+
+      - name: Commit updated workflow schedule
+        run: |
+          git config user.name "world-cup-pool-bot"
+          git config user.email "actions@github.com"
+          git add .github/workflows/update-data.yml
+          git diff --quiet --cached || git commit -m "Regenerate match-end refresh schedule"
+          git push
