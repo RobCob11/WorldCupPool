@@ -1,0 +1,938 @@
+[
+  {
+    "mid": "443516",
+    "round": "1",
+    "status": "result",
+    "timestampstart": 1781204400,
+    "timestampend": 1781215200,
+    "home": "Mexico",
+    "away": "South Africa"
+  },
+  {
+    "mid": "392866",
+    "round": "1",
+    "status": "result",
+    "timestampstart": 1781229600,
+    "timestampend": 1781240400,
+    "home": "Korea Republic",
+    "away": "Czech Republic"
+  },
+  {
+    "mid": "392867",
+    "round": "1",
+    "status": "result",
+    "timestampstart": 1781290800,
+    "timestampend": 1781301600,
+    "home": "Canada",
+    "away": "Bosnia & Herzegovina"
+  },
+  {
+    "mid": "392868",
+    "round": "1",
+    "status": "result",
+    "timestampstart": 1781312400,
+    "timestampend": 1781323200,
+    "home": "USA",
+    "away": "Paraguay"
+  },
+  {
+    "mid": "392869",
+    "round": "1",
+    "status": "result",
+    "timestampstart": 1781377200,
+    "timestampend": 1781388000,
+    "home": "Qatar",
+    "away": "Switzerland"
+  },
+  {
+    "mid": "392870",
+    "round": "1",
+    "status": "result",
+    "timestampstart": 1781388000,
+    "timestampend": 1781398800,
+    "home": "Brazil",
+    "away": "Morocco"
+  },
+  {
+    "mid": "392871",
+    "round": "1",
+    "status": "result",
+    "timestampstart": 1781398800,
+    "timestampend": 1781409600,
+    "home": "Haiti",
+    "away": "Scotland"
+  },
+  {
+    "mid": "392872",
+    "round": "1",
+    "status": "result",
+    "timestampstart": 1781409600,
+    "timestampend": 1781420400,
+    "home": "Australia",
+    "away": "Turkey"
+  },
+  {
+    "mid": "392873",
+    "round": "1",
+    "status": "result",
+    "timestampstart": 1781456400,
+    "timestampend": 1781467200,
+    "home": "Germany",
+    "away": "Curacao"
+  },
+  {
+    "mid": "392874",
+    "round": "1",
+    "status": "result",
+    "timestampstart": 1781467200,
+    "timestampend": 1781478000,
+    "home": "Netherlands",
+    "away": "Japan"
+  },
+  {
+    "mid": "392875",
+    "round": "1",
+    "status": "result",
+    "timestampstart": 1781478000,
+    "timestampend": 1781488800,
+    "home": "Ivory Coast",
+    "away": "Ecuador"
+  },
+  {
+    "mid": "392876",
+    "round": "1",
+    "status": "result",
+    "timestampstart": 1781488800,
+    "timestampend": 1781499600,
+    "home": "Sweden",
+    "away": "Tunisia"
+  },
+  {
+    "mid": "392877",
+    "round": "1",
+    "status": "result",
+    "timestampstart": 1781539200,
+    "timestampend": 1781550000,
+    "home": "Spain",
+    "away": "Cape Verde"
+  },
+  {
+    "mid": "392878",
+    "round": "1",
+    "status": "result",
+    "timestampstart": 1781550000,
+    "timestampend": 1781560800,
+    "home": "Belgium",
+    "away": "Egypt"
+  },
+  {
+    "mid": "392879",
+    "round": "1",
+    "status": "result",
+    "timestampstart": 1781560800,
+    "timestampend": 1781571600,
+    "home": "Saudi Arabia",
+    "away": "Uruguay"
+  },
+  {
+    "mid": "392880",
+    "round": "1",
+    "status": "result",
+    "timestampstart": 1781571600,
+    "timestampend": 1781582400,
+    "home": "Iran",
+    "away": "New Zealand"
+  },
+  {
+    "mid": "392881",
+    "round": "1",
+    "status": "result",
+    "timestampstart": 1781636400,
+    "timestampend": 1781647200,
+    "home": "France",
+    "away": "Senegal"
+  },
+  {
+    "mid": "392882",
+    "round": "1",
+    "status": "result",
+    "timestampstart": 1781647200,
+    "timestampend": 1781658000,
+    "home": "Iraq",
+    "away": "Norway"
+  },
+  {
+    "mid": "392883",
+    "round": "1",
+    "status": "result",
+    "timestampstart": 1781658000,
+    "timestampend": 1781668800,
+    "home": "Argentina",
+    "away": "Algeria"
+  },
+  {
+    "mid": "392884",
+    "round": "1",
+    "status": "result",
+    "timestampstart": 1781668800,
+    "timestampend": 1781679600,
+    "home": "Austria",
+    "away": "Jordan"
+  },
+  {
+    "mid": "392885",
+    "round": "1",
+    "status": "result",
+    "timestampstart": 1781715600,
+    "timestampend": 1781726400,
+    "home": "Portugal",
+    "away": "Congo DR"
+  },
+  {
+    "mid": "392886",
+    "round": "1",
+    "status": "result",
+    "timestampstart": 1781726400,
+    "timestampend": 1781737200,
+    "home": "England",
+    "away": "Croatia"
+  },
+  {
+    "mid": "392887",
+    "round": "1",
+    "status": "result",
+    "timestampstart": 1781737200,
+    "timestampend": 1781748000,
+    "home": "Ghana",
+    "away": "Panama"
+  },
+  {
+    "mid": "392888",
+    "round": "1",
+    "status": "result",
+    "timestampstart": 1781748000,
+    "timestampend": 1781758800,
+    "home": "Uzbekistan",
+    "away": "Colombia"
+  },
+  {
+    "mid": "392889",
+    "round": "2",
+    "status": "result",
+    "timestampstart": 1781798400,
+    "timestampend": 1781809200,
+    "home": "Czech Republic",
+    "away": "South Africa"
+  },
+  {
+    "mid": "392890",
+    "round": "2",
+    "status": "result",
+    "timestampstart": 1781809200,
+    "timestampend": 1781820000,
+    "home": "Switzerland",
+    "away": "Bosnia & Herzegovina"
+  },
+  {
+    "mid": "392891",
+    "round": "2",
+    "status": "result",
+    "timestampstart": 1781820000,
+    "timestampend": 1781830800,
+    "home": "Canada",
+    "away": "Qatar"
+  },
+  {
+    "mid": "392892",
+    "round": "2",
+    "status": "result",
+    "timestampstart": 1781830800,
+    "timestampend": 1781841600,
+    "home": "Mexico",
+    "away": "Korea Republic"
+  },
+  {
+    "mid": "392893",
+    "round": "2",
+    "status": "result",
+    "timestampstart": 1781895600,
+    "timestampend": 1781906400,
+    "home": "USA",
+    "away": "Australia"
+  },
+  {
+    "mid": "392894",
+    "round": "2",
+    "status": "result",
+    "timestampstart": 1781906400,
+    "timestampend": 1781917200,
+    "home": "Scotland",
+    "away": "Morocco"
+  },
+  {
+    "mid": "392895",
+    "round": "2",
+    "status": "result",
+    "timestampstart": 1781915400,
+    "timestampend": 1781926200,
+    "home": "Brazil",
+    "away": "Haiti"
+  },
+  {
+    "mid": "392896",
+    "round": "2",
+    "status": "result",
+    "timestampstart": 1781924400,
+    "timestampend": 1781935200,
+    "home": "Turkey",
+    "away": "Paraguay"
+  },
+  {
+    "mid": "392897",
+    "round": "2",
+    "status": "result",
+    "timestampstart": 1781974800,
+    "timestampend": 1781985600,
+    "home": "Netherlands",
+    "away": "Sweden"
+  },
+  {
+    "mid": "392898",
+    "round": "2",
+    "status": "result",
+    "timestampstart": 1781985600,
+    "timestampend": 1781996400,
+    "home": "Germany",
+    "away": "Ivory Coast"
+  },
+  {
+    "mid": "392899",
+    "round": "2",
+    "status": "result",
+    "timestampstart": 1782000000,
+    "timestampend": 1782010800,
+    "home": "Ecuador",
+    "away": "Curacao"
+  },
+  {
+    "mid": "392900",
+    "round": "2",
+    "status": "result",
+    "timestampstart": 1782014400,
+    "timestampend": 1782025200,
+    "home": "Tunisia",
+    "away": "Japan"
+  },
+  {
+    "mid": "392901",
+    "round": "2",
+    "status": "result",
+    "timestampstart": 1782057600,
+    "timestampend": 1782068400,
+    "home": "Spain",
+    "away": "Saudi Arabia"
+  },
+  {
+    "mid": "392902",
+    "round": "2",
+    "status": "result",
+    "timestampstart": 1782068400,
+    "timestampend": 1782079200,
+    "home": "Belgium",
+    "away": "Iran"
+  },
+  {
+    "mid": "392903",
+    "round": "2",
+    "status": "result",
+    "timestampstart": 1782079200,
+    "timestampend": 1782090000,
+    "home": "Uruguay",
+    "away": "Cape Verde"
+  },
+  {
+    "mid": "392904",
+    "round": "2",
+    "status": "result",
+    "timestampstart": 1782090000,
+    "timestampend": 1782100800,
+    "home": "New Zealand",
+    "away": "Egypt"
+  },
+  {
+    "mid": "392905",
+    "round": "2",
+    "status": "result",
+    "timestampstart": 1782147600,
+    "timestampend": 1782158400,
+    "home": "Argentina",
+    "away": "Austria"
+  },
+  {
+    "mid": "392906",
+    "round": "2",
+    "status": "result",
+    "timestampstart": 1782162000,
+    "timestampend": 1782172800,
+    "home": "France",
+    "away": "Iraq"
+  },
+  {
+    "mid": "392907",
+    "round": "2",
+    "status": "result",
+    "timestampstart": 1782172800,
+    "timestampend": 1782183600,
+    "home": "Norway",
+    "away": "Senegal"
+  },
+  {
+    "mid": "392908",
+    "round": "2",
+    "status": "result",
+    "timestampstart": 1782183600,
+    "timestampend": 1782194400,
+    "home": "Jordan",
+    "away": "Algeria"
+  },
+  {
+    "mid": "392909",
+    "round": "2",
+    "status": "result",
+    "timestampstart": 1782234000,
+    "timestampend": 1782244800,
+    "home": "Portugal",
+    "away": "Uzbekistan"
+  },
+  {
+    "mid": "392910",
+    "round": "2",
+    "status": "result",
+    "timestampstart": 1782244800,
+    "timestampend": 1782255600,
+    "home": "England",
+    "away": "Ghana"
+  },
+  {
+    "mid": "392911",
+    "round": "2",
+    "status": "result",
+    "timestampstart": 1782255600,
+    "timestampend": 1782266400,
+    "home": "Panama",
+    "away": "Croatia"
+  },
+  {
+    "mid": "392912",
+    "round": "2",
+    "status": "result",
+    "timestampstart": 1782266400,
+    "timestampend": 1782277200,
+    "home": "Colombia",
+    "away": "Congo DR"
+  },
+  {
+    "mid": "392913",
+    "round": "3",
+    "status": "result",
+    "timestampstart": 1782327600,
+    "timestampend": 1782338400,
+    "home": "Switzerland",
+    "away": "Canada"
+  },
+  {
+    "mid": "392914",
+    "round": "3",
+    "status": "result",
+    "timestampstart": 1782327600,
+    "timestampend": 1782338400,
+    "home": "Bosnia & Herzegovina",
+    "away": "Qatar"
+  },
+  {
+    "mid": "392915",
+    "round": "3",
+    "status": "result",
+    "timestampstart": 1782338400,
+    "timestampend": 1782349200,
+    "home": "Scotland",
+    "away": "Brazil"
+  },
+  {
+    "mid": "392916",
+    "round": "3",
+    "status": "result",
+    "timestampstart": 1782338400,
+    "timestampend": 1782349200,
+    "home": "Morocco",
+    "away": "Haiti"
+  },
+  {
+    "mid": "392917",
+    "round": "3",
+    "status": "result",
+    "timestampstart": 1782349200,
+    "timestampend": 1782360000,
+    "home": "Czech Republic",
+    "away": "Mexico"
+  },
+  {
+    "mid": "392918",
+    "round": "3",
+    "status": "result",
+    "timestampstart": 1782349200,
+    "timestampend": 1782360000,
+    "home": "South Africa",
+    "away": "Korea Republic"
+  },
+  {
+    "mid": "392919",
+    "round": "3",
+    "status": "upcoming",
+    "timestampstart": 1782417600,
+    "timestampend": 1782428400,
+    "home": "Ecuador",
+    "away": "Germany"
+  },
+  {
+    "mid": "392920",
+    "round": "3",
+    "status": "upcoming",
+    "timestampstart": 1782417600,
+    "timestampend": 1782428400,
+    "home": "Curacao",
+    "away": "Ivory Coast"
+  },
+  {
+    "mid": "392921",
+    "round": "3",
+    "status": "upcoming",
+    "timestampstart": 1782428400,
+    "timestampend": 1782439200,
+    "home": "Tunisia",
+    "away": "Netherlands"
+  },
+  {
+    "mid": "392922",
+    "round": "3",
+    "status": "upcoming",
+    "timestampstart": 1782428400,
+    "timestampend": 1782439200,
+    "home": "Japan",
+    "away": "Sweden"
+  },
+  {
+    "mid": "392923",
+    "round": "3",
+    "status": "upcoming",
+    "timestampstart": 1782439200,
+    "timestampend": 1782450000,
+    "home": "Turkey",
+    "away": "USA"
+  },
+  {
+    "mid": "392924",
+    "round": "3",
+    "status": "upcoming",
+    "timestampstart": 1782439200,
+    "timestampend": 1782450000,
+    "home": "Paraguay",
+    "away": "Australia"
+  },
+  {
+    "mid": "392925",
+    "round": "3",
+    "status": "upcoming",
+    "timestampstart": 1782500400,
+    "timestampend": 1782511200,
+    "home": "Norway",
+    "away": "France"
+  },
+  {
+    "mid": "392926",
+    "round": "3",
+    "status": "upcoming",
+    "timestampstart": 1782500400,
+    "timestampend": 1782511200,
+    "home": "Senegal",
+    "away": "Iraq"
+  },
+  {
+    "mid": "392927",
+    "round": "3",
+    "status": "upcoming",
+    "timestampstart": 1782518400,
+    "timestampend": 1782529200,
+    "home": "Uruguay",
+    "away": "Spain"
+  },
+  {
+    "mid": "392928",
+    "round": "3",
+    "status": "upcoming",
+    "timestampstart": 1782518400,
+    "timestampend": 1782529200,
+    "home": "Cape Verde",
+    "away": "Saudi Arabia"
+  },
+  {
+    "mid": "392929",
+    "round": "3",
+    "status": "upcoming",
+    "timestampstart": 1782529200,
+    "timestampend": 1782540000,
+    "home": "New Zealand",
+    "away": "Belgium"
+  },
+  {
+    "mid": "392930",
+    "round": "3",
+    "status": "upcoming",
+    "timestampstart": 1782529200,
+    "timestampend": 1782540000,
+    "home": "Egypt",
+    "away": "Iran"
+  },
+  {
+    "mid": "392931",
+    "round": "3",
+    "status": "upcoming",
+    "timestampstart": 1782594000,
+    "timestampend": 1782604800,
+    "home": "Panama",
+    "away": "England"
+  },
+  {
+    "mid": "392932",
+    "round": "3",
+    "status": "upcoming",
+    "timestampstart": 1782594000,
+    "timestampend": 1782604800,
+    "home": "Croatia",
+    "away": "Ghana"
+  },
+  {
+    "mid": "392933",
+    "round": "3",
+    "status": "upcoming",
+    "timestampstart": 1782603000,
+    "timestampend": 1782613800,
+    "home": "Colombia",
+    "away": "Portugal"
+  },
+  {
+    "mid": "392934",
+    "round": "3",
+    "status": "upcoming",
+    "timestampstart": 1782603000,
+    "timestampend": 1782613800,
+    "home": "Congo DR",
+    "away": "Uzbekistan"
+  },
+  {
+    "mid": "392935",
+    "round": "3",
+    "status": "upcoming",
+    "timestampstart": 1782612000,
+    "timestampend": 1782622800,
+    "home": "Jordan",
+    "away": "Argentina"
+  },
+  {
+    "mid": "392936",
+    "round": "3",
+    "status": "upcoming",
+    "timestampstart": 1782612000,
+    "timestampend": 1782622800,
+    "home": "Algeria",
+    "away": "Austria"
+  },
+  {
+    "mid": "305525",
+    "round": "Round of 32",
+    "status": "upcoming",
+    "timestampstart": 1782673200,
+    "timestampend": 1782684000,
+    "home": "South Africa",
+    "away": "Canada"
+  },
+  {
+    "mid": "305528",
+    "round": "Round of 32",
+    "status": "upcoming",
+    "timestampstart": 1782752400,
+    "timestampend": 1782763200,
+    "home": "Brazil",
+    "away": "2f"
+  },
+  {
+    "mid": "305526",
+    "round": "Round of 32",
+    "status": "upcoming",
+    "timestampstart": 1782765000,
+    "timestampend": 1782775800,
+    "home": "Germany",
+    "away": "3a3b3c3d3f"
+  },
+  {
+    "mid": "305527",
+    "round": "Round of 32",
+    "status": "upcoming",
+    "timestampstart": 1782781200,
+    "timestampend": 1782792000,
+    "home": "1f",
+    "away": "Morocco"
+  },
+  {
+    "mid": "305530",
+    "round": "Round of 32",
+    "status": "upcoming",
+    "timestampstart": 1782838800,
+    "timestampend": 1782849600,
+    "home": "2e",
+    "away": "2i"
+  },
+  {
+    "mid": "305529",
+    "round": "Round of 32",
+    "status": "upcoming",
+    "timestampstart": 1782853200,
+    "timestampend": 1782864000,
+    "home": "1i",
+    "away": "3c3d3f3g3h"
+  },
+  {
+    "mid": "305531",
+    "round": "Round of 32",
+    "status": "upcoming",
+    "timestampstart": 1782867600,
+    "timestampend": 1782878400,
+    "home": "Mexico",
+    "away": "3c3e3f3h3i"
+  },
+  {
+    "mid": "305534",
+    "round": "Round of 32",
+    "status": "upcoming",
+    "timestampstart": 1782921600,
+    "timestampend": 1782932400,
+    "home": "1l",
+    "away": "3e3h3i3j3k"
+  },
+  {
+    "mid": "305533",
+    "round": "Round of 32",
+    "status": "upcoming",
+    "timestampstart": 1782936000,
+    "timestampend": 1782946800,
+    "home": "g1",
+    "away": "3a3e3h3i3j"
+  },
+  {
+    "mid": "305532",
+    "round": "Round of 32",
+    "status": "upcoming",
+    "timestampstart": 1782950400,
+    "timestampend": 1782961200,
+    "home": "USA",
+    "away": "3b3e3f3i3j"
+  },
+  {
+    "mid": "305537",
+    "round": "Round of 32",
+    "status": "upcoming",
+    "timestampstart": 1783018800,
+    "timestampend": 1783029600,
+    "home": "h1",
+    "away": "2j"
+  },
+  {
+    "mid": "305536",
+    "round": "Round of 32",
+    "status": "upcoming",
+    "timestampstart": 1783033200,
+    "timestampend": 1783044000,
+    "home": "2k",
+    "away": "2l"
+  },
+  {
+    "mid": "305535",
+    "round": "Round of 32",
+    "status": "upcoming",
+    "timestampstart": 1783047600,
+    "timestampend": 1783058400,
+    "home": "1b",
+    "away": "3e3f3g3i3j"
+  },
+  {
+    "mid": "305538",
+    "round": "Round of 32",
+    "status": "upcoming",
+    "timestampstart": 1783101600,
+    "timestampend": 1783112400,
+    "home": "2d",
+    "away": "g2"
+  },
+  {
+    "mid": "305540",
+    "round": "Round of 32",
+    "status": "upcoming",
+    "timestampstart": 1783116000,
+    "timestampend": 1783126800,
+    "home": "Argentina",
+    "away": "h2"
+  },
+  {
+    "mid": "305539",
+    "round": "Round of 32",
+    "status": "upcoming",
+    "timestampstart": 1783128600,
+    "timestampend": 1783139400,
+    "home": "1k",
+    "away": "3d3e3i3j3l"
+  },
+  {
+    "mid": "305542",
+    "round": "Round of 16",
+    "status": "upcoming",
+    "timestampstart": 1783184400,
+    "timestampend": 1783195200,
+    "home": "w73",
+    "away": "w75"
+  },
+  {
+    "mid": "305541",
+    "round": "Round of 16",
+    "status": "upcoming",
+    "timestampstart": 1783198800,
+    "timestampend": 1783209600,
+    "home": "w74",
+    "away": "w77"
+  },
+  {
+    "mid": "305543",
+    "round": "Round of 16",
+    "status": "upcoming",
+    "timestampstart": 1783281600,
+    "timestampend": 1783292400,
+    "home": "w76",
+    "away": "w78"
+  },
+  {
+    "mid": "305544",
+    "round": "Round of 16",
+    "status": "upcoming",
+    "timestampstart": 1783296000,
+    "timestampend": 1783306800,
+    "home": "w79",
+    "away": "w80"
+  },
+  {
+    "mid": "305545",
+    "round": "Round of 16",
+    "status": "upcoming",
+    "timestampstart": 1783364400,
+    "timestampend": 1783375200,
+    "home": "w83",
+    "away": "w84"
+  },
+  {
+    "mid": "305546",
+    "round": "Round of 16",
+    "status": "upcoming",
+    "timestampstart": 1783382400,
+    "timestampend": 1783393200,
+    "home": "w81",
+    "away": "w82"
+  },
+  {
+    "mid": "305547",
+    "round": "Round of 16",
+    "status": "upcoming",
+    "timestampstart": 1783440000,
+    "timestampend": 1783450800,
+    "home": "w86",
+    "away": "w88"
+  },
+  {
+    "mid": "305548",
+    "round": "Round of 16",
+    "status": "upcoming",
+    "timestampstart": 1783454400,
+    "timestampend": 1783465200,
+    "home": "w85",
+    "away": "w87"
+  },
+  {
+    "mid": "305549",
+    "round": "Quarterfinals",
+    "status": "upcoming",
+    "timestampstart": 1783627200,
+    "timestampend": 1783638000,
+    "home": "w89",
+    "away": "w90"
+  },
+  {
+    "mid": "305550",
+    "round": "Quarterfinals",
+    "status": "upcoming",
+    "timestampstart": 1783710000,
+    "timestampend": 1783720800,
+    "home": "w93",
+    "away": "w94"
+  },
+  {
+    "mid": "305551",
+    "round": "Quarterfinals",
+    "status": "upcoming",
+    "timestampstart": 1783803600,
+    "timestampend": 1783814400,
+    "home": "W91",
+    "away": "W92"
+  },
+  {
+    "mid": "305552",
+    "round": "Quarterfinals",
+    "status": "upcoming",
+    "timestampstart": 1783818000,
+    "timestampend": 1783828800,
+    "home": "W95",
+    "away": "W96"
+  },
+  {
+    "mid": "305553",
+    "round": "Semifinals",
+    "status": "upcoming",
+    "timestampstart": 1784055600,
+    "timestampend": 1784066400,
+    "home": "W97",
+    "away": "W98"
+  },
+  {
+    "mid": "305554",
+    "round": "Semifinals",
+    "status": "upcoming",
+    "timestampstart": 1784142000,
+    "timestampend": 1784152800,
+    "home": "W99",
+    "away": "W100"
+  },
+  {
+    "mid": "305555",
+    "round": "Match for 3rd place",
+    "status": "upcoming",
+    "timestampstart": 1784408400,
+    "timestampend": 1784419200,
+    "home": "L101",
+    "away": "L102"
+  },
+  {
+    "mid": "305556",
+    "round": "Final",
+    "status": "upcoming",
+    "timestampstart": 1784487600,
+    "timestampend": 1784498400,
+    "home": "W101",
+    "away": "W102"
+  }
+]
