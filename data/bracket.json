@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-25T15:41:57.261Z",
+  "updatedAt": "2026-06-25T15:46:04.680Z",
   "final": {
     "mid": "305556",
     "matchNumber": 136,
@@ -54,24 +54,23 @@
       "winner": ""
     }
   },
-  "left": null,
-  "right": {
+  "left": {
     "match": {
-      "mid": "305540",
-      "matchNumber": 102,
-      "round": "Round of 32",
-      "date": "2026-07-03 22:00:00",
+      "mid": "305553",
+      "matchNumber": 131,
+      "round": "Semifinals",
+      "date": "2026-07-14 19:00:00",
       "status": "upcoming",
       "live": false,
       "home": {
-        "tid": 28,
-        "name": "Argentina",
-        "abbr": "ARG",
-        "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4819.png",
-        "placeholder": false
+        "tid": 12380,
+        "name": "TBD",
+        "abbr": "TBD",
+        "logo": "",
+        "placeholder": true
       },
       "away": {
-        "tid": 19839,
+        "tid": 12381,
         "name": "TBD",
         "abbr": "TBD",
         "logo": "",
@@ -82,6 +81,875 @@
         "away": "0",
         "winner": ""
       }
-    }
+    },
+    "children": [
+      {
+        "match": {
+          "mid": "305549",
+          "matchNumber": 123,
+          "round": "Quarterfinals",
+          "date": "2026-07-09 20:00:00",
+          "status": "upcoming",
+          "live": false,
+          "home": {
+            "tid": 19876,
+            "name": "TBD",
+            "abbr": "TBD",
+            "logo": "",
+            "placeholder": true
+          },
+          "away": {
+            "tid": 19879,
+            "name": "TBD",
+            "abbr": "TBD",
+            "logo": "",
+            "placeholder": true
+          },
+          "result": {
+            "home": "0",
+            "away": "0",
+            "winner": ""
+          }
+        },
+        "children": [
+          {
+            "match": {
+              "mid": "305542",
+              "matchNumber": 106,
+              "round": "Round of 16",
+              "date": "2026-07-04 17:00:00",
+              "status": "upcoming",
+              "live": false,
+              "home": {
+                "tid": 19865,
+                "name": "TBD",
+                "abbr": "TBD",
+                "logo": "",
+                "placeholder": true
+              },
+              "away": {
+                "tid": 19866,
+                "name": "TBD",
+                "abbr": "TBD",
+                "logo": "",
+                "placeholder": true
+              },
+              "result": {
+                "home": "0",
+                "away": "0",
+                "winner": ""
+              }
+            },
+            "children": [
+              {
+                "match": {
+                  "mid": "305525",
+                  "matchNumber": 75,
+                  "round": "Round of 32",
+                  "date": "2026-06-28 19:00:00",
+                  "status": "upcoming",
+                  "live": false,
+                  "home": {
+                    "tid": 1291,
+                    "name": "South Africa",
+                    "abbr": "SA",
+                    "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4736.png",
+                    "placeholder": false
+                  },
+                  "away": {
+                    "tid": 1945,
+                    "name": "Canada",
+                    "abbr": "CAN",
+                    "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4752.png",
+                    "placeholder": false
+                  },
+                  "result": {
+                    "home": "0",
+                    "away": "0",
+                    "winner": ""
+                  }
+                }
+              },
+              {
+                "match": {
+                  "mid": "305526",
+                  "matchNumber": 78,
+                  "round": "Round of 32",
+                  "date": "2026-06-29 20:30:00",
+                  "status": "upcoming",
+                  "live": false,
+                  "home": {
+                    "tid": 10,
+                    "name": "Germany",
+                    "abbr": "GER",
+                    "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4711.png",
+                    "placeholder": false
+                  },
+                  "away": {
+                    "tid": 19819,
+                    "name": "TBD",
+                    "abbr": "TBD",
+                    "logo": "",
+                    "placeholder": true
+                  },
+                  "result": {
+                    "home": "0",
+                    "away": "0",
+                    "winner": ""
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "match": {
+              "mid": "305541",
+              "matchNumber": 108,
+              "round": "Round of 16",
+              "date": "2026-07-04 21:00:00",
+              "status": "upcoming",
+              "live": false,
+              "home": {
+                "tid": 19867,
+                "name": "TBD",
+                "abbr": "TBD",
+                "logo": "",
+                "placeholder": true
+              },
+              "away": {
+                "tid": 19868,
+                "name": "TBD",
+                "abbr": "TBD",
+                "logo": "",
+                "placeholder": true
+              },
+              "result": {
+                "home": "0",
+                "away": "0",
+                "winner": ""
+              }
+            },
+            "children": [
+              {
+                "match": {
+                  "mid": "305528",
+                  "matchNumber": 76,
+                  "round": "Round of 32",
+                  "date": "2026-06-29 17:00:00",
+                  "status": "upcoming",
+                  "live": false,
+                  "home": {
+                    "tid": 19,
+                    "name": "Brazil",
+                    "abbr": "BRA",
+                    "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4748.png",
+                    "placeholder": false
+                  },
+                  "away": {
+                    "tid": 19818,
+                    "name": "TBD",
+                    "abbr": "TBD",
+                    "logo": "",
+                    "placeholder": true
+                  },
+                  "result": {
+                    "home": "0",
+                    "away": "0",
+                    "winner": ""
+                  }
+                }
+              },
+              {
+                "match": {
+                  "mid": "305530",
+                  "matchNumber": 83,
+                  "round": "Round of 32",
+                  "date": "2026-06-30 17:00:00",
+                  "status": "upcoming",
+                  "live": false,
+                  "home": {
+                    "tid": 19849,
+                    "name": "TBD",
+                    "abbr": "TBD",
+                    "logo": "",
+                    "placeholder": true
+                  },
+                  "away": {
+                    "tid": 19851,
+                    "name": "TBD",
+                    "abbr": "TBD",
+                    "logo": "",
+                    "placeholder": true
+                  },
+                  "result": {
+                    "home": "0",
+                    "away": "0",
+                    "winner": ""
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "match": {
+          "mid": "305550",
+          "matchNumber": 125,
+          "round": "Quarterfinals",
+          "date": "2026-07-10 19:00:00",
+          "status": "upcoming",
+          "live": false,
+          "home": {
+            "tid": 19880,
+            "name": "TBD",
+            "abbr": "TBD",
+            "logo": "",
+            "placeholder": true
+          },
+          "away": {
+            "tid": 19882,
+            "name": "TBD",
+            "abbr": "TBD",
+            "logo": "",
+            "placeholder": true
+          },
+          "result": {
+            "home": "0",
+            "away": "0",
+            "winner": ""
+          }
+        },
+        "children": [
+          {
+            "match": {
+              "mid": "305545",
+              "matchNumber": 115,
+              "round": "Round of 16",
+              "date": "2026-07-06 19:00:00",
+              "status": "upcoming",
+              "live": false,
+              "home": {
+                "tid": 19870,
+                "name": "TBD",
+                "abbr": "TBD",
+                "logo": "",
+                "placeholder": true
+              },
+              "away": {
+                "tid": 19873,
+                "name": "TBD",
+                "abbr": "TBD",
+                "logo": "",
+                "placeholder": true
+              },
+              "result": {
+                "home": "0",
+                "away": "0",
+                "winner": ""
+              }
+            },
+            "children": [
+              {
+                "match": {
+                  "mid": "305537",
+                  "matchNumber": 95,
+                  "round": "Round of 32",
+                  "date": "2026-07-02 19:00:00",
+                  "status": "upcoming",
+                  "live": false,
+                  "home": {
+                    "tid": 19840,
+                    "name": "TBD",
+                    "abbr": "TBD",
+                    "logo": "",
+                    "placeholder": true
+                  },
+                  "away": {
+                    "tid": 19841,
+                    "name": "TBD",
+                    "abbr": "TBD",
+                    "logo": "",
+                    "placeholder": true
+                  },
+                  "result": {
+                    "home": "0",
+                    "away": "0",
+                    "winner": ""
+                  }
+                }
+              },
+              {
+                "match": {
+                  "mid": "305536",
+                  "matchNumber": 96,
+                  "round": "Round of 32",
+                  "date": "2026-07-02 23:00:00",
+                  "status": "upcoming",
+                  "live": false,
+                  "home": {
+                    "tid": 19842,
+                    "name": "TBD",
+                    "abbr": "TBD",
+                    "logo": "",
+                    "placeholder": true
+                  },
+                  "away": {
+                    "tid": 19843,
+                    "name": "TBD",
+                    "abbr": "TBD",
+                    "logo": "",
+                    "placeholder": true
+                  },
+                  "result": {
+                    "home": "0",
+                    "away": "0",
+                    "winner": ""
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "match": {
+              "mid": "305546",
+              "matchNumber": 116,
+              "round": "Round of 16",
+              "date": "2026-07-07 00:00:00",
+              "status": "upcoming",
+              "live": false,
+              "home": {
+                "tid": 19822,
+                "name": "TBD",
+                "abbr": "TBD",
+                "logo": "",
+                "placeholder": true
+              },
+              "away": {
+                "tid": 19823,
+                "name": "TBD",
+                "abbr": "TBD",
+                "logo": "",
+                "placeholder": true
+              },
+              "result": {
+                "home": "0",
+                "away": "0",
+                "winner": ""
+              }
+            },
+            "children": [
+              {
+                "match": {
+                  "mid": "305533",
+                  "matchNumber": 91,
+                  "round": "Round of 32",
+                  "date": "2026-07-01 20:00:00",
+                  "status": "upcoming",
+                  "live": false,
+                  "home": {
+                    "tid": 19857,
+                    "name": "TBD",
+                    "abbr": "TBD",
+                    "logo": "",
+                    "placeholder": true
+                  },
+                  "away": {
+                    "tid": 19860,
+                    "name": "TBD",
+                    "abbr": "TBD",
+                    "logo": "",
+                    "placeholder": true
+                  },
+                  "result": {
+                    "home": "0",
+                    "away": "0",
+                    "winner": ""
+                  }
+                }
+              },
+              {
+                "match": {
+                  "mid": "305532",
+                  "matchNumber": 93,
+                  "round": "Round of 32",
+                  "date": "2026-07-02 00:00:00",
+                  "status": "upcoming",
+                  "live": false,
+                  "home": {
+                    "tid": 1155,
+                    "name": "USA",
+                    "abbr": "USA",
+                    "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4724.png",
+                    "placeholder": false
+                  },
+                  "away": {
+                    "tid": 19856,
+                    "name": "TBD",
+                    "abbr": "TBD",
+                    "logo": "",
+                    "placeholder": true
+                  },
+                  "result": {
+                    "home": "0",
+                    "away": "0",
+                    "winner": ""
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "right": {
+    "match": {
+      "mid": "305554",
+      "matchNumber": 133,
+      "round": "Semifinals",
+      "date": "2026-07-15 19:00:00",
+      "status": "upcoming",
+      "live": false,
+      "home": {
+        "tid": 12382,
+        "name": "TBD",
+        "abbr": "TBD",
+        "logo": "",
+        "placeholder": true
+      },
+      "away": {
+        "tid": 12383,
+        "name": "TBD",
+        "abbr": "TBD",
+        "logo": "",
+        "placeholder": true
+      },
+      "result": {
+        "home": "0",
+        "away": "0",
+        "winner": ""
+      }
+    },
+    "children": [
+      {
+        "match": {
+          "mid": "305551",
+          "matchNumber": 127,
+          "round": "Quarterfinals",
+          "date": "2026-07-11 21:00:00",
+          "status": "upcoming",
+          "live": false,
+          "home": {
+            "tid": 12376,
+            "name": "TBD",
+            "abbr": "TBD",
+            "logo": "",
+            "placeholder": true
+          },
+          "away": {
+            "tid": 12377,
+            "name": "TBD",
+            "abbr": "TBD",
+            "logo": "",
+            "placeholder": true
+          },
+          "result": {
+            "home": "0",
+            "away": "0",
+            "winner": ""
+          }
+        },
+        "children": [
+          {
+            "match": {
+              "mid": "305543",
+              "matchNumber": 110,
+              "round": "Round of 16",
+              "date": "2026-07-05 20:00:00",
+              "status": "upcoming",
+              "live": false,
+              "home": {
+                "tid": 19869,
+                "name": "TBD",
+                "abbr": "TBD",
+                "logo": "",
+                "placeholder": true
+              },
+              "away": {
+                "tid": 19871,
+                "name": "TBD",
+                "abbr": "TBD",
+                "logo": "",
+                "placeholder": true
+              },
+              "result": {
+                "home": "0",
+                "away": "0",
+                "winner": ""
+              }
+            },
+            "children": [
+              {
+                "match": {
+                  "mid": "305527",
+                  "matchNumber": 80,
+                  "round": "Round of 32",
+                  "date": "2026-06-30 01:00:00",
+                  "status": "upcoming",
+                  "live": false,
+                  "home": {
+                    "tid": 19820,
+                    "name": "TBD",
+                    "abbr": "TBD",
+                    "logo": "",
+                    "placeholder": true
+                  },
+                  "away": {
+                    "tid": 24,
+                    "name": "Morocco",
+                    "abbr": "MAR",
+                    "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4778.png",
+                    "placeholder": false
+                  },
+                  "result": {
+                    "home": "0",
+                    "away": "0",
+                    "winner": ""
+                  }
+                }
+              },
+              {
+                "match": {
+                  "mid": "305529",
+                  "matchNumber": 84,
+                  "round": "Round of 32",
+                  "date": "2026-06-30 21:00:00",
+                  "status": "upcoming",
+                  "live": false,
+                  "home": {
+                    "tid": 19850,
+                    "name": "TBD",
+                    "abbr": "TBD",
+                    "logo": "",
+                    "placeholder": true
+                  },
+                  "away": {
+                    "tid": 19852,
+                    "name": "TBD",
+                    "abbr": "TBD",
+                    "logo": "",
+                    "placeholder": true
+                  },
+                  "result": {
+                    "home": "0",
+                    "away": "0",
+                    "winner": ""
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "match": {
+              "mid": "305544",
+              "matchNumber": 113,
+              "round": "Round of 16",
+              "date": "2026-07-06 00:00:00",
+              "status": "upcoming",
+              "live": false,
+              "home": {
+                "tid": 19872,
+                "name": "TBD",
+                "abbr": "TBD",
+                "logo": "",
+                "placeholder": true
+              },
+              "away": {
+                "tid": 19881,
+                "name": "TBD",
+                "abbr": "TBD",
+                "logo": "",
+                "placeholder": true
+              },
+              "result": {
+                "home": "0",
+                "away": "0",
+                "winner": ""
+              }
+            },
+            "children": [
+              {
+                "match": {
+                  "mid": "305531",
+                  "matchNumber": 86,
+                  "round": "Round of 32",
+                  "date": "2026-07-01 01:00:00",
+                  "status": "upcoming",
+                  "live": false,
+                  "home": {
+                    "tid": 25,
+                    "name": "Mexico",
+                    "abbr": "MEX",
+                    "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4781.png",
+                    "placeholder": false
+                  },
+                  "away": {
+                    "tid": 19853,
+                    "name": "TBD",
+                    "abbr": "TBD",
+                    "logo": "",
+                    "placeholder": true
+                  },
+                  "result": {
+                    "home": "0",
+                    "away": "0",
+                    "winner": ""
+                  }
+                }
+              },
+              {
+                "match": {
+                  "mid": "305534",
+                  "matchNumber": 89,
+                  "round": "Round of 32",
+                  "date": "2026-07-01 16:00:00",
+                  "status": "upcoming",
+                  "live": false,
+                  "home": {
+                    "tid": 19854,
+                    "name": "TBD",
+                    "abbr": "TBD",
+                    "logo": "",
+                    "placeholder": true
+                  },
+                  "away": {
+                    "tid": 19855,
+                    "name": "TBD",
+                    "abbr": "TBD",
+                    "logo": "",
+                    "placeholder": true
+                  },
+                  "result": {
+                    "home": "0",
+                    "away": "0",
+                    "winner": ""
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "match": {
+          "mid": "305552",
+          "matchNumber": 129,
+          "round": "Quarterfinals",
+          "date": "2026-07-12 01:00:00",
+          "status": "upcoming",
+          "live": false,
+          "home": {
+            "tid": 12378,
+            "name": "TBD",
+            "abbr": "TBD",
+            "logo": "",
+            "placeholder": true
+          },
+          "away": {
+            "tid": 12379,
+            "name": "TBD",
+            "abbr": "TBD",
+            "logo": "",
+            "placeholder": true
+          },
+          "result": {
+            "home": "0",
+            "away": "0",
+            "winner": ""
+          }
+        },
+        "children": [
+          {
+            "match": {
+              "mid": "305547",
+              "matchNumber": 118,
+              "round": "Round of 16",
+              "date": "2026-07-07 16:00:00",
+              "status": "upcoming",
+              "live": false,
+              "home": {
+                "tid": 19874,
+                "name": "TBD",
+                "abbr": "TBD",
+                "logo": "",
+                "placeholder": true
+              },
+              "away": {
+                "tid": 19877,
+                "name": "TBD",
+                "abbr": "TBD",
+                "logo": "",
+                "placeholder": true
+              },
+              "result": {
+                "home": "0",
+                "away": "0",
+                "winner": ""
+              }
+            },
+            "children": [
+              {
+                "match": {
+                  "mid": "305538",
+                  "matchNumber": 100,
+                  "round": "Round of 32",
+                  "date": "2026-07-03 18:00:00",
+                  "status": "upcoming",
+                  "live": false,
+                  "home": {
+                    "tid": 19861,
+                    "name": "TBD",
+                    "abbr": "TBD",
+                    "logo": "",
+                    "placeholder": true
+                  },
+                  "away": {
+                    "tid": 19863,
+                    "name": "TBD",
+                    "abbr": "TBD",
+                    "logo": "",
+                    "placeholder": true
+                  },
+                  "result": {
+                    "home": "0",
+                    "away": "0",
+                    "winner": ""
+                  }
+                }
+              },
+              {
+                "match": {
+                  "mid": "305539",
+                  "matchNumber": 105,
+                  "round": "Round of 32",
+                  "date": "2026-07-04 01:30:00",
+                  "status": "upcoming",
+                  "live": false,
+                  "home": {
+                    "tid": 19862,
+                    "name": "TBD",
+                    "abbr": "TBD",
+                    "logo": "",
+                    "placeholder": true
+                  },
+                  "away": {
+                    "tid": 19864,
+                    "name": "TBD",
+                    "abbr": "TBD",
+                    "logo": "",
+                    "placeholder": true
+                  },
+                  "result": {
+                    "home": "0",
+                    "away": "0",
+                    "winner": ""
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "match": {
+              "mid": "305548",
+              "matchNumber": 121,
+              "round": "Round of 16",
+              "date": "2026-07-07 20:00:00",
+              "status": "upcoming",
+              "live": false,
+              "home": {
+                "tid": 19875,
+                "name": "TBD",
+                "abbr": "TBD",
+                "logo": "",
+                "placeholder": true
+              },
+              "away": {
+                "tid": 19878,
+                "name": "TBD",
+                "abbr": "TBD",
+                "logo": "",
+                "placeholder": true
+              },
+              "result": {
+                "home": "0",
+                "away": "0",
+                "winner": ""
+              }
+            },
+            "children": [
+              {
+                "match": {
+                  "mid": "305535",
+                  "matchNumber": 98,
+                  "round": "Round of 32",
+                  "date": "2026-07-03 03:00:00",
+                  "status": "upcoming",
+                  "live": false,
+                  "home": {
+                    "tid": 19858,
+                    "name": "TBD",
+                    "abbr": "TBD",
+                    "logo": "",
+                    "placeholder": true
+                  },
+                  "away": {
+                    "tid": 19859,
+                    "name": "TBD",
+                    "abbr": "TBD",
+                    "logo": "",
+                    "placeholder": true
+                  },
+                  "result": {
+                    "home": "0",
+                    "away": "0",
+                    "winner": ""
+                  }
+                }
+              },
+              {
+                "match": {
+                  "mid": "305540",
+                  "matchNumber": 102,
+                  "round": "Round of 32",
+                  "date": "2026-07-03 22:00:00",
+                  "status": "upcoming",
+                  "live": false,
+                  "home": {
+                    "tid": 28,
+                    "name": "Argentina",
+                    "abbr": "ARG",
+                    "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4819.png",
+                    "placeholder": false
+                  },
+                  "away": {
+                    "tid": 19839,
+                    "name": "TBD",
+                    "abbr": "TBD",
+                    "logo": "",
+                    "placeholder": true
+                  },
+                  "result": {
+                    "home": "0",
+                    "away": "0",
+                    "winner": ""
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 }
