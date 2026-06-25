@@ -347,7 +347,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 18px;
+  gap: 10px;
   min-width: fit-content;
   padding: 12px 4px;
 }
@@ -362,14 +362,14 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  gap: 14px;
+  gap: 8px;
 }
 
 .bn-children.side-left { border-right: 2px solid var(--border); padding-right: 0; }
 .bn-children.side-right { border-left: 2px solid var(--border); padding-left: 0; }
 
 .bn-connector {
-  width: 14px;
+  width: 8px;
   height: 0;
   border-top: 2px solid var(--border);
   flex-shrink: 0;
@@ -387,10 +387,10 @@ body {
 .bracket-match {
   background: var(--card);
   border: 1px solid var(--border);
-  border-radius: 10px;
-  padding: 7px 9px;
-  font-size: 12px;
-  width: 148px;
+  border-radius: 8px;
+  padding: 5px 6px;
+  font-size: 11px;
+  width: 88px;
   flex-shrink: 0;
 }
 
@@ -405,8 +405,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 3px 0;
-  gap: 6px;
+  padding: 2px 0;
+  gap: 4px;
 }
 
 .bracket-team.winner .bracket-team-name { font-weight: 800; }
@@ -415,15 +415,16 @@ body {
 .bracket-team-name {
   display: flex;
   align-items: center;
-  gap: 6px;
+  gap: 4px;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+  text-transform: uppercase;
 }
 
 .bracket-flag {
-  width: 16px;
-  height: 16px;
+  width: 14px;
+  height: 14px;
   border-radius: 50%;
   object-fit: cover;
   background: var(--border);

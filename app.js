@@ -126,15 +126,15 @@ function matchBoxHtml(match) {
   const winner = match.result ? match.result.winner : "";
   return `
     <div class="bracket-match${match.live ? " is-live" : ""}${bothTbd ? " is-tbd" : ""}">
-      <div class="bracket-team${home.placeholder ? " tbd" : ""}${winner === "home" ? " winner" : ""}">
+      <div class="bracket-team${home.placeholder ? " tbd" : ""}${winner === "home" ? " winner" : ""}" title="${home.name}">
         <span class="bracket-team-name">
-          ${home.logo ? `<img class="bracket-flag" src="${home.logo}" alt="" />` : ""}${home.name}
+          ${home.logo ? `<img class="bracket-flag" src="${home.logo}" alt="" />` : ""}${home.placeholder ? home.name : (home.abbr || home.name)}
         </span>
         <span class="bracket-score">${showScore ? match.result.home : ""}</span>
       </div>
-      <div class="bracket-team${away.placeholder ? " tbd" : ""}${winner === "away" ? " winner" : ""}">
+      <div class="bracket-team${away.placeholder ? " tbd" : ""}${winner === "away" ? " winner" : ""}" title="${away.name}">
         <span class="bracket-team-name">
-          ${away.logo ? `<img class="bracket-flag" src="${away.logo}" alt="" />` : ""}${away.name}
+          ${away.logo ? `<img class="bracket-flag" src="${away.logo}" alt="" />` : ""}${away.placeholder ? away.name : (away.abbr || away.name)}
         </span>
         <span class="bracket-score">${showScore ? match.result.away : ""}</span>
       </div>
