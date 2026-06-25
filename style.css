@@ -453,6 +453,7 @@ body {
   align-items: center;
   justify-content: center;
   gap: 8px;
+  perspective: 400px;
 }
 
 .bracket-champion-title {
