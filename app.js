@@ -98,71 +98,87 @@ function renderLeaderboard(data) {
   });
 }
 
+const TROPHY_SVG = `
+  <svg class="trophy-icon" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="32" cy="13" r="9" fill="#f5c542" />
+    <path d="M20 17 C 15 26, 16 35, 25 39 L 39 39 C 48 35, 49 26, 44 17"
+          fill="none" stroke="#f5c542" stroke-width="4" stroke-linecap="round" />
+    <path d="M24 39 L 26 50 L 38 50 L 40 39 Z" fill="#f5c542" />
+    <rect x="27" y="50" width="10" height="4" fill="#f5c542" />
+    <rect x="18" y="54" width="28" height="6" rx="2" fill="#f5c542" />
+  </svg>
+`;
+
+function formatShortDate(iso) {
+  return new Date(iso).toLocaleDateString(undefined, { month: "short", day: "numeric" });
+}
+
+function matchBoxHtml(match) {
+  if (!match) {
+    return `<div class="bracket-match is-tbd">
+      <div class="bracket-team tbd"><span class="bracket-team-name">TBD</span></div>
+      <div class="bracket-team tbd"><span class="bracket-team-name">TBD</span></div>
+    </div>`;
+  }
+  const { home, away } = match;
+  const bothTbd = home.placeholder && away.placeholder;
+  const showScore = match.status === "result" || match.status === "live";
+  const winner = match.result ? match.result.winner : "";
+  return `
+    <div class="bracket-match${match.live ? " is-live" : ""}${bothTbd ? " is-tbd" : ""}">
+      <div class="bracket-team${home.placeholder ? " tbd" : ""}${winner === "home" ? " winner" : ""}">
+        <span class="bracket-team-name">
+          ${home.logo ? `<img class="bracket-flag" src="${home.logo}" alt="" />` : ""}${home.name}
+        </span>
+        <span class="bracket-score">${showScore ? match.result.home : ""}</span>
+      </div>
+      <div class="bracket-team${away.placeholder ? " tbd" : ""}${winner === "away" ? " winner" : ""}">
+        <span class="bracket-team-name">
+          ${away.logo ? `<img class="bracket-flag" src="${away.logo}" alt="" />` : ""}${away.name}
+        </span>
+        <span class="bracket-score">${showScore ? match.result.away : ""}</span>
+      </div>
+      ${match.live ? '<div class="bracket-date"><span class="live-dot"></span> LIVE</div>' : `<div class="bracket-date">${formatShortDate(match.date)}</div>`}
+    </div>
+  `;
+}
+
+function renderNode(node, side) {
+  if (!node) return matchBoxHtml(null);
+  const selfHtml = matchBoxHtml(node.match);
+  if (!node.children) return selfHtml; // leaf = Round of 32
+  const childrenHtml = node.children.map((c) => renderNode(c, side)).join("");
+  const childrenCol = `<div class="bn-children side-${side}">${childrenHtml}</div>`;
+  const connector = `<div class="bn-connector"></div>`;
+  return side === "left"
+    ? `<div class="bn">${childrenCol}${connector}${selfHtml}</div>`
+    : `<div class="bn">${selfHtml}${connector}${childrenCol}</div>`;
+}
+
 function renderBracket(data) {
   const container = document.getElementById("bracket");
-  const wrap = document.createElement("div");
-  wrap.className = "bracket-rounds";
 
-  data.bracket.forEach((round) => {
-    const col = document.createElement("div");
-    col.className = "bracket-round";
-    const title = document.createElement("div");
-    title.className = "bracket-round-title";
-    title.textContent = round.round;
-    col.appendChild(title);
-
-    round.matches.forEach((m) => {
-      const bothTbd = m.home.placeholder && m.away.placeholder;
-      const matchEl = document.createElement("div");
-      matchEl.className = "bracket-match" + (bothTbd ? " is-tbd" : "");
-      const homeScore = m.status === "result" || m.status === "live" ? m.result.home : "";
-      const awayScore = m.status === "result" || m.status === "live" ? m.result.away : "";
-      matchEl.innerHTML = `
-        <div class="bracket-team${m.home.placeholder ? " tbd" : ""}">
-          <span class="bracket-team-name">
-            ${m.home.logo ? `<img class="bracket-flag" src="${m.home.logo}" alt="" />` : ""}
-            ${m.home.name}
-          </span>
-          <span class="bracket-score">${homeScore}</span>
-        </div>
-        <div class="bracket-team${m.away.placeholder ? " tbd" : ""}">
-          <span class="bracket-team-name">
-            ${m.away.logo ? `<img class="bracket-flag" src="${m.away.logo}" alt="" />` : ""}
-            ${m.away.name}
-          </span>
-          <span class="bracket-score">${awayScore}</span>
-        </div>
-        ${m.live ? '<div class="bracket-date"><span class="live-dot"></span> LIVE</div>' : `<div class="bracket-date">${new Date(m.date).toLocaleDateString(undefined, { month: "short", day: "numeric" })}</div>`}
-      `;
-      col.appendChild(matchEl);
-    });
-
-    wrap.appendChild(col);
-  });
-
-  const finalRound = data.bracket.find((r) => r.round === "Final");
-  const finalMatch = finalRound && finalRound.matches[0];
-  const championCol = document.createElement("div");
-  championCol.className = "bracket-champion";
-  if (finalMatch && finalMatch.status === "result") {
-    const winnerSide = finalMatch.result.winner === "home" ? finalMatch.home : finalMatch.away;
-    championCol.innerHTML = `
-      <div class="bracket-champion-title">Champion</div>
-      <div class="champion-name">
-        ${winnerSide.logo ? `<img src="${winnerSide.logo}" alt="" />` : ""}
-        ${winnerSide.name}
-      </div>
-    `;
-  } else {
-    championCol.innerHTML = `
-      <div class="bracket-champion-title">Champion</div>
-      <div class="trophy-icon">&#127942;</div>
-    `;
+  let championHtml = TROPHY_SVG;
+  if (data.final && data.final.status === "result") {
+    const winnerSide = data.final.result.winner === "home" ? data.final.home : data.final.away;
+    championHtml = `<div class="champion-name">${winnerSide.logo ? `<img src="${winnerSide.logo}" alt="" />` : ""}${winnerSide.name}</div>`;
   }
-  wrap.appendChild(championCol);
 
-  container.innerHTML = "";
-  container.appendChild(wrap);
+  const centerHtml = `
+    <div class="bracket-center">
+      ${matchBoxHtml(data.final)}
+      <div class="bracket-champion">
+        <div class="bracket-champion-title">Champion</div>
+        ${championHtml}
+      </div>
+      ${data.bronze ? `<div><div class="bracket-bronze-label">3rd Place</div>${matchBoxHtml(data.bronze)}</div>` : ""}
+    </div>
+  `;
+
+  const leftHtml = renderNode(data.left, "left");
+  const rightHtml = renderNode(data.right, "right");
+
+  container.innerHTML = `<div class="bracket-tree">${leftHtml}${centerHtml}${rightHtml}</div>`;
 }
 
 function setupTabs() {

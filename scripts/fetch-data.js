@@ -27,15 +27,6 @@ const KNOCKOUT_MULTIPLIERS = {
   "Final": 15,
 };
 
-const KNOCKOUT_ORDER = [
-  "Round of 32",
-  "Round of 16",
-  "Quarterfinals",
-  "Semifinals",
-  "Match for 3rd place",
-  "Final",
-];
-
 async function apiGet(endpoint, params = {}) {
   const url = new URL(`https://${RAPIDAPI_HOST}${endpoint}`);
   for (const [k, v] of Object.entries(params)) url.searchParams.set(k, v);
@@ -82,11 +73,6 @@ function isGroupStageRound(roundField) {
 function multiplierFor(roundField) {
   if (isGroupStageRound(roundField)) return 1;
   return KNOCKOUT_MULTIPLIERS[roundField] || 0;
-}
-
-function isPlaceholderTeam(team) {
-  // Unresolved bracket slots come back with no logo and short placeholder codes (e.g. "1A", "W95").
-  return !team.logo;
 }
 
 function sideForTeam(match, tid) {
@@ -275,35 +261,80 @@ async function main() {
   fs.writeFileSync(STANDINGS_PATH, JSON.stringify(standingsOutput, null, 2));
   fs.writeFileSync(HISTORY_PATH, JSON.stringify(history, null, 2));
 
-  // ---- Bracket ----
+  // ---- Bracket: build the real tree by parsing the API's own "W<matchNumber>"/"L<matchNumber>"
+  // placeholder codes, so connections between rounds are derived from data, not guessed.
   const bracketMatches = allMatches.filter((m) => !isGroupStageRound(m.round));
-  const bracket = KNOCKOUT_ORDER.map((roundName) => ({
-    round: roundName,
-    matches: bracketMatches
-      .filter((m) => m.round === roundName)
-      .sort((a, b) => a.match_number - b.match_number)
-      .map((m) => ({
-        mid: m.mid,
-        matchNumber: m.match_number,
-        date: m.datestart,
-        status: m.status_str,
-        live: m.status_str === "live",
-        home: teamOrPlaceholder(m.teams.home),
-        away: teamOrPlaceholder(m.teams.away),
-        result: m.result,
-      })),
-  }));
+  const matchByNumber = new Map(allMatches.map((m) => [Number(m.match_number), m]));
 
-  fs.writeFileSync(BRACKET_PATH, JSON.stringify({ updatedAt: new Date().toISOString(), bracket }, null, 2));
+  function resolveTeam(team) {
+    const dirEntry = teamDirectory.get(Number(team.tid));
+    const isPlaceholder = !dirEntry || dirEntry.iscountry !== "true";
+    if (isPlaceholder) {
+      return { tid: Number(team.tid), name: "TBD", abbr: "TBD", logo: "", placeholder: true };
+    }
+    return {
+      tid: Number(team.tid),
+      name: dirEntry.fullname || dirEntry.tname,
+      abbr: team.abbr,
+      logo: dirEntry.teamlogo || "",
+      placeholder: false,
+    };
+  }
+
+  function buildMatchObj(m) {
+    return {
+      mid: m.mid,
+      matchNumber: Number(m.match_number),
+      round: m.round,
+      date: m.datestart,
+      status: m.status_str,
+      live: m.status_str === "live",
+      home: resolveTeam(m.teams.home),
+      away: resolveTeam(m.teams.away),
+      result: m.result,
+    };
+  }
+
+  function parseRef(tname) {
+    const match = /^([WL])(\d+)$/.exec(String(tname).trim());
+    if (!match) return null;
+    return { type: match[1], num: Number(match[2]) };
+  }
+
+  function buildNode(matchNumber) {
+    const m = matchByNumber.get(matchNumber);
+    if (!m) return null;
+    const homeRef = parseRef(m.teams.home.tname);
+    const awayRef = parseRef(m.teams.away.tname);
+    const children = [homeRef ? buildNode(homeRef.num) : null, awayRef ? buildNode(awayRef.num) : null].filter(
+      Boolean
+    );
+    return { match: buildMatchObj(m), children: children.length ? children : undefined };
+  }
+
+  const finalMatch = bracketMatches.find((m) => m.round === "Final");
+  const bronzeMatch = bracketMatches.find((m) => m.round === "Match for 3rd place");
+
+  let leftNode = null;
+  let rightNode = null;
+  if (finalMatch) {
+    const homeRef = parseRef(finalMatch.teams.home.tname);
+    const awayRef = parseRef(finalMatch.teams.away.tname);
+    leftNode = homeRef ? buildNode(homeRef.num) : null;
+    rightNode = awayRef ? buildNode(awayRef.num) : null;
+  }
+
+  const bracketOutput = {
+    updatedAt: new Date().toISOString(),
+    final: finalMatch ? buildMatchObj(finalMatch) : null,
+    bronze: bronzeMatch ? buildMatchObj(bronzeMatch) : null,
+    left: leftNode,
+    right: rightNode,
+  };
+
+  fs.writeFileSync(BRACKET_PATH, JSON.stringify(bracketOutput, null, 2));
 
   console.log(`Updated standings (${computedPools.length} pools) and bracket (${bracketMatches.length} knockout matches).`);
-}
-
-function teamOrPlaceholder(team) {
-  if (isPlaceholderTeam(team)) {
-    return { tid: Number(team.tid), name: "TBD", abbr: "TBD", logo: "", placeholder: true };
-  }
-  return { tid: Number(team.tid), name: team.fullname || team.tname, abbr: team.abbr, logo: team.logo, placeholder: false };
 }
 
 main().catch((err) => {
