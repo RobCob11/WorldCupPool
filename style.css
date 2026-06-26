@@ -379,16 +379,20 @@ body {
   position: absolute;
   right: -16px;
   width: 16px;
-  height: 11px;
-  border-right: 1.5px solid var(--border);
+  /* Must reach the card's own far edge (50%) plus the half-gap (11px)
+     beyond it, to actually reach the joint - not just the half-gap alone. */
+  height: calc(50% + 11px);
+  border-right: 2.5px solid var(--border);
 }
 .bn-children.side-left > .bn-leaf:first-child::after {
   top: 50%;
-  border-top: 1.5px solid var(--border);
+  border-top: 2.5px solid var(--border);
+  border-top-right-radius: 8px;
 }
 .bn-children.side-left > .bn-leaf:last-child::after {
   bottom: 50%;
-  border-bottom: 1.5px solid var(--border);
+  border-bottom: 2.5px solid var(--border);
+  border-bottom-right-radius: 8px;
 }
 
 .bn-children.side-right > .bn-leaf::after {
@@ -396,22 +400,24 @@ body {
   position: absolute;
   left: -16px;
   width: 16px;
-  height: 11px;
-  border-left: 1.5px solid var(--border);
+  height: calc(50% + 11px);
+  border-left: 2.5px solid var(--border);
 }
 .bn-children.side-right > .bn-leaf:first-child::after {
   top: 50%;
-  border-top: 1.5px solid var(--border);
+  border-top: 2.5px solid var(--border);
+  border-top-left-radius: 8px;
 }
 .bn-children.side-right > .bn-leaf:last-child::after {
   bottom: 50%;
-  border-bottom: 1.5px solid var(--border);
+  border-bottom: 2.5px solid var(--border);
+  border-bottom-left-radius: 8px;
 }
 
 .bn-connector {
   width: 18px;
   height: 0;
-  border-top: 1.5px solid var(--border);
+  border-top: 2.5px solid var(--border);
   flex-shrink: 0;
 }
 
