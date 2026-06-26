@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-06-26T18:13:04.540Z",
+  "updatedAt": "2026-06-26T23:32:47.853Z",
   "stage": "live",
-  "groupMatchesScored": 60,
+  "groupMatchesScored": 62,
   "live": false,
   "topPerformer": {
     "tid": 25,
@@ -285,6 +285,98 @@
       "rankChange": 0
     },
     {
+      "name": "Dublin",
+      "totalPoints": 137,
+      "scoringCount": 4,
+      "live": false,
+      "teams": [
+        {
+          "name": "Ivory Coast",
+          "tid": 1165,
+          "pr": 26,
+          "points": 52,
+          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4768.png",
+          "form": [
+            "W",
+            "L",
+            "W"
+          ],
+          "live": false,
+          "isTopPerformer": false
+        },
+        {
+          "name": "Iran",
+          "tid": 22,
+          "pr": 35,
+          "points": 35,
+          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4766.png",
+          "form": [
+            "D",
+            "D"
+          ],
+          "live": false,
+          "isTopPerformer": false
+        },
+        {
+          "name": "Japan",
+          "tid": 23,
+          "pr": 15,
+          "points": 30,
+          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4770.png",
+          "form": [
+            "D",
+            "W",
+            "D"
+          ],
+          "live": false,
+          "isTopPerformer": false
+        },
+        {
+          "name": "Senegal",
+          "tid": 17,
+          "pr": 20,
+          "points": 20,
+          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4739.png",
+          "form": [
+            "W",
+            "L",
+            "L"
+          ],
+          "live": false,
+          "isTopPerformer": false
+        },
+        {
+          "name": "Panama",
+          "tid": 31,
+          "pr": 36,
+          "points": 0,
+          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/5164.png",
+          "form": [
+            "L",
+            "L"
+          ],
+          "live": false,
+          "isTopPerformer": false
+        },
+        {
+          "name": "Haiti",
+          "tid": 1163,
+          "pr": 45,
+          "points": 0,
+          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/7229.png",
+          "form": [
+            "L",
+            "L",
+            "L"
+          ],
+          "live": false,
+          "isTopPerformer": false
+        }
+      ],
+      "rank": 4,
+      "rankChange": 1
+    },
+    {
       "name": "Sea Ranch",
       "totalPoints": 130,
       "scoringCount": 6,
@@ -338,6 +430,7 @@
           "points": 18,
           "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4475.png",
           "form": [
+            "L",
             "W",
             "W"
           ],
@@ -371,99 +464,8 @@
           "isTopPerformer": false
         }
       ],
-      "rank": 4,
-      "rankChange": 0
-    },
-    {
-      "name": "Dublin",
-      "totalPoints": 117,
-      "scoringCount": 3,
-      "live": false,
-      "teams": [
-        {
-          "name": "Ivory Coast",
-          "tid": 1165,
-          "pr": 26,
-          "points": 52,
-          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4768.png",
-          "form": [
-            "W",
-            "L",
-            "W"
-          ],
-          "live": false,
-          "isTopPerformer": false
-        },
-        {
-          "name": "Iran",
-          "tid": 22,
-          "pr": 35,
-          "points": 35,
-          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4766.png",
-          "form": [
-            "D",
-            "D"
-          ],
-          "live": false,
-          "isTopPerformer": false
-        },
-        {
-          "name": "Japan",
-          "tid": 23,
-          "pr": 15,
-          "points": 30,
-          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4770.png",
-          "form": [
-            "D",
-            "W",
-            "D"
-          ],
-          "live": false,
-          "isTopPerformer": false
-        },
-        {
-          "name": "Senegal",
-          "tid": 17,
-          "pr": 20,
-          "points": 0,
-          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4739.png",
-          "form": [
-            "L",
-            "L"
-          ],
-          "live": false,
-          "isTopPerformer": false
-        },
-        {
-          "name": "Panama",
-          "tid": 31,
-          "pr": 36,
-          "points": 0,
-          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/5164.png",
-          "form": [
-            "L",
-            "L"
-          ],
-          "live": false,
-          "isTopPerformer": false
-        },
-        {
-          "name": "Haiti",
-          "tid": 1163,
-          "pr": 45,
-          "points": 0,
-          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/7229.png",
-          "form": [
-            "L",
-            "L",
-            "L"
-          ],
-          "live": false,
-          "isTopPerformer": false
-        }
-      ],
       "rank": 5,
-      "rankChange": 0
+      "rankChange": -1
     },
     {
       "name": "Kentfield",
@@ -637,6 +639,7 @@
           "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4767.png",
           "form": [
             "L",
+            "L",
             "L"
           ],
           "live": false,
@@ -648,7 +651,7 @@
     },
     {
       "name": "Boise",
-      "totalPoints": 83.5,
+      "totalPoints": 84.5,
       "scoringCount": 5,
       "live": false,
       "teams": [
@@ -712,9 +715,10 @@
           "name": "France",
           "tid": 2,
           "pr": 1,
-          "points": 2,
+          "points": 3,
           "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4481.png",
           "form": [
+            "W",
             "W",
             "W"
           ],

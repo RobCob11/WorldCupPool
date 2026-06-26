@@ -108,14 +108,14 @@
         "totalPoints": 160
       },
       {
-        "name": "Sea Ranch",
+        "name": "Dublin",
         "rank": 4,
-        "totalPoints": 130
+        "totalPoints": 137
       },
       {
-        "name": "Dublin",
+        "name": "Sea Ranch",
         "rank": 5,
-        "totalPoints": 117
+        "totalPoints": 130
       },
       {
         "name": "Kentfield",
@@ -130,7 +130,7 @@
       {
         "name": "Boise",
         "rank": 8,
-        "totalPoints": 83.5
+        "totalPoints": 84.5
       }
     ]
   }

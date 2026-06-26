@@ -6,7 +6,14 @@
     "timestampstart": 1781204400,
     "timestampend": 1781215200,
     "home": "Mexico",
-    "away": "South Africa"
+    "away": "South Africa",
+    "homeTid": 25,
+    "awayTid": 1291,
+    "result": {
+      "home": "2",
+      "away": "0",
+      "winner": "home"
+    }
   },
   {
     "mid": "392866",
@@ -15,7 +22,14 @@
     "timestampstart": 1781229600,
     "timestampend": 1781240400,
     "home": "Korea Republic",
-    "away": "Czech Republic"
+    "away": "Czech Republic",
+    "homeTid": 16,
+    "awayTid": 1153,
+    "result": {
+      "home": "2",
+      "away": "1",
+      "winner": "home"
+    }
   },
   {
     "mid": "392867",
@@ -24,7 +38,14 @@
     "timestampstart": 1781290800,
     "timestampend": 1781301600,
     "home": "Canada",
-    "away": "Bosnia & Herzegovina"
+    "away": "Bosnia & Herzegovina",
+    "homeTid": 1945,
+    "awayTid": 1187,
+    "result": {
+      "home": "1",
+      "away": "1",
+      "winner": "draw"
+    }
   },
   {
     "mid": "392868",
@@ -33,7 +54,14 @@
     "timestampstart": 1781312400,
     "timestampend": 1781323200,
     "home": "USA",
-    "away": "Paraguay"
+    "away": "Paraguay",
+    "homeTid": 1155,
+    "awayTid": 1170,
+    "result": {
+      "home": "4",
+      "away": "1",
+      "winner": "home"
+    }
   },
   {
     "mid": "392869",
@@ -42,7 +70,14 @@
     "timestampstart": 1781377200,
     "timestampend": 1781388000,
     "home": "Qatar",
-    "away": "Switzerland"
+    "away": "Switzerland",
+    "homeTid": 1056,
+    "awayTid": 6,
+    "result": {
+      "home": "1",
+      "away": "1",
+      "winner": "draw"
+    }
   },
   {
     "mid": "392870",
@@ -51,7 +86,14 @@
     "timestampstart": 1781388000,
     "timestampend": 1781398800,
     "home": "Brazil",
-    "away": "Morocco"
+    "away": "Morocco",
+    "homeTid": 19,
+    "awayTid": 24,
+    "result": {
+      "home": "1",
+      "away": "1",
+      "winner": "draw"
+    }
   },
   {
     "mid": "392871",
@@ -60,7 +102,14 @@
     "timestampstart": 1781398800,
     "timestampend": 1781409600,
     "home": "Haiti",
-    "away": "Scotland"
+    "away": "Scotland",
+    "homeTid": 1163,
+    "awayTid": 1194,
+    "result": {
+      "home": "0",
+      "away": "1",
+      "winner": "away"
+    }
   },
   {
     "mid": "392872",
@@ -69,7 +118,14 @@
     "timestampstart": 1781409600,
     "timestampend": 1781420400,
     "home": "Australia",
-    "away": "Turkey"
+    "away": "Turkey",
+    "homeTid": 18,
+    "awayTid": 1149,
+    "result": {
+      "home": "2",
+      "away": "0",
+      "winner": "home"
+    }
   },
   {
     "mid": "392873",
@@ -78,7 +134,14 @@
     "timestampstart": 1781456400,
     "timestampend": 1781467200,
     "home": "Germany",
-    "away": "Curacao"
+    "away": "Curacao",
+    "homeTid": 10,
+    "awayTid": 2426,
+    "result": {
+      "home": "7",
+      "away": "1",
+      "winner": "home"
+    }
   },
   {
     "mid": "392874",
@@ -87,7 +150,14 @@
     "timestampstart": 1781467200,
     "timestampend": 1781478000,
     "home": "Netherlands",
-    "away": "Japan"
+    "away": "Japan",
+    "homeTid": 1196,
+    "awayTid": 23,
+    "result": {
+      "home": "2",
+      "away": "2",
+      "winner": "draw"
+    }
   },
   {
     "mid": "392875",
@@ -96,7 +166,14 @@
     "timestampstart": 1781478000,
     "timestampend": 1781488800,
     "home": "Ivory Coast",
-    "away": "Ecuador"
+    "away": "Ecuador",
+    "homeTid": 1165,
+    "awayTid": 1154,
+    "result": {
+      "home": "1",
+      "away": "0",
+      "winner": "home"
+    }
   },
   {
     "mid": "392876",
@@ -105,7 +182,14 @@
     "timestampstart": 1781488800,
     "timestampend": 1781499600,
     "home": "Sweden",
-    "away": "Tunisia"
+    "away": "Tunisia",
+    "homeTid": 3,
+    "awayTid": 15,
+    "result": {
+      "home": "5",
+      "away": "1",
+      "winner": "home"
+    }
   },
   {
     "mid": "392877",
@@ -114,7 +198,14 @@
     "timestampstart": 1781539200,
     "timestampend": 1781550000,
     "home": "Spain",
-    "away": "Cape Verde"
+    "away": "Cape Verde",
+    "homeTid": 5,
+    "awayTid": 1953,
+    "result": {
+      "home": "0",
+      "away": "0",
+      "winner": "draw"
+    }
   },
   {
     "mid": "392878",
@@ -123,7 +214,14 @@
     "timestampstart": 1781550000,
     "timestampend": 1781560800,
     "home": "Belgium",
-    "away": "Egypt"
+    "away": "Egypt",
+    "homeTid": 13,
+    "awayTid": 21,
+    "result": {
+      "home": "1",
+      "away": "1",
+      "winner": "draw"
+    }
   },
   {
     "mid": "392879",
@@ -132,7 +230,14 @@
     "timestampstart": 1781560800,
     "timestampend": 1781571600,
     "home": "Saudi Arabia",
-    "away": "Uruguay"
+    "away": "Uruguay",
+    "homeTid": 30,
+    "awayTid": 14,
+    "result": {
+      "home": "1",
+      "away": "1",
+      "winner": "draw"
+    }
   },
   {
     "mid": "392880",
@@ -141,7 +246,14 @@
     "timestampstart": 1781571600,
     "timestampend": 1781582400,
     "home": "Iran",
-    "away": "New Zealand"
+    "away": "New Zealand",
+    "homeTid": 22,
+    "awayTid": 3593,
+    "result": {
+      "home": "2",
+      "away": "2",
+      "winner": "draw"
+    }
   },
   {
     "mid": "392881",
@@ -150,7 +262,14 @@
     "timestampstart": 1781636400,
     "timestampend": 1781647200,
     "home": "France",
-    "away": "Senegal"
+    "away": "Senegal",
+    "homeTid": 2,
+    "awayTid": 17,
+    "result": {
+      "home": "3",
+      "away": "1",
+      "winner": "home"
+    }
   },
   {
     "mid": "392882",
@@ -159,7 +278,14 @@
     "timestampstart": 1781647200,
     "timestampend": 1781658000,
     "home": "Iraq",
-    "away": "Norway"
+    "away": "Norway",
+    "homeTid": 1050,
+    "awayTid": 1184,
+    "result": {
+      "home": "1",
+      "away": "4",
+      "winner": "away"
+    }
   },
   {
     "mid": "392883",
@@ -168,7 +294,14 @@
     "timestampstart": 1781658000,
     "timestampend": 1781668800,
     "home": "Argentina",
-    "away": "Algeria"
+    "away": "Algeria",
+    "homeTid": 28,
+    "awayTid": 1147,
+    "result": {
+      "home": "3",
+      "away": "0",
+      "winner": "home"
+    }
   },
   {
     "mid": "392884",
@@ -177,7 +310,14 @@
     "timestampstart": 1781668800,
     "timestampend": 1781679600,
     "home": "Austria",
-    "away": "Jordan"
+    "away": "Jordan",
+    "homeTid": 1201,
+    "awayTid": 1051,
+    "result": {
+      "home": "3",
+      "away": "1",
+      "winner": "home"
+    }
   },
   {
     "mid": "392885",
@@ -186,7 +326,14 @@
     "timestampstart": 1781715600,
     "timestampend": 1781726400,
     "home": "Portugal",
-    "away": "Congo DR"
+    "away": "Congo DR",
+    "homeTid": 8,
+    "awayTid": 1298,
+    "result": {
+      "home": "1",
+      "away": "1",
+      "winner": "draw"
+    }
   },
   {
     "mid": "392886",
@@ -195,7 +342,14 @@
     "timestampstart": 1781726400,
     "timestampend": 1781737200,
     "home": "England",
-    "away": "Croatia"
+    "away": "Croatia",
+    "homeTid": 11,
+    "awayTid": 12,
+    "result": {
+      "home": "4",
+      "away": "2",
+      "winner": "home"
+    }
   },
   {
     "mid": "392887",
@@ -204,7 +358,14 @@
     "timestampstart": 1781737200,
     "timestampend": 1781748000,
     "home": "Ghana",
-    "away": "Panama"
+    "away": "Panama",
+    "homeTid": 1295,
+    "awayTid": 31,
+    "result": {
+      "home": "1",
+      "away": "0",
+      "winner": "home"
+    }
   },
   {
     "mid": "392888",
@@ -213,7 +374,14 @@
     "timestampstart": 1781748000,
     "timestampend": 1781758800,
     "home": "Uzbekistan",
-    "away": "Colombia"
+    "away": "Colombia",
+    "homeTid": 1044,
+    "awayTid": 29,
+    "result": {
+      "home": "1",
+      "away": "3",
+      "winner": "away"
+    }
   },
   {
     "mid": "392889",
@@ -222,7 +390,14 @@
     "timestampstart": 1781798400,
     "timestampend": 1781809200,
     "home": "Czech Republic",
-    "away": "South Africa"
+    "away": "South Africa",
+    "homeTid": 1153,
+    "awayTid": 1291,
+    "result": {
+      "home": "1",
+      "away": "1",
+      "winner": "draw"
+    }
   },
   {
     "mid": "392890",
@@ -231,7 +406,14 @@
     "timestampstart": 1781809200,
     "timestampend": 1781820000,
     "home": "Switzerland",
-    "away": "Bosnia & Herzegovina"
+    "away": "Bosnia & Herzegovina",
+    "homeTid": 6,
+    "awayTid": 1187,
+    "result": {
+      "home": "4",
+      "away": "1",
+      "winner": "home"
+    }
   },
   {
     "mid": "392891",
@@ -240,7 +422,14 @@
     "timestampstart": 1781820000,
     "timestampend": 1781830800,
     "home": "Canada",
-    "away": "Qatar"
+    "away": "Qatar",
+    "homeTid": 1945,
+    "awayTid": 1056,
+    "result": {
+      "home": "6",
+      "away": "0",
+      "winner": "home"
+    }
   },
   {
     "mid": "392892",
@@ -249,7 +438,14 @@
     "timestampstart": 1781830800,
     "timestampend": 1781841600,
     "home": "Mexico",
-    "away": "Korea Republic"
+    "away": "Korea Republic",
+    "homeTid": 25,
+    "awayTid": 16,
+    "result": {
+      "home": "1",
+      "away": "0",
+      "winner": "home"
+    }
   },
   {
     "mid": "392893",
@@ -258,7 +454,14 @@
     "timestampstart": 1781895600,
     "timestampend": 1781906400,
     "home": "USA",
-    "away": "Australia"
+    "away": "Australia",
+    "homeTid": 1155,
+    "awayTid": 18,
+    "result": {
+      "home": "2",
+      "away": "0",
+      "winner": "home"
+    }
   },
   {
     "mid": "392894",
@@ -267,7 +470,14 @@
     "timestampstart": 1781906400,
     "timestampend": 1781917200,
     "home": "Scotland",
-    "away": "Morocco"
+    "away": "Morocco",
+    "homeTid": 1194,
+    "awayTid": 24,
+    "result": {
+      "home": "0",
+      "away": "1",
+      "winner": "away"
+    }
   },
   {
     "mid": "392895",
@@ -276,7 +486,14 @@
     "timestampstart": 1781915400,
     "timestampend": 1781926200,
     "home": "Brazil",
-    "away": "Haiti"
+    "away": "Haiti",
+    "homeTid": 19,
+    "awayTid": 1163,
+    "result": {
+      "home": "3",
+      "away": "0",
+      "winner": "home"
+    }
   },
   {
     "mid": "392896",
@@ -285,7 +502,14 @@
     "timestampstart": 1781924400,
     "timestampend": 1781935200,
     "home": "Turkey",
-    "away": "Paraguay"
+    "away": "Paraguay",
+    "homeTid": 1149,
+    "awayTid": 1170,
+    "result": {
+      "home": "0",
+      "away": "1",
+      "winner": "away"
+    }
   },
   {
     "mid": "392897",
@@ -294,7 +518,14 @@
     "timestampstart": 1781974800,
     "timestampend": 1781985600,
     "home": "Netherlands",
-    "away": "Sweden"
+    "away": "Sweden",
+    "homeTid": 1196,
+    "awayTid": 3,
+    "result": {
+      "home": "5",
+      "away": "1",
+      "winner": "home"
+    }
   },
   {
     "mid": "392898",
@@ -303,7 +534,14 @@
     "timestampstart": 1781985600,
     "timestampend": 1781996400,
     "home": "Germany",
-    "away": "Ivory Coast"
+    "away": "Ivory Coast",
+    "homeTid": 10,
+    "awayTid": 1165,
+    "result": {
+      "home": "2",
+      "away": "1",
+      "winner": "home"
+    }
   },
   {
     "mid": "392899",
@@ -312,7 +550,14 @@
     "timestampstart": 1782000000,
     "timestampend": 1782010800,
     "home": "Ecuador",
-    "away": "Curacao"
+    "away": "Curacao",
+    "homeTid": 1154,
+    "awayTid": 2426,
+    "result": {
+      "home": "0",
+      "away": "0",
+      "winner": "draw"
+    }
   },
   {
     "mid": "392900",
@@ -321,7 +566,14 @@
     "timestampstart": 1782014400,
     "timestampend": 1782025200,
     "home": "Tunisia",
-    "away": "Japan"
+    "away": "Japan",
+    "homeTid": 15,
+    "awayTid": 23,
+    "result": {
+      "home": "0",
+      "away": "4",
+      "winner": "away"
+    }
   },
   {
     "mid": "392901",
@@ -330,7 +582,14 @@
     "timestampstart": 1782057600,
     "timestampend": 1782068400,
     "home": "Spain",
-    "away": "Saudi Arabia"
+    "away": "Saudi Arabia",
+    "homeTid": 5,
+    "awayTid": 30,
+    "result": {
+      "home": "4",
+      "away": "0",
+      "winner": "home"
+    }
   },
   {
     "mid": "392902",
@@ -339,7 +598,14 @@
     "timestampstart": 1782068400,
     "timestampend": 1782079200,
     "home": "Belgium",
-    "away": "Iran"
+    "away": "Iran",
+    "homeTid": 13,
+    "awayTid": 22,
+    "result": {
+      "home": "0",
+      "away": "0",
+      "winner": "draw"
+    }
   },
   {
     "mid": "392903",
@@ -348,7 +614,14 @@
     "timestampstart": 1782079200,
     "timestampend": 1782090000,
     "home": "Uruguay",
-    "away": "Cape Verde"
+    "away": "Cape Verde",
+    "homeTid": 14,
+    "awayTid": 1953,
+    "result": {
+      "home": "2",
+      "away": "2",
+      "winner": "draw"
+    }
   },
   {
     "mid": "392904",
@@ -357,7 +630,14 @@
     "timestampstart": 1782090000,
     "timestampend": 1782100800,
     "home": "New Zealand",
-    "away": "Egypt"
+    "away": "Egypt",
+    "homeTid": 3593,
+    "awayTid": 21,
+    "result": {
+      "home": "1",
+      "away": "3",
+      "winner": "away"
+    }
   },
   {
     "mid": "392905",
@@ -366,7 +646,14 @@
     "timestampstart": 1782147600,
     "timestampend": 1782158400,
     "home": "Argentina",
-    "away": "Austria"
+    "away": "Austria",
+    "homeTid": 28,
+    "awayTid": 1201,
+    "result": {
+      "home": "2",
+      "away": "0",
+      "winner": "home"
+    }
   },
   {
     "mid": "392906",
@@ -375,7 +662,14 @@
     "timestampstart": 1782162000,
     "timestampend": 1782172800,
     "home": "France",
-    "away": "Iraq"
+    "away": "Iraq",
+    "homeTid": 2,
+    "awayTid": 1050,
+    "result": {
+      "home": "3",
+      "away": "0",
+      "winner": "home"
+    }
   },
   {
     "mid": "392907",
@@ -384,7 +678,14 @@
     "timestampstart": 1782172800,
     "timestampend": 1782183600,
     "home": "Norway",
-    "away": "Senegal"
+    "away": "Senegal",
+    "homeTid": 1184,
+    "awayTid": 17,
+    "result": {
+      "home": "3",
+      "away": "2",
+      "winner": "home"
+    }
   },
   {
     "mid": "392908",
@@ -393,7 +694,14 @@
     "timestampstart": 1782183600,
     "timestampend": 1782194400,
     "home": "Jordan",
-    "away": "Algeria"
+    "away": "Algeria",
+    "homeTid": 1051,
+    "awayTid": 1147,
+    "result": {
+      "home": "1",
+      "away": "2",
+      "winner": "away"
+    }
   },
   {
     "mid": "392909",
@@ -402,7 +710,14 @@
     "timestampstart": 1782234000,
     "timestampend": 1782244800,
     "home": "Portugal",
-    "away": "Uzbekistan"
+    "away": "Uzbekistan",
+    "homeTid": 8,
+    "awayTid": 1044,
+    "result": {
+      "home": "5",
+      "away": "0",
+      "winner": "home"
+    }
   },
   {
     "mid": "392910",
@@ -411,7 +726,14 @@
     "timestampstart": 1782244800,
     "timestampend": 1782255600,
     "home": "England",
-    "away": "Ghana"
+    "away": "Ghana",
+    "homeTid": 11,
+    "awayTid": 1295,
+    "result": {
+      "home": "0",
+      "away": "0",
+      "winner": "draw"
+    }
   },
   {
     "mid": "392911",
@@ -420,7 +742,14 @@
     "timestampstart": 1782255600,
     "timestampend": 1782266400,
     "home": "Panama",
-    "away": "Croatia"
+    "away": "Croatia",
+    "homeTid": 31,
+    "awayTid": 12,
+    "result": {
+      "home": "0",
+      "away": "1",
+      "winner": "away"
+    }
   },
   {
     "mid": "392912",
@@ -429,7 +758,14 @@
     "timestampstart": 1782266400,
     "timestampend": 1782277200,
     "home": "Colombia",
-    "away": "Congo DR"
+    "away": "Congo DR",
+    "homeTid": 29,
+    "awayTid": 1298,
+    "result": {
+      "home": "1",
+      "away": "0",
+      "winner": "home"
+    }
   },
   {
     "mid": "392913",
@@ -438,7 +774,14 @@
     "timestampstart": 1782327600,
     "timestampend": 1782338400,
     "home": "Switzerland",
-    "away": "Canada"
+    "away": "Canada",
+    "homeTid": 6,
+    "awayTid": 1945,
+    "result": {
+      "home": "2",
+      "away": "1",
+      "winner": "home"
+    }
   },
   {
     "mid": "392914",
@@ -447,7 +790,14 @@
     "timestampstart": 1782327600,
     "timestampend": 1782338400,
     "home": "Bosnia & Herzegovina",
-    "away": "Qatar"
+    "away": "Qatar",
+    "homeTid": 1187,
+    "awayTid": 1056,
+    "result": {
+      "home": "3",
+      "away": "1",
+      "winner": "home"
+    }
   },
   {
     "mid": "392915",
@@ -456,7 +806,14 @@
     "timestampstart": 1782338400,
     "timestampend": 1782349200,
     "home": "Scotland",
-    "away": "Brazil"
+    "away": "Brazil",
+    "homeTid": 1194,
+    "awayTid": 19,
+    "result": {
+      "home": "0",
+      "away": "3",
+      "winner": "away"
+    }
   },
   {
     "mid": "392916",
@@ -465,7 +822,14 @@
     "timestampstart": 1782338400,
     "timestampend": 1782349200,
     "home": "Morocco",
-    "away": "Haiti"
+    "away": "Haiti",
+    "homeTid": 24,
+    "awayTid": 1163,
+    "result": {
+      "home": "4",
+      "away": "2",
+      "winner": "home"
+    }
   },
   {
     "mid": "392917",
@@ -474,7 +838,14 @@
     "timestampstart": 1782349200,
     "timestampend": 1782360000,
     "home": "Czech Republic",
-    "away": "Mexico"
+    "away": "Mexico",
+    "homeTid": 1153,
+    "awayTid": 25,
+    "result": {
+      "home": "0",
+      "away": "3",
+      "winner": "away"
+    }
   },
   {
     "mid": "392918",
@@ -483,7 +854,14 @@
     "timestampstart": 1782349200,
     "timestampend": 1782360000,
     "home": "South Africa",
-    "away": "Korea Republic"
+    "away": "Korea Republic",
+    "homeTid": 1291,
+    "awayTid": 16,
+    "result": {
+      "home": "1",
+      "away": "0",
+      "winner": "home"
+    }
   },
   {
     "mid": "392919",
@@ -492,7 +870,14 @@
     "timestampstart": 1782417600,
     "timestampend": 1782428400,
     "home": "Ecuador",
-    "away": "Germany"
+    "away": "Germany",
+    "homeTid": 1154,
+    "awayTid": 10,
+    "result": {
+      "home": "2",
+      "away": "1",
+      "winner": "home"
+    }
   },
   {
     "mid": "392920",
@@ -501,7 +886,14 @@
     "timestampstart": 1782417600,
     "timestampend": 1782428400,
     "home": "Curacao",
-    "away": "Ivory Coast"
+    "away": "Ivory Coast",
+    "homeTid": 2426,
+    "awayTid": 1165,
+    "result": {
+      "home": "0",
+      "away": "2",
+      "winner": "away"
+    }
   },
   {
     "mid": "392921",
@@ -510,7 +902,14 @@
     "timestampstart": 1782428400,
     "timestampend": 1782439200,
     "home": "Tunisia",
-    "away": "Netherlands"
+    "away": "Netherlands",
+    "homeTid": 15,
+    "awayTid": 1196,
+    "result": {
+      "home": "1",
+      "away": "3",
+      "winner": "away"
+    }
   },
   {
     "mid": "392922",
@@ -519,7 +918,14 @@
     "timestampstart": 1782428400,
     "timestampend": 1782439200,
     "home": "Japan",
-    "away": "Sweden"
+    "away": "Sweden",
+    "homeTid": 23,
+    "awayTid": 3,
+    "result": {
+      "home": "1",
+      "away": "1",
+      "winner": "draw"
+    }
   },
   {
     "mid": "392923",
@@ -528,7 +934,14 @@
     "timestampstart": 1782439200,
     "timestampend": 1782450000,
     "home": "Turkey",
-    "away": "USA"
+    "away": "USA",
+    "homeTid": 1149,
+    "awayTid": 1155,
+    "result": {
+      "home": "3",
+      "away": "2",
+      "winner": "home"
+    }
   },
   {
     "mid": "392924",
@@ -537,25 +950,46 @@
     "timestampstart": 1782439200,
     "timestampend": 1782450000,
     "home": "Paraguay",
-    "away": "Australia"
+    "away": "Australia",
+    "homeTid": 1170,
+    "awayTid": 18,
+    "result": {
+      "home": "0",
+      "away": "0",
+      "winner": "draw"
+    }
   },
   {
     "mid": "392925",
     "round": "3",
-    "status": "upcoming",
+    "status": "result",
     "timestampstart": 1782500400,
     "timestampend": 1782511200,
     "home": "Norway",
-    "away": "France"
+    "away": "France",
+    "homeTid": 1184,
+    "awayTid": 2,
+    "result": {
+      "home": "1",
+      "away": "4",
+      "winner": "away"
+    }
   },
   {
     "mid": "392926",
     "round": "3",
-    "status": "upcoming",
+    "status": "result",
     "timestampstart": 1782500400,
     "timestampend": 1782511200,
     "home": "Senegal",
-    "away": "Iraq"
+    "away": "Iraq",
+    "homeTid": 17,
+    "awayTid": 1050,
+    "result": {
+      "home": "5",
+      "away": "0",
+      "winner": "home"
+    }
   },
   {
     "mid": "392927",
@@ -564,7 +998,14 @@
     "timestampstart": 1782518400,
     "timestampend": 1782529200,
     "home": "Uruguay",
-    "away": "Spain"
+    "away": "Spain",
+    "homeTid": 14,
+    "awayTid": 5,
+    "result": {
+      "home": "0",
+      "away": "0",
+      "winner": ""
+    }
   },
   {
     "mid": "392928",
@@ -573,7 +1014,14 @@
     "timestampstart": 1782518400,
     "timestampend": 1782529200,
     "home": "Cape Verde",
-    "away": "Saudi Arabia"
+    "away": "Saudi Arabia",
+    "homeTid": 1953,
+    "awayTid": 30,
+    "result": {
+      "home": "0",
+      "away": "0",
+      "winner": ""
+    }
   },
   {
     "mid": "392929",
@@ -582,7 +1030,14 @@
     "timestampstart": 1782529200,
     "timestampend": 1782540000,
     "home": "New Zealand",
-    "away": "Belgium"
+    "away": "Belgium",
+    "homeTid": 3593,
+    "awayTid": 13,
+    "result": {
+      "home": "0",
+      "away": "0",
+      "winner": ""
+    }
   },
   {
     "mid": "392930",
@@ -591,7 +1046,14 @@
     "timestampstart": 1782529200,
     "timestampend": 1782540000,
     "home": "Egypt",
-    "away": "Iran"
+    "away": "Iran",
+    "homeTid": 21,
+    "awayTid": 22,
+    "result": {
+      "home": "0",
+      "away": "0",
+      "winner": ""
+    }
   },
   {
     "mid": "392931",
@@ -600,7 +1062,14 @@
     "timestampstart": 1782594000,
     "timestampend": 1782604800,
     "home": "Panama",
-    "away": "England"
+    "away": "England",
+    "homeTid": 31,
+    "awayTid": 11,
+    "result": {
+      "home": "0",
+      "away": "0",
+      "winner": ""
+    }
   },
   {
     "mid": "392932",
@@ -609,7 +1078,14 @@
     "timestampstart": 1782594000,
     "timestampend": 1782604800,
     "home": "Croatia",
-    "away": "Ghana"
+    "away": "Ghana",
+    "homeTid": 12,
+    "awayTid": 1295,
+    "result": {
+      "home": "0",
+      "away": "0",
+      "winner": ""
+    }
   },
   {
     "mid": "392933",
@@ -618,7 +1094,14 @@
     "timestampstart": 1782603000,
     "timestampend": 1782613800,
     "home": "Colombia",
-    "away": "Portugal"
+    "away": "Portugal",
+    "homeTid": 29,
+    "awayTid": 8,
+    "result": {
+      "home": "0",
+      "away": "0",
+      "winner": ""
+    }
   },
   {
     "mid": "392934",
@@ -627,7 +1110,14 @@
     "timestampstart": 1782603000,
     "timestampend": 1782613800,
     "home": "Congo DR",
-    "away": "Uzbekistan"
+    "away": "Uzbekistan",
+    "homeTid": 1298,
+    "awayTid": 1044,
+    "result": {
+      "home": "0",
+      "away": "0",
+      "winner": ""
+    }
   },
   {
     "mid": "392935",
@@ -636,7 +1126,14 @@
     "timestampstart": 1782612000,
     "timestampend": 1782622800,
     "home": "Jordan",
-    "away": "Argentina"
+    "away": "Argentina",
+    "homeTid": 1051,
+    "awayTid": 28,
+    "result": {
+      "home": "0",
+      "away": "0",
+      "winner": ""
+    }
   },
   {
     "mid": "392936",
@@ -645,7 +1142,14 @@
     "timestampstart": 1782612000,
     "timestampend": 1782622800,
     "home": "Algeria",
-    "away": "Austria"
+    "away": "Austria",
+    "homeTid": 1147,
+    "awayTid": 1201,
+    "result": {
+      "home": "0",
+      "away": "0",
+      "winner": ""
+    }
   },
   {
     "mid": "305525",
@@ -654,7 +1158,14 @@
     "timestampstart": 1782673200,
     "timestampend": 1782684000,
     "home": "South Africa",
-    "away": "Canada"
+    "away": "Canada",
+    "homeTid": 1291,
+    "awayTid": 1945,
+    "result": {
+      "home": "0",
+      "away": "0",
+      "winner": ""
+    }
   },
   {
     "mid": "305528",
@@ -663,7 +1174,14 @@
     "timestampstart": 1782752400,
     "timestampend": 1782763200,
     "home": "Brazil",
-    "away": "Japan"
+    "away": "Japan",
+    "homeTid": 19,
+    "awayTid": 23,
+    "result": {
+      "home": "0",
+      "away": "0",
+      "winner": ""
+    }
   },
   {
     "mid": "305526",
@@ -672,7 +1190,14 @@
     "timestampstart": 1782765000,
     "timestampend": 1782775800,
     "home": "Germany",
-    "away": "3a3b3c3d3f"
+    "away": "3a3b3c3d3f",
+    "homeTid": 10,
+    "awayTid": 19819,
+    "result": {
+      "home": "0",
+      "away": "0",
+      "winner": ""
+    }
   },
   {
     "mid": "305527",
@@ -681,7 +1206,14 @@
     "timestampstart": 1782781200,
     "timestampend": 1782792000,
     "home": "Netherlands",
-    "away": "Morocco"
+    "away": "Morocco",
+    "homeTid": 1196,
+    "awayTid": 24,
+    "result": {
+      "home": "0",
+      "away": "0",
+      "winner": ""
+    }
   },
   {
     "mid": "305530",
@@ -690,7 +1222,14 @@
     "timestampstart": 1782838800,
     "timestampend": 1782849600,
     "home": "Ivory Coast",
-    "away": "2i"
+    "away": "2i",
+    "homeTid": 1165,
+    "awayTid": 19851,
+    "result": {
+      "home": "0",
+      "away": "0",
+      "winner": ""
+    }
   },
   {
     "mid": "305529",
@@ -699,7 +1238,14 @@
     "timestampstart": 1782853200,
     "timestampend": 1782864000,
     "home": "1i",
-    "away": "3c3d3f3g3h"
+    "away": "3c3d3f3g3h",
+    "homeTid": 19850,
+    "awayTid": 19852,
+    "result": {
+      "home": "0",
+      "away": "0",
+      "winner": ""
+    }
   },
   {
     "mid": "305531",
@@ -708,7 +1254,14 @@
     "timestampstart": 1782867600,
     "timestampend": 1782878400,
     "home": "Mexico",
-    "away": "3c3e3f3h3i"
+    "away": "3c3e3f3h3i",
+    "homeTid": 25,
+    "awayTid": 19853,
+    "result": {
+      "home": "0",
+      "away": "0",
+      "winner": ""
+    }
   },
   {
     "mid": "305534",
@@ -717,7 +1270,14 @@
     "timestampstart": 1782921600,
     "timestampend": 1782932400,
     "home": "1l",
-    "away": "3e3h3i3j3k"
+    "away": "3e3h3i3j3k",
+    "homeTid": 19854,
+    "awayTid": 19855,
+    "result": {
+      "home": "0",
+      "away": "0",
+      "winner": ""
+    }
   },
   {
     "mid": "305533",
@@ -726,7 +1286,14 @@
     "timestampstart": 1782936000,
     "timestampend": 1782946800,
     "home": "g1",
-    "away": "3a3e3h3i3j"
+    "away": "3a3e3h3i3j",
+    "homeTid": 19857,
+    "awayTid": 19860,
+    "result": {
+      "home": "0",
+      "away": "0",
+      "winner": ""
+    }
   },
   {
     "mid": "305532",
@@ -735,7 +1302,14 @@
     "timestampstart": 1782950400,
     "timestampend": 1782961200,
     "home": "USA",
-    "away": "Bosnia & Herzegovina"
+    "away": "Bosnia & Herzegovina",
+    "homeTid": 1155,
+    "awayTid": 1187,
+    "result": {
+      "home": "0",
+      "away": "0",
+      "winner": ""
+    }
   },
   {
     "mid": "305537",
@@ -744,7 +1318,14 @@
     "timestampstart": 1783018800,
     "timestampend": 1783029600,
     "home": "h1",
-    "away": "2j"
+    "away": "2j",
+    "homeTid": 19840,
+    "awayTid": 19841,
+    "result": {
+      "home": "0",
+      "away": "0",
+      "winner": ""
+    }
   },
   {
     "mid": "305536",
@@ -753,7 +1334,14 @@
     "timestampstart": 1783033200,
     "timestampend": 1783044000,
     "home": "2k",
-    "away": "2l"
+    "away": "2l",
+    "homeTid": 19842,
+    "awayTid": 19843,
+    "result": {
+      "home": "0",
+      "away": "0",
+      "winner": ""
+    }
   },
   {
     "mid": "305535",
@@ -762,7 +1350,14 @@
     "timestampstart": 1783047600,
     "timestampend": 1783058400,
     "home": "Switzerland",
-    "away": "3e3f3g3i3j"
+    "away": "3e3f3g3i3j",
+    "homeTid": 6,
+    "awayTid": 19859,
+    "result": {
+      "home": "0",
+      "away": "0",
+      "winner": ""
+    }
   },
   {
     "mid": "305538",
@@ -771,7 +1366,14 @@
     "timestampstart": 1783101600,
     "timestampend": 1783112400,
     "home": "Australia",
-    "away": "g2"
+    "away": "g2",
+    "homeTid": 18,
+    "awayTid": 19863,
+    "result": {
+      "home": "0",
+      "away": "0",
+      "winner": ""
+    }
   },
   {
     "mid": "305540",
@@ -780,7 +1382,14 @@
     "timestampstart": 1783116000,
     "timestampend": 1783126800,
     "home": "Argentina",
-    "away": "h2"
+    "away": "h2",
+    "homeTid": 28,
+    "awayTid": 19839,
+    "result": {
+      "home": "0",
+      "away": "0",
+      "winner": ""
+    }
   },
   {
     "mid": "305539",
@@ -789,7 +1398,14 @@
     "timestampstart": 1783128600,
     "timestampend": 1783139400,
     "home": "1k",
-    "away": "3d3e3i3j3l"
+    "away": "3d3e3i3j3l",
+    "homeTid": 19862,
+    "awayTid": 19864,
+    "result": {
+      "home": "0",
+      "away": "0",
+      "winner": ""
+    }
   },
   {
     "mid": "305542",
@@ -798,7 +1414,14 @@
     "timestampstart": 1783184400,
     "timestampend": 1783195200,
     "home": "w73",
-    "away": "w75"
+    "away": "w75",
+    "homeTid": 19865,
+    "awayTid": 19866,
+    "result": {
+      "home": "0",
+      "away": "0",
+      "winner": ""
+    }
   },
   {
     "mid": "305541",
@@ -807,7 +1430,14 @@
     "timestampstart": 1783198800,
     "timestampend": 1783209600,
     "home": "w74",
-    "away": "w77"
+    "away": "w77",
+    "homeTid": 19867,
+    "awayTid": 19868,
+    "result": {
+      "home": "0",
+      "away": "0",
+      "winner": ""
+    }
   },
   {
     "mid": "305543",
@@ -816,7 +1446,14 @@
     "timestampstart": 1783281600,
     "timestampend": 1783292400,
     "home": "w76",
-    "away": "w78"
+    "away": "w78",
+    "homeTid": 19869,
+    "awayTid": 19871,
+    "result": {
+      "home": "0",
+      "away": "0",
+      "winner": ""
+    }
   },
   {
     "mid": "305544",
@@ -825,7 +1462,14 @@
     "timestampstart": 1783296000,
     "timestampend": 1783306800,
     "home": "w79",
-    "away": "w80"
+    "away": "w80",
+    "homeTid": 19872,
+    "awayTid": 19881,
+    "result": {
+      "home": "0",
+      "away": "0",
+      "winner": ""
+    }
   },
   {
     "mid": "305545",
@@ -834,7 +1478,14 @@
     "timestampstart": 1783364400,
     "timestampend": 1783375200,
     "home": "w83",
-    "away": "w84"
+    "away": "w84",
+    "homeTid": 19870,
+    "awayTid": 19873,
+    "result": {
+      "home": "0",
+      "away": "0",
+      "winner": ""
+    }
   },
   {
     "mid": "305546",
@@ -843,7 +1494,14 @@
     "timestampstart": 1783382400,
     "timestampend": 1783393200,
     "home": "w81",
-    "away": "w82"
+    "away": "w82",
+    "homeTid": 19822,
+    "awayTid": 19823,
+    "result": {
+      "home": "0",
+      "away": "0",
+      "winner": ""
+    }
   },
   {
     "mid": "305547",
@@ -852,7 +1510,14 @@
     "timestampstart": 1783440000,
     "timestampend": 1783450800,
     "home": "w86",
-    "away": "w88"
+    "away": "w88",
+    "homeTid": 19874,
+    "awayTid": 19877,
+    "result": {
+      "home": "0",
+      "away": "0",
+      "winner": ""
+    }
   },
   {
     "mid": "305548",
@@ -861,7 +1526,14 @@
     "timestampstart": 1783454400,
     "timestampend": 1783465200,
     "home": "w85",
-    "away": "w87"
+    "away": "w87",
+    "homeTid": 19875,
+    "awayTid": 19878,
+    "result": {
+      "home": "0",
+      "away": "0",
+      "winner": ""
+    }
   },
   {
     "mid": "305549",
@@ -870,7 +1542,14 @@
     "timestampstart": 1783627200,
     "timestampend": 1783638000,
     "home": "w89",
-    "away": "w90"
+    "away": "w90",
+    "homeTid": 19876,
+    "awayTid": 19879,
+    "result": {
+      "home": "0",
+      "away": "0",
+      "winner": ""
+    }
   },
   {
     "mid": "305550",
@@ -879,7 +1558,14 @@
     "timestampstart": 1783710000,
     "timestampend": 1783720800,
     "home": "w93",
-    "away": "w94"
+    "away": "w94",
+    "homeTid": 19880,
+    "awayTid": 19882,
+    "result": {
+      "home": "0",
+      "away": "0",
+      "winner": ""
+    }
   },
   {
     "mid": "305551",
@@ -888,7 +1574,14 @@
     "timestampstart": 1783803600,
     "timestampend": 1783814400,
     "home": "w91",
-    "away": "w92"
+    "away": "w92",
+    "homeTid": 19883,
+    "awayTid": 19884,
+    "result": {
+      "home": "0",
+      "away": "0",
+      "winner": ""
+    }
   },
   {
     "mid": "305552",
@@ -897,7 +1590,14 @@
     "timestampstart": 1783818000,
     "timestampend": 1783828800,
     "home": "W95",
-    "away": "W96"
+    "away": "W96",
+    "homeTid": 12378,
+    "awayTid": 12379,
+    "result": {
+      "home": "0",
+      "away": "0",
+      "winner": ""
+    }
   },
   {
     "mid": "305553",
@@ -906,7 +1606,14 @@
     "timestampstart": 1784055600,
     "timestampend": 1784066400,
     "home": "W97",
-    "away": "W98"
+    "away": "W98",
+    "homeTid": 12380,
+    "awayTid": 12381,
+    "result": {
+      "home": "0",
+      "away": "0",
+      "winner": ""
+    }
   },
   {
     "mid": "305554",
@@ -915,7 +1622,14 @@
     "timestampstart": 1784142000,
     "timestampend": 1784152800,
     "home": "W99",
-    "away": "W100"
+    "away": "W100",
+    "homeTid": 12382,
+    "awayTid": 12383,
+    "result": {
+      "home": "0",
+      "away": "0",
+      "winner": ""
+    }
   },
   {
     "mid": "305555",
@@ -924,7 +1638,14 @@
     "timestampstart": 1784408400,
     "timestampend": 1784419200,
     "home": "L101",
-    "away": "L102"
+    "away": "L102",
+    "homeTid": 12384,
+    "awayTid": 12385,
+    "result": {
+      "home": "0",
+      "away": "0",
+      "winner": ""
+    }
   },
   {
     "mid": "305556",
@@ -933,6 +1654,13 @@
     "timestampstart": 1784487600,
     "timestampend": 1784498400,
     "home": "W101",
-    "away": "W102"
+    "away": "W102",
+    "homeTid": 12386,
+    "awayTid": 12387,
+    "result": {
+      "home": "0",
+      "away": "0",
+      "winner": ""
+    }
   }
 ]
