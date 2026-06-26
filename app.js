@@ -98,25 +98,21 @@ function renderLeaderboard(data) {
   });
 }
 
+const SPARKLE_POSITIONS = [
+  { top: "8%", left: "20%", delay: "0s" },
+  { top: "15%", left: "75%", delay: "0.6s" },
+  { top: "45%", left: "10%", delay: "1.2s" },
+  { top: "55%", left: "85%", delay: "0.3s" },
+  { top: "80%", left: "30%", delay: "0.9s" },
+];
+
 const TROPHY_SVG = `
-  <svg class="trophy-icon" viewBox="0 0 64 90" xmlns="http://www.w3.org/2000/svg">
-    <path d="M32 4
-             C40 4, 46 10, 45 18
-             C44 24, 39 27, 35 25
-             C38 31, 46 33, 49 40
-             C51 45, 48 49, 43 47
-             C36 44, 32 37, 31 32
-             C30 37, 26 44, 19 47
-             C14 49, 11 45, 13 40
-             C16 33, 24 31, 27 25
-             C23 27, 18 24, 17 18
-             C16 10, 22 4, 32 4 Z"
-          fill="#f5c542" />
-    <path d="M27 42 L24 68 C24 73, 28 76, 32 76 C36 76, 40 73, 40 68 L37 42 Z"
-          fill="#f5c542" />
-    <rect x="20" y="76" width="24" height="6" rx="2" fill="#1fa34a" />
-    <rect x="15" y="82" width="34" height="8" rx="2" fill="#1fa34a" />
-  </svg>
+  <div class="trophy-wrap">
+    <img class="trophy-icon" src="assets/trophy.png" alt="World Cup trophy" />
+    ${SPARKLE_POSITIONS.map(
+      (s) => `<span class="sparkle" style="top:${s.top}; left:${s.left}; animation-delay:${s.delay};">&#10022;</span>`
+    ).join("")}
+  </div>
 `;
 
 function formatShortDate(iso) {
