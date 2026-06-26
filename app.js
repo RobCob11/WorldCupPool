@@ -106,6 +106,100 @@ const SPARKLE_POSITIONS = [
   { top: "80%", left: "30%", delay: "0.9s" },
 ];
 
+function formatLongDate(iso) {
+  return new Date(iso + "T00:00:00Z").toLocaleDateString(undefined, { month: "long", day: "numeric" });
+}
+
+function renderPointsChart(history) {
+  const container = document.getElementById("points-chart");
+  if (!history || history.length < 2) {
+    container.innerHTML = '<p class="muted">Not enough history yet &mdash; check back after a few days of results.</p>';
+    return;
+  }
+
+  const dates = history.map((h) => h.date);
+  const poolNames = Object.keys(POOL_COLORS);
+  const seriesByPool = {};
+  poolNames.forEach((name) => {
+    seriesByPool[name] = history.map((h) => {
+      const p = h.pools.find((pp) => pp.name === name);
+      return p ? p.totalPoints : 0;
+    });
+  });
+
+  const maxVal = Math.max(10, ...poolNames.map((name) => Math.max(...seriesByPool[name])));
+  const yMax = Math.ceil((maxVal * 1.1) / 20) * 20;
+
+  const W = 760;
+  const H = 420;
+  const padL = 46;
+  const padR = 28;
+  const padT = 16;
+  const padB = 72;
+  const chartW = W - padL - padR;
+  const chartH = H - padT - padB;
+  const n = dates.length;
+  const xFor = (i) => padL + (n === 1 ? 0 : (i / (n - 1)) * chartW);
+  const yFor = (v) => padT + chartH - (v / yMax) * chartH;
+
+  const gridCount = 4;
+  let gridLines = "";
+  let yLabels = "";
+  for (let g = 0; g <= gridCount; g++) {
+    const val = (yMax / gridCount) * g;
+    const y = yFor(val);
+    gridLines += `<line x1="${padL}" y1="${y}" x2="${padL + chartW}" y2="${y}" stroke="var(--border)" stroke-width="1" opacity="0.6" />`;
+    yLabels += `<text x="${padL - 8}" y="${y + 4}" text-anchor="end" font-size="11" fill="var(--muted)">${Math.round(val)}</text>`;
+  }
+
+  let xTicks = "";
+  for (let i = 0; i < n; i++) {
+    const x = xFor(i);
+    xTicks += `<line x1="${x}" y1="${padT + chartH}" x2="${x}" y2="${padT + chartH + 5}" stroke="var(--border)" stroke-width="1" />`;
+    if (i % 5 === 0) {
+      const labelY = padT + chartH + 14;
+      xTicks += `<text x="${x}" y="${labelY}" text-anchor="end" font-size="11" fill="var(--muted)" transform="rotate(-45 ${x} ${labelY})">${formatLongDate(dates[i])}</text>`;
+    }
+  }
+
+  const axisLines = `
+    <line x1="${padL}" y1="${padT}" x2="${padL}" y2="${padT + chartH}" stroke="var(--muted)" stroke-width="1.5" />
+    <line x1="${padL}" y1="${padT + chartH}" x2="${padL + chartW}" y2="${padT + chartH}" stroke="var(--muted)" stroke-width="1.5" />
+  `;
+
+  let defs = "<defs>";
+  poolNames.forEach((name, idx) => {
+    defs += `<marker id="pts-arrow-${idx}" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="${POOL_COLORS[name]}" /></marker>`;
+  });
+  defs += "</defs>";
+
+  let lines = "";
+  poolNames.forEach((name, idx) => {
+    const points = seriesByPool[name].map((v, i) => `${xFor(i)},${yFor(v)}`).join(" ");
+    lines += `<polyline points="${points}" fill="none" stroke="${POOL_COLORS[name]}" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#pts-arrow-${idx})" />`;
+  });
+
+  const svg = `
+    <svg viewBox="0 0 ${W} ${H}" class="points-svg" xmlns="http://www.w3.org/2000/svg">
+      ${defs}${gridLines}${axisLines}${yLabels}${xTicks}${lines}
+    </svg>
+  `;
+
+  const legend = poolNames
+    .map(
+      (name) =>
+        `<div class="legend-row"><span class="legend-swatch" style="background:${POOL_COLORS[name]}"></span>${name}</div>`
+    )
+    .join("");
+
+  container.innerHTML = `
+    <div class="points-chart-row">
+      ${svg}
+      <div class="legend-card">${legend}</div>
+    </div>
+  `;
+}
+
 const TROPHY_SVG = `
   <div class="trophy-wrap">
     <img class="trophy-icon" src="assets/trophy.png" alt="World Cup trophy" />
@@ -248,6 +342,13 @@ async function init() {
   } catch (e) {
     document.getElementById("bracket").innerHTML =
       '<p class="muted">Bracket data not available yet.</p>';
+  }
+  try {
+    const history = await loadJSON("data/history.json");
+    renderPointsChart(history);
+  } catch (e) {
+    document.getElementById("points-chart").innerHTML =
+      '<p class="muted">History data not available yet.</p>';
   }
 }
 

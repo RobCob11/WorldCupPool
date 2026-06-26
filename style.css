@@ -545,6 +545,45 @@ body {
   margin-top: 2px;
 }
 
+.points-chart-row {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.points-svg {
+  flex: 1 1 480px;
+  min-width: 0;
+  width: 100%;
+  height: auto;
+}
+
+.legend-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 16px 18px;
+  min-width: 170px;
+  flex-shrink: 0;
+}
+
+.legend-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  color: var(--text);
+  padding: 5px 0;
+}
+
+.legend-swatch {
+  width: 12px;
+  height: 12px;
+  border-radius: 3px;
+  flex-shrink: 0;
+}
+
 .scoring-card {
   background: var(--card);
   border: 1px solid var(--border);
