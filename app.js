@@ -148,8 +148,8 @@ function renderPointsChart(history) {
   for (let g = 0; g <= gridCount; g++) {
     const val = (yMax / gridCount) * g;
     const y = yFor(val);
-    gridLines += `<line x1="${padL}" y1="${y}" x2="${padL + chartW}" y2="${y}" stroke="var(--border)" stroke-width="1" opacity="0.6" />`;
-    yLabels += `<text x="${padL - 8}" y="${y + 4}" text-anchor="end" font-size="11" fill="var(--muted)">${Math.round(val)}</text>`;
+    gridLines += `<line x1="${padL}" y1="${y}" x2="${padL + chartW}" y2="${y}" stroke="rgba(255,255,255,0.16)" stroke-width="1" />`;
+    yLabels += `<text x="${padL - 8}" y="${y + 4}" text-anchor="end" font-size="11" fill="var(--accent)">${Math.round(val)}</text>`;
   }
 
   let xTicks = "";
@@ -158,7 +158,7 @@ function renderPointsChart(history) {
     xTicks += `<line x1="${x}" y1="${padT + chartH}" x2="${x}" y2="${padT + chartH + 5}" stroke="var(--border)" stroke-width="1" />`;
     if (i % 5 === 0) {
       const labelY = padT + chartH + 14;
-      xTicks += `<text x="${x}" y="${labelY}" text-anchor="end" font-size="11" fill="var(--muted)" transform="rotate(-45 ${x} ${labelY})">${formatLongDate(dates[i])}</text>`;
+      xTicks += `<text x="${x}" y="${labelY}" text-anchor="end" font-size="11" fill="var(--accent)" transform="rotate(-45 ${x} ${labelY})">${formatLongDate(dates[i])}</text>`;
     }
   }
 
@@ -169,7 +169,7 @@ function renderPointsChart(history) {
 
   let defs = "<defs>";
   poolNames.forEach((name, idx) => {
-    defs += `<marker id="pts-arrow-${idx}" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="${POOL_COLORS[name]}" /></marker>`;
+    defs += `<marker id="pts-arrow-${idx}" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M2,1.5 L8,5 L2,8.5" stroke="${POOL_COLORS[name]}" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round" /></marker>`;
   });
   defs += "</defs>";
 
@@ -193,9 +193,9 @@ function renderPointsChart(history) {
     .join("");
 
   container.innerHTML = `
-    <div class="points-chart-row">
+    <div class="points-card">
       ${svg}
-      <div class="legend-card">${legend}</div>
+      <div class="legend-grid">${legend}</div>
     </div>
   `;
 }
