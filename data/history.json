@@ -1,5 +1,590 @@
 [
   {
+    "date": "2026-06-11",
+    "pools": [
+      {
+        "name": "Pine Street",
+        "totalPoints": 19,
+        "rank": 1
+      },
+      {
+        "name": "Los Angeles",
+        "totalPoints": 0,
+        "rank": 2
+      },
+      {
+        "name": "San Luis Obispo",
+        "totalPoints": 0,
+        "rank": 3
+      },
+      {
+        "name": "Sea Ranch",
+        "totalPoints": 0,
+        "rank": 4
+      },
+      {
+        "name": "Seminary",
+        "totalPoints": 0,
+        "rank": 5
+      },
+      {
+        "name": "Kentfield",
+        "totalPoints": 0,
+        "rank": 6
+      },
+      {
+        "name": "Dublin",
+        "totalPoints": 0,
+        "rank": 7
+      },
+      {
+        "name": "Boise",
+        "totalPoints": 0,
+        "rank": 8
+      }
+    ]
+  },
+  {
+    "date": "2026-06-12",
+    "pools": [
+      {
+        "name": "Los Angeles",
+        "totalPoints": 47,
+        "rank": 1
+      },
+      {
+        "name": "Pine Street",
+        "totalPoints": 19,
+        "rank": 2
+      },
+      {
+        "name": "San Luis Obispo",
+        "totalPoints": 12.5,
+        "rank": 3
+      },
+      {
+        "name": "Sea Ranch",
+        "totalPoints": 0,
+        "rank": 4
+      },
+      {
+        "name": "Seminary",
+        "totalPoints": 0,
+        "rank": 5
+      },
+      {
+        "name": "Kentfield",
+        "totalPoints": 0,
+        "rank": 6
+      },
+      {
+        "name": "Dublin",
+        "totalPoints": 0,
+        "rank": 7
+      },
+      {
+        "name": "Boise",
+        "totalPoints": 0,
+        "rank": 8
+      }
+    ]
+  },
+  {
+    "date": "2026-06-13",
+    "pools": [
+      {
+        "name": "Los Angeles",
+        "totalPoints": 47,
+        "rank": 1
+      },
+      {
+        "name": "Boise",
+        "totalPoints": 34.5,
+        "rank": 2
+      },
+      {
+        "name": "Pine Street",
+        "totalPoints": 26.5,
+        "rank": 3
+      },
+      {
+        "name": "San Luis Obispo",
+        "totalPoints": 12.5,
+        "rank": 4
+      },
+      {
+        "name": "Sea Ranch",
+        "totalPoints": 0,
+        "rank": 5
+      },
+      {
+        "name": "Seminary",
+        "totalPoints": 0,
+        "rank": 6
+      },
+      {
+        "name": "Kentfield",
+        "totalPoints": 0,
+        "rank": 7
+      },
+      {
+        "name": "Dublin",
+        "totalPoints": 0,
+        "rank": 8
+      }
+    ]
+  },
+  {
+    "date": "2026-06-14",
+    "pools": [
+      {
+        "name": "Seminary",
+        "totalPoints": 65,
+        "rank": 1
+      },
+      {
+        "name": "Los Angeles",
+        "totalPoints": 53,
+        "rank": 2
+      },
+      {
+        "name": "Boise",
+        "totalPoints": 38.5,
+        "rank": 3
+      },
+      {
+        "name": "Pine Street",
+        "totalPoints": 26.5,
+        "rank": 4
+      },
+      {
+        "name": "San Luis Obispo",
+        "totalPoints": 14.5,
+        "rank": 5
+      },
+      {
+        "name": "Dublin",
+        "totalPoints": 7.5,
+        "rank": 6
+      },
+      {
+        "name": "Sea Ranch",
+        "totalPoints": 0,
+        "rank": 7
+      },
+      {
+        "name": "Kentfield",
+        "totalPoints": 0,
+        "rank": 8
+      }
+    ]
+  },
+  {
+    "date": "2026-06-15",
+    "pools": [
+      {
+        "name": "Seminary",
+        "totalPoints": 65,
+        "rank": 1
+      },
+      {
+        "name": "Los Angeles",
+        "totalPoints": 53,
+        "rank": 2
+      },
+      {
+        "name": "Boise",
+        "totalPoints": 38.5,
+        "rank": 3
+      },
+      {
+        "name": "Kentfield",
+        "totalPoints": 36.5,
+        "rank": 4
+      },
+      {
+        "name": "Dublin",
+        "totalPoints": 33.5,
+        "rank": 5
+      },
+      {
+        "name": "Pine Street",
+        "totalPoints": 27,
+        "rank": 6
+      },
+      {
+        "name": "Sea Ranch",
+        "totalPoints": 21,
+        "rank": 7
+      },
+      {
+        "name": "San Luis Obispo",
+        "totalPoints": 14.5,
+        "rank": 8
+      }
+    ]
+  },
+  {
+    "date": "2026-06-16",
+    "pools": [
+      {
+        "name": "Los Angeles",
+        "totalPoints": 73.5,
+        "rank": 1
+      },
+      {
+        "name": "Seminary",
+        "totalPoints": 71,
+        "rank": 2
+      },
+      {
+        "name": "Dublin",
+        "totalPoints": 51,
+        "rank": 3
+      },
+      {
+        "name": "Boise",
+        "totalPoints": 39.5,
+        "rank": 4
+      },
+      {
+        "name": "Kentfield",
+        "totalPoints": 36.5,
+        "rank": 5
+      },
+      {
+        "name": "San Luis Obispo",
+        "totalPoints": 32.5,
+        "rank": 6
+      },
+      {
+        "name": "Pine Street",
+        "totalPoints": 27,
+        "rank": 7
+      },
+      {
+        "name": "Sea Ranch",
+        "totalPoints": 21,
+        "rank": 8
+      }
+    ]
+  },
+  {
+    "date": "2026-06-17",
+    "pools": [
+      {
+        "name": "Los Angeles",
+        "totalPoints": 76.5,
+        "rank": 1
+      },
+      {
+        "name": "Seminary",
+        "totalPoints": 76,
+        "rank": 2
+      },
+      {
+        "name": "Sea Ranch",
+        "totalPoints": 71,
+        "rank": 3
+      },
+      {
+        "name": "Dublin",
+        "totalPoints": 51,
+        "rank": 4
+      },
+      {
+        "name": "Kentfield",
+        "totalPoints": 39.5,
+        "rank": 5
+      },
+      {
+        "name": "Boise",
+        "totalPoints": 39.5,
+        "rank": 6
+      },
+      {
+        "name": "San Luis Obispo",
+        "totalPoints": 32.5,
+        "rank": 7
+      },
+      {
+        "name": "Pine Street",
+        "totalPoints": 27,
+        "rank": 8
+      }
+    ]
+  },
+  {
+    "date": "2026-06-18",
+    "pools": [
+      {
+        "name": "Pine Street",
+        "totalPoints": 81,
+        "rank": 1
+      },
+      {
+        "name": "Los Angeles",
+        "totalPoints": 76.5,
+        "rank": 2
+      },
+      {
+        "name": "Seminary",
+        "totalPoints": 76,
+        "rank": 3
+      },
+      {
+        "name": "Sea Ranch",
+        "totalPoints": 71,
+        "rank": 4
+      },
+      {
+        "name": "Boise",
+        "totalPoints": 52.5,
+        "rank": 5
+      },
+      {
+        "name": "Dublin",
+        "totalPoints": 51,
+        "rank": 6
+      },
+      {
+        "name": "San Luis Obispo",
+        "totalPoints": 50.5,
+        "rank": 7
+      },
+      {
+        "name": "Kentfield",
+        "totalPoints": 39.5,
+        "rank": 8
+      }
+    ]
+  },
+  {
+    "date": "2026-06-19",
+    "pools": [
+      {
+        "name": "Pine Street",
+        "totalPoints": 100,
+        "rank": 1
+      },
+      {
+        "name": "Los Angeles",
+        "totalPoints": 76.5,
+        "rank": 2
+      },
+      {
+        "name": "Seminary",
+        "totalPoints": 76,
+        "rank": 3
+      },
+      {
+        "name": "San Luis Obispo",
+        "totalPoints": 75.5,
+        "rank": 4
+      },
+      {
+        "name": "Sea Ranch",
+        "totalPoints": 71,
+        "rank": 5
+      },
+      {
+        "name": "Boise",
+        "totalPoints": 66.5,
+        "rank": 6
+      },
+      {
+        "name": "Dublin",
+        "totalPoints": 51,
+        "rank": 7
+      },
+      {
+        "name": "Kentfield",
+        "totalPoints": 39.5,
+        "rank": 8
+      }
+    ]
+  },
+  {
+    "date": "2026-06-20",
+    "pools": [
+      {
+        "name": "San Luis Obispo",
+        "totalPoints": 107.5,
+        "rank": 1
+      },
+      {
+        "name": "Pine Street",
+        "totalPoints": 100,
+        "rank": 2
+      },
+      {
+        "name": "Los Angeles",
+        "totalPoints": 88.5,
+        "rank": 3
+      },
+      {
+        "name": "Seminary",
+        "totalPoints": 83,
+        "rank": 4
+      },
+      {
+        "name": "Boise",
+        "totalPoints": 74.5,
+        "rank": 5
+      },
+      {
+        "name": "Sea Ranch",
+        "totalPoints": 71,
+        "rank": 6
+      },
+      {
+        "name": "Dublin",
+        "totalPoints": 51,
+        "rank": 7
+      },
+      {
+        "name": "Kentfield",
+        "totalPoints": 39.5,
+        "rank": 8
+      }
+    ]
+  },
+  {
+    "date": "2026-06-21",
+    "pools": [
+      {
+        "name": "San Luis Obispo",
+        "totalPoints": 116,
+        "rank": 1
+      },
+      {
+        "name": "Pine Street",
+        "totalPoints": 101,
+        "rank": 2
+      },
+      {
+        "name": "Sea Ranch",
+        "totalPoints": 93.5,
+        "rank": 3
+      },
+      {
+        "name": "Los Angeles",
+        "totalPoints": 88.5,
+        "rank": 4
+      },
+      {
+        "name": "Dublin",
+        "totalPoints": 83.5,
+        "rank": 5
+      },
+      {
+        "name": "Seminary",
+        "totalPoints": 83,
+        "rank": 6
+      },
+      {
+        "name": "Boise",
+        "totalPoints": 74.5,
+        "rank": 7
+      },
+      {
+        "name": "Kentfield",
+        "totalPoints": 44,
+        "rank": 8
+      }
+    ]
+  },
+  {
+    "date": "2026-06-22",
+    "pools": [
+      {
+        "name": "San Luis Obispo",
+        "totalPoints": 116,
+        "rank": 1
+      },
+      {
+        "name": "Pine Street",
+        "totalPoints": 101,
+        "rank": 2
+      },
+      {
+        "name": "Seminary",
+        "totalPoints": 94,
+        "rank": 3
+      },
+      {
+        "name": "Sea Ranch",
+        "totalPoints": 93.5,
+        "rank": 4
+      },
+      {
+        "name": "Kentfield",
+        "totalPoints": 90,
+        "rank": 5
+      },
+      {
+        "name": "Los Angeles",
+        "totalPoints": 88.5,
+        "rank": 6
+      },
+      {
+        "name": "Dublin",
+        "totalPoints": 83.5,
+        "rank": 7
+      },
+      {
+        "name": "Boise",
+        "totalPoints": 74.5,
+        "rank": 8
+      }
+    ]
+  },
+  {
+    "date": "2026-06-23",
+    "pools": [
+      {
+        "name": "Los Angeles",
+        "totalPoints": 124.5,
+        "rank": 1
+      },
+      {
+        "name": "San Luis Obispo",
+        "totalPoints": 116,
+        "rank": 2
+      },
+      {
+        "name": "Pine Street",
+        "totalPoints": 115,
+        "rank": 3
+      },
+      {
+        "name": "Sea Ranch",
+        "totalPoints": 102.5,
+        "rank": 4
+      },
+      {
+        "name": "Seminary",
+        "totalPoints": 94,
+        "rank": 5
+      },
+      {
+        "name": "Kentfield",
+        "totalPoints": 91.5,
+        "rank": 6
+      },
+      {
+        "name": "Dublin",
+        "totalPoints": 83.5,
+        "rank": 7
+      },
+      {
+        "name": "Boise",
+        "totalPoints": 75.5,
+        "rank": 8
+      }
+    ]
+  },
+  {
     "date": "2026-06-24",
     "pools": [
       {
