@@ -335,7 +335,7 @@ body {
 }
 
 #tab-bracket {
-  padding: 0 16px 40px;
+  padding: 0 6px 30px;
 }
 
 .bracket-scroll {
@@ -347,7 +347,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 34px;
+  gap: 50px;
   min-width: fit-content;
   padding: 12px 4px;
 }
@@ -361,15 +361,55 @@ body {
 .bn-children {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
   gap: 22px;
 }
 
-.bn-children.side-left { border-right: 1.5px solid var(--border); padding-right: 0; }
-.bn-children.side-right { border-left: 1.5px solid var(--border); padding-left: 0; }
+.bn-children.side-left { padding-right: 16px; }
+.bn-children.side-right { padding-left: 16px; }
+
+/* Each card gets its own short corner connector anchored to its own
+   vertical center, instead of one long line spanning both cards. The
+   two corners meet at the midpoint of the gap between them (11px = half
+   of the 22px gap above), which is exactly where .bn-connector below
+   picks up and continues on to the parent match box. */
+.bn-leaf { position: relative; }
+
+.bn-children.side-left > .bn-leaf::after {
+  content: "";
+  position: absolute;
+  right: -16px;
+  width: 16px;
+  height: 11px;
+  border-right: 1.5px solid var(--border);
+}
+.bn-children.side-left > .bn-leaf:first-child::after {
+  top: 50%;
+  border-top: 1.5px solid var(--border);
+}
+.bn-children.side-left > .bn-leaf:last-child::after {
+  bottom: 50%;
+  border-bottom: 1.5px solid var(--border);
+}
+
+.bn-children.side-right > .bn-leaf::after {
+  content: "";
+  position: absolute;
+  left: -16px;
+  width: 16px;
+  height: 11px;
+  border-left: 1.5px solid var(--border);
+}
+.bn-children.side-right > .bn-leaf:first-child::after {
+  top: 50%;
+  border-top: 1.5px solid var(--border);
+}
+.bn-children.side-right > .bn-leaf:last-child::after {
+  bottom: 50%;
+  border-bottom: 1.5px solid var(--border);
+}
 
 .bn-connector {
-  width: 22px;
+  width: 18px;
   height: 0;
   border-top: 1.5px solid var(--border);
   flex-shrink: 0;

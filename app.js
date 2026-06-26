@@ -147,7 +147,11 @@ function renderNode(node, side) {
   if (!node) return matchBoxHtml(null);
   const selfHtml = matchBoxHtml(node.match);
   if (!node.children) return selfHtml; // leaf = Round of 32
-  const childrenHtml = node.children.map((c) => renderNode(c, side)).join("");
+  // Each child is wrapped in .bn-leaf so its own wishbone corner can be anchored
+  // to its own vertical center, regardless of how tall its subtree is.
+  const childrenHtml = node.children
+    .map((c) => `<div class="bn-leaf">${renderNode(c, side)}</div>`)
+    .join("");
   const childrenCol = `<div class="bn-children side-${side}">${childrenHtml}</div>`;
   const connector = `<div class="bn-connector"></div>`;
   return side === "left"
