@@ -27,28 +27,12 @@
 * { box-sizing: border-box; }
 
 html {
-  background-color: var(--bg);
-  background-image: repeating-radial-gradient(
-    circle at 50% 50%,
-    var(--pool-purple) 0px,
-    var(--pool-purple) 60px,
-    var(--pool-red) 60px,
-    var(--pool-red) 120px,
-    var(--pool-blue) 120px,
-    var(--pool-blue) 180px,
-    var(--pool-lime) 180px,
-    var(--pool-lime) 240px,
-    var(--pool-teal) 240px,
-    var(--pool-teal) 300px,
-    var(--pool-orange) 300px,
-    var(--pool-orange) 360px,
-    var(--pool-green) 360px,
-    var(--pool-green) 420px,
-    var(--pool-pink) 420px,
-    var(--pool-pink) 480px
-  );
+  background-color: #0e2a1c;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 1800'><rect width='1200' height='1800' fill='%230e2a1c'/><rect x='20' y='20' width='1160' height='1760' fill='none' stroke='%23ffffff' stroke-opacity='0.12' stroke-width='3'/><line x1='0' y1='900' x2='1200' y2='900' stroke='%23ffffff' stroke-opacity='0.12' stroke-width='3'/><circle cx='600' cy='900' r='200' fill='none' stroke='%23ffffff' stroke-opacity='0.12' stroke-width='3'/><circle cx='600' cy='900' r='6' fill='%23ffffff' fill-opacity='0.16'/><rect x='350' y='20' width='500' height='280' fill='none' stroke='%23ffffff' stroke-opacity='0.12' stroke-width='3'/><rect x='470' y='20' width='260' height='110' fill='none' stroke='%23ffffff' stroke-opacity='0.12' stroke-width='3'/><path d='M 470 300 A 150 150 0 0 0 730 300' fill='none' stroke='%23ffffff' stroke-opacity='0.12' stroke-width='3'/><rect x='350' y='1500' width='500' height='280' fill='none' stroke='%23ffffff' stroke-opacity='0.12' stroke-width='3'/><rect x='470' y='1670' width='260' height='110' fill='none' stroke='%23ffffff' stroke-opacity='0.12' stroke-width='3'/><path d='M 470 1500 A 150 150 0 0 1 730 1500' fill='none' stroke='%23ffffff' stroke-opacity='0.12' stroke-width='3'/><path d='M 20 80 A 60 60 0 0 1 80 20' fill='none' stroke='%23ffffff' stroke-opacity='0.12' stroke-width='3'/><path d='M 1120 20 A 60 60 0 0 1 1180 80' fill='none' stroke='%23ffffff' stroke-opacity='0.12' stroke-width='3'/><path d='M 80 1780 A 60 60 0 0 1 20 1720' fill='none' stroke='%23ffffff' stroke-opacity='0.12' stroke-width='3'/><path d='M 1180 1720 A 60 60 0 0 1 1120 1780' fill='none' stroke='%23ffffff' stroke-opacity='0.12' stroke-width='3'/></svg>");
   background-attachment: fixed;
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   overflow-x: hidden;
 }
 
