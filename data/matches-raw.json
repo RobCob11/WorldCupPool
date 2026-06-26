@@ -506,7 +506,7 @@
   {
     "mid": "392921",
     "round": "3",
-    "status": "live",
+    "status": "result",
     "timestampstart": 1782428400,
     "timestampend": 1782439200,
     "home": "Tunisia",
@@ -515,7 +515,7 @@
   {
     "mid": "392922",
     "round": "3",
-    "status": "live",
+    "status": "result",
     "timestampstart": 1782428400,
     "timestampend": 1782439200,
     "home": "Japan",
@@ -524,7 +524,7 @@
   {
     "mid": "392923",
     "round": "3",
-    "status": "upcoming",
+    "status": "result",
     "timestampstart": 1782439200,
     "timestampend": 1782450000,
     "home": "Turkey",
@@ -533,7 +533,7 @@
   {
     "mid": "392924",
     "round": "3",
-    "status": "upcoming",
+    "status": "result",
     "timestampstart": 1782439200,
     "timestampend": 1782450000,
     "home": "Paraguay",
@@ -663,7 +663,7 @@
     "timestampstart": 1782752400,
     "timestampend": 1782763200,
     "home": "Brazil",
-    "away": "2f"
+    "away": "Japan"
   },
   {
     "mid": "305526",
@@ -680,7 +680,7 @@
     "status": "upcoming",
     "timestampstart": 1782781200,
     "timestampend": 1782792000,
-    "home": "1f",
+    "home": "Netherlands",
     "away": "Morocco"
   },
   {
@@ -689,7 +689,7 @@
     "status": "upcoming",
     "timestampstart": 1782838800,
     "timestampend": 1782849600,
-    "home": "2e",
+    "home": "Ivory Coast",
     "away": "2i"
   },
   {
@@ -735,7 +735,7 @@
     "timestampstart": 1782950400,
     "timestampend": 1782961200,
     "home": "USA",
-    "away": "3b3e3f3i3j"
+    "away": "Bosnia & Herzegovina"
   },
   {
     "mid": "305537",
@@ -761,7 +761,7 @@
     "status": "upcoming",
     "timestampstart": 1783047600,
     "timestampend": 1783058400,
-    "home": "1b",
+    "home": "Switzerland",
     "away": "3e3f3g3i3j"
   },
   {
@@ -770,7 +770,7 @@
     "status": "upcoming",
     "timestampstart": 1783101600,
     "timestampend": 1783112400,
-    "home": "2d",
+    "home": "Australia",
     "away": "g2"
   },
   {
@@ -887,8 +887,8 @@
     "status": "upcoming",
     "timestampstart": 1783803600,
     "timestampend": 1783814400,
-    "home": "W91",
-    "away": "W92"
+    "home": "w91",
+    "away": "w92"
   },
   {
     "mid": "305552",
