@@ -151,8 +151,9 @@ async function main() {
 
   const groupAndDrawMatches = allMatches; // contains both group + knockout
 
-  // Lightweight cache of match timing, used by the scheduler job to set up
-  // precise post-match refresh triggers without needing its own API calls.
+  // Cache of match timing/results, used by the scheduler job to set up precise
+  // post-match refresh triggers, and by the history backfill script to recompute
+  // past pool point totals - both without needing their own API calls.
   const matchesRawOutput = allMatches.map((m) => ({
     mid: m.mid,
     round: m.round,
@@ -161,6 +162,9 @@ async function main() {
     timestampend: Number(m.timestampend),
     home: m.teams.home.tname,
     away: m.teams.away.tname,
+    homeTid: Number(m.teams.home.tid),
+    awayTid: Number(m.teams.away.tid),
+    result: m.result,
   }));
   fs.writeFileSync(MATCHES_RAW_PATH, JSON.stringify(matchesRawOutput, null, 2));
 
