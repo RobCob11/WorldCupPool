@@ -994,7 +994,7 @@
   {
     "mid": "392927",
     "round": "3",
-    "status": "upcoming",
+    "status": "result",
     "timestampstart": 1782518400,
     "timestampend": 1782529200,
     "home": "Uruguay",
@@ -1003,14 +1003,14 @@
     "awayTid": 5,
     "result": {
       "home": "0",
-      "away": "0",
-      "winner": ""
+      "away": "1",
+      "winner": "away"
     }
   },
   {
     "mid": "392928",
     "round": "3",
-    "status": "upcoming",
+    "status": "result",
     "timestampstart": 1782518400,
     "timestampend": 1782529200,
     "home": "Cape Verde",
@@ -1020,13 +1020,13 @@
     "result": {
       "home": "0",
       "away": "0",
-      "winner": ""
+      "winner": "draw"
     }
   },
   {
     "mid": "392929",
     "round": "3",
-    "status": "upcoming",
+    "status": "result",
     "timestampstart": 1782529200,
     "timestampend": 1782540000,
     "home": "New Zealand",
@@ -1034,15 +1034,15 @@
     "homeTid": 3593,
     "awayTid": 13,
     "result": {
-      "home": "0",
-      "away": "0",
-      "winner": ""
+      "home": "1",
+      "away": "5",
+      "winner": "away"
     }
   },
   {
     "mid": "392930",
     "round": "3",
-    "status": "upcoming",
+    "status": "result",
     "timestampstart": 1782529200,
     "timestampend": 1782540000,
     "home": "Egypt",
@@ -1050,9 +1050,9 @@
     "homeTid": 21,
     "awayTid": 22,
     "result": {
-      "home": "0",
-      "away": "0",
-      "winner": ""
+      "home": "1",
+      "away": "1",
+      "winner": "draw"
     }
   },
   {
@@ -1190,9 +1190,9 @@
     "timestampstart": 1782765000,
     "timestampend": 1782775800,
     "home": "Germany",
-    "away": "3a3b3c3d3f",
+    "away": "Paraguay",
     "homeTid": 10,
-    "awayTid": 19819,
+    "awayTid": 1170,
     "result": {
       "home": "0",
       "away": "0",
@@ -1222,9 +1222,9 @@
     "timestampstart": 1782838800,
     "timestampend": 1782849600,
     "home": "Ivory Coast",
-    "away": "2i",
+    "away": "Norway",
     "homeTid": 1165,
-    "awayTid": 19851,
+    "awayTid": 1184,
     "result": {
       "home": "0",
       "away": "0",
@@ -1237,10 +1237,10 @@
     "status": "upcoming",
     "timestampstart": 1782853200,
     "timestampend": 1782864000,
-    "home": "1i",
-    "away": "3c3d3f3g3h",
-    "homeTid": 19850,
-    "awayTid": 19852,
+    "home": "France",
+    "away": "Sweden",
+    "homeTid": 2,
+    "awayTid": 3,
     "result": {
       "home": "0",
       "away": "0",
@@ -1285,9 +1285,9 @@
     "status": "upcoming",
     "timestampstart": 1782936000,
     "timestampend": 1782946800,
-    "home": "g1",
+    "home": "Belgium",
     "away": "3a3e3h3i3j",
-    "homeTid": 19857,
+    "homeTid": 13,
     "awayTid": 19860,
     "result": {
       "home": "0",
@@ -1317,9 +1317,9 @@
     "status": "upcoming",
     "timestampstart": 1783018800,
     "timestampend": 1783029600,
-    "home": "h1",
+    "home": "Spain",
     "away": "2j",
-    "homeTid": 19840,
+    "homeTid": 5,
     "awayTid": 19841,
     "result": {
       "home": "0",
@@ -1366,9 +1366,9 @@
     "timestampstart": 1783101600,
     "timestampend": 1783112400,
     "home": "Australia",
-    "away": "g2",
+    "away": "Egypt",
     "homeTid": 18,
-    "awayTid": 19863,
+    "awayTid": 21,
     "result": {
       "home": "0",
       "away": "0",
@@ -1382,9 +1382,9 @@
     "timestampstart": 1783116000,
     "timestampend": 1783126800,
     "home": "Argentina",
-    "away": "h2",
+    "away": "Cape Verde",
     "homeTid": 28,
-    "awayTid": 19839,
+    "awayTid": 1953,
     "result": {
       "home": "0",
       "away": "0",
@@ -1589,10 +1589,10 @@
     "status": "upcoming",
     "timestampstart": 1783818000,
     "timestampend": 1783828800,
-    "home": "W95",
-    "away": "W96",
-    "homeTid": 12378,
-    "awayTid": 12379,
+    "home": "w95",
+    "away": "w96",
+    "homeTid": 19887,
+    "awayTid": 19890,
     "result": {
       "home": "0",
       "away": "0",
@@ -1605,10 +1605,10 @@
     "status": "upcoming",
     "timestampstart": 1784055600,
     "timestampend": 1784066400,
-    "home": "W97",
-    "away": "W98",
-    "homeTid": 12380,
-    "awayTid": 12381,
+    "home": "w97",
+    "away": "w98",
+    "homeTid": 19885,
+    "awayTid": 19886,
     "result": {
       "home": "0",
       "away": "0",
@@ -1621,10 +1621,10 @@
     "status": "upcoming",
     "timestampstart": 1784142000,
     "timestampend": 1784152800,
-    "home": "W99",
-    "away": "W100",
-    "homeTid": 12382,
-    "awayTid": 12383,
+    "home": "w99",
+    "away": "w100",
+    "homeTid": 19888,
+    "awayTid": 19893,
     "result": {
       "home": "0",
       "away": "0",
@@ -1637,10 +1637,10 @@
     "status": "upcoming",
     "timestampstart": 1784408400,
     "timestampend": 1784419200,
-    "home": "L101",
-    "away": "L102",
-    "homeTid": 12384,
-    "awayTid": 12385,
+    "home": "l101",
+    "away": "l102",
+    "homeTid": 19889,
+    "awayTid": 19891,
     "result": {
       "home": "0",
       "away": "0",
@@ -1653,10 +1653,10 @@
     "status": "upcoming",
     "timestampstart": 1784487600,
     "timestampend": 1784498400,
-    "home": "W101",
-    "away": "W102",
-    "homeTid": 12386,
-    "awayTid": 12387,
+    "home": "w101",
+    "away": "w102",
+    "homeTid": 19892,
+    "awayTid": 19894,
     "result": {
       "home": "0",
       "away": "0",
