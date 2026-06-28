@@ -156,6 +156,7 @@ async function main() {
   // past pool point totals - both without needing their own API calls.
   const matchesRawOutput = allMatches.map((m) => ({
     mid: m.mid,
+    matchNumber: Number(m.match_number),
     round: m.round,
     status: m.status_str,
     timestampstart: Number(m.timestampstart),
