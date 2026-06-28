@@ -268,27 +268,13 @@ async function main() {
   // ---- Bracket: build the real tree by parsing the API's own "W<matchNumber>"/"L<matchNumber>"
   // placeholder codes, so connections between rounds are derived from data, not guessed.
   const bracketMatches = allMatches.filter((m) => !isGroupStageRound(m.round));
-  // The "W<n>"/"L<n>" placeholder codes reference FIFA's standard wallchart
-  // numbering (Round of 32 = 73-88, Round of 16 = 89-96, QF = 97-100, SF = 101-102,
-  // 3rd place = 103, Final = 104) - a completely different scheme from this API's
-  // own internal match_number field. We assign wallchart numbers ourselves (by
-  // kickoff date order within each round) so the W##/L## references resolve
-  // correctly. This guarantees correct pairing/tree structure even if our
-  // specific number assignment doesn't perfectly mirror an official wallchart.
-  const WALLCHART_RANGES = {
-    "Round of 32": 73,
-    "Round of 16": 89,
-    "Quarterfinals": 97,
-    "Semifinals": 101,
-    "Match for 3rd place": 103,
-    "Final": 104,
-  };
+  // The W<n>/L<n> placeholder codes reference this same API's own match_number
+  // field directly (confirmed: Round of 16 matches carry tnames like "w73"/"w75",
+  // and those numbers are exactly the match_number values the API assigned to
+  // the corresponding Round of 32 fixtures) - no separate numbering scheme needed.
   const matchByNumber = new Map();
-  for (const [roundName, startNum] of Object.entries(WALLCHART_RANGES)) {
-    const roundMatches = bracketMatches
-      .filter((m) => m.round === roundName)
-      .sort((a, b) => a.timestampstart - b.timestampstart);
-    roundMatches.forEach((m, i) => matchByNumber.set(startNum + i, m));
+  for (const m of bracketMatches) {
+    matchByNumber.set(Number(m.match_number), m);
   }
 
   function resolveTeam(team) {
