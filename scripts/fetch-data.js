@@ -156,7 +156,6 @@ async function main() {
   // past pool point totals - both without needing their own API calls.
   const matchesRawOutput = allMatches.map((m) => ({
     mid: m.mid,
-    matchNumber: Number(m.match_number),
     round: m.round,
     status: m.status_str,
     timestampstart: Number(m.timestampstart),
@@ -269,13 +268,14 @@ async function main() {
   // ---- Bracket: build the real tree by parsing the API's own "W<matchNumber>"/"L<matchNumber>"
   // placeholder codes, so connections between rounds are derived from data, not guessed.
   const bracketMatches = allMatches.filter((m) => !isGroupStageRound(m.round));
-  // The W<n>/L<n> placeholder codes reference this same API's own match_number
-  // field directly (confirmed: Round of 16 matches carry tnames like "w73"/"w75",
-  // and those numbers are exactly the match_number values the API assigned to
-  // the corresponding Round of 32 fixtures) - no separate numbering scheme needed.
+  // The W<n>/L<n> placeholder codes reference this API's own match_number field,
+  // shifted down by exactly 1: this competition's group stage produced 73 matches
+  // (not the expected 72), so every knockout match_number runs one higher than the
+  // number used in the W##/L## placeholder text. Confirmed by checking every
+  // reference resolves and the resulting tree is a complete, symmetric 16-leaf bracket.
   const matchByNumber = new Map();
   for (const m of bracketMatches) {
-    matchByNumber.set(Number(m.match_number), m);
+    matchByNumber.set(Number(m.match_number) - 1, m);
   }
 
   function resolveTeam(team) {
