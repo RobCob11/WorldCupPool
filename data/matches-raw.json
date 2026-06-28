@@ -1058,7 +1058,7 @@
   {
     "mid": "392931",
     "round": "3",
-    "status": "upcoming",
+    "status": "result",
     "timestampstart": 1782594000,
     "timestampend": 1782604800,
     "home": "Panama",
@@ -1067,14 +1067,14 @@
     "awayTid": 11,
     "result": {
       "home": "0",
-      "away": "0",
-      "winner": ""
+      "away": "2",
+      "winner": "away"
     }
   },
   {
     "mid": "392932",
     "round": "3",
-    "status": "upcoming",
+    "status": "result",
     "timestampstart": 1782594000,
     "timestampend": 1782604800,
     "home": "Croatia",
@@ -1082,15 +1082,15 @@
     "homeTid": 12,
     "awayTid": 1295,
     "result": {
-      "home": "0",
-      "away": "0",
-      "winner": ""
+      "home": "2",
+      "away": "1",
+      "winner": "home"
     }
   },
   {
     "mid": "392933",
     "round": "3",
-    "status": "upcoming",
+    "status": "result",
     "timestampstart": 1782603000,
     "timestampend": 1782613800,
     "home": "Colombia",
@@ -1100,13 +1100,13 @@
     "result": {
       "home": "0",
       "away": "0",
-      "winner": ""
+      "winner": "draw"
     }
   },
   {
     "mid": "392934",
     "round": "3",
-    "status": "upcoming",
+    "status": "result",
     "timestampstart": 1782603000,
     "timestampend": 1782613800,
     "home": "Congo DR",
@@ -1114,15 +1114,15 @@
     "homeTid": 1298,
     "awayTid": 1044,
     "result": {
-      "home": "0",
-      "away": "0",
-      "winner": ""
+      "home": "3",
+      "away": "1",
+      "winner": "home"
     }
   },
   {
     "mid": "392935",
     "round": "3",
-    "status": "upcoming",
+    "status": "result",
     "timestampstart": 1782612000,
     "timestampend": 1782622800,
     "home": "Jordan",
@@ -1130,15 +1130,15 @@
     "homeTid": 1051,
     "awayTid": 28,
     "result": {
-      "home": "0",
-      "away": "0",
-      "winner": ""
+      "home": "1",
+      "away": "3",
+      "winner": "away"
     }
   },
   {
     "mid": "392936",
     "round": "3",
-    "status": "upcoming",
+    "status": "result",
     "timestampstart": 1782612000,
     "timestampend": 1782622800,
     "home": "Algeria",
@@ -1146,9 +1146,9 @@
     "homeTid": 1147,
     "awayTid": 1201,
     "result": {
-      "home": "0",
-      "away": "0",
-      "winner": ""
+      "home": "3",
+      "away": "3",
+      "winner": "draw"
     }
   },
   {
@@ -1254,9 +1254,9 @@
     "timestampstart": 1782867600,
     "timestampend": 1782878400,
     "home": "Mexico",
-    "away": "3c3e3f3h3i",
+    "away": "Ecuador",
     "homeTid": 25,
-    "awayTid": 19853,
+    "awayTid": 1154,
     "result": {
       "home": "0",
       "away": "0",
@@ -1269,10 +1269,10 @@
     "status": "upcoming",
     "timestampstart": 1782921600,
     "timestampend": 1782932400,
-    "home": "1l",
-    "away": "3e3h3i3j3k",
-    "homeTid": 19854,
-    "awayTid": 19855,
+    "home": "England",
+    "away": "Congo DR",
+    "homeTid": 11,
+    "awayTid": 1298,
     "result": {
       "home": "0",
       "away": "0",
@@ -1286,9 +1286,9 @@
     "timestampstart": 1782936000,
     "timestampend": 1782946800,
     "home": "Belgium",
-    "away": "3a3e3h3i3j",
+    "away": "Senegal",
     "homeTid": 13,
-    "awayTid": 19860,
+    "awayTid": 17,
     "result": {
       "home": "0",
       "away": "0",
@@ -1318,9 +1318,9 @@
     "timestampstart": 1783018800,
     "timestampend": 1783029600,
     "home": "Spain",
-    "away": "2j",
+    "away": "Austria",
     "homeTid": 5,
-    "awayTid": 19841,
+    "awayTid": 1201,
     "result": {
       "home": "0",
       "away": "0",
@@ -1333,10 +1333,10 @@
     "status": "upcoming",
     "timestampstart": 1783033200,
     "timestampend": 1783044000,
-    "home": "2k",
-    "away": "2l",
-    "homeTid": 19842,
-    "awayTid": 19843,
+    "home": "Portugal",
+    "away": "Croatia",
+    "homeTid": 8,
+    "awayTid": 12,
     "result": {
       "home": "0",
       "away": "0",
@@ -1350,9 +1350,9 @@
     "timestampstart": 1783047600,
     "timestampend": 1783058400,
     "home": "Switzerland",
-    "away": "3e3f3g3i3j",
+    "away": "Algeria",
     "homeTid": 6,
-    "awayTid": 19859,
+    "awayTid": 1147,
     "result": {
       "home": "0",
       "away": "0",
@@ -1397,10 +1397,10 @@
     "status": "upcoming",
     "timestampstart": 1783128600,
     "timestampend": 1783139400,
-    "home": "1k",
-    "away": "3d3e3i3j3l",
-    "homeTid": 19862,
-    "awayTid": 19864,
+    "home": "Colombia",
+    "away": "Ghana",
+    "homeTid": 29,
+    "awayTid": 1295,
     "result": {
       "home": "0",
       "away": "0",

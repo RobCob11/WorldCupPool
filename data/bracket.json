@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-27T18:57:03.997Z",
+  "updatedAt": "2026-06-28T08:34:25.535Z",
   "final": {
     "mid": "305556",
     "matchNumber": 105,
@@ -366,11 +366,11 @@
                     "placeholder": false
                   },
                   "away": {
-                    "tid": 19841,
-                    "name": "TBD",
-                    "abbr": "TBD",
-                    "logo": "",
-                    "placeholder": true
+                    "tid": 1201,
+                    "name": "Austria",
+                    "abbr": "AUT",
+                    "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4718.png",
+                    "placeholder": false
                   },
                   "result": {
                     "home": "0",
@@ -388,18 +388,18 @@
                   "status": "upcoming",
                   "live": false,
                   "home": {
-                    "tid": 19842,
-                    "name": "TBD",
-                    "abbr": "TBD",
-                    "logo": "",
-                    "placeholder": true
+                    "tid": 8,
+                    "name": "Portugal",
+                    "abbr": "POR",
+                    "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4704.png",
+                    "placeholder": false
                   },
                   "away": {
-                    "tid": 19843,
-                    "name": "TBD",
-                    "abbr": "TBD",
-                    "logo": "",
-                    "placeholder": true
+                    "tid": 12,
+                    "name": "Croatia",
+                    "abbr": "CRO",
+                    "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4715.png",
+                    "placeholder": false
                   },
                   "result": {
                     "home": "0",
@@ -455,11 +455,11 @@
                     "placeholder": false
                   },
                   "away": {
-                    "tid": 19860,
-                    "name": "TBD",
-                    "abbr": "TBD",
-                    "logo": "",
-                    "placeholder": true
+                    "tid": 17,
+                    "name": "Senegal",
+                    "abbr": "SEN",
+                    "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4739.png",
+                    "placeholder": false
                   },
                   "result": {
                     "home": "0",
@@ -695,11 +695,11 @@
                     "placeholder": false
                   },
                   "away": {
-                    "tid": 19853,
-                    "name": "TBD",
-                    "abbr": "TBD",
-                    "logo": "",
-                    "placeholder": true
+                    "tid": 1154,
+                    "name": "Ecuador",
+                    "abbr": "ECU",
+                    "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4757.webp",
+                    "placeholder": false
                   },
                   "result": {
                     "home": "0",
@@ -717,18 +717,18 @@
                   "status": "upcoming",
                   "live": false,
                   "home": {
-                    "tid": 19854,
-                    "name": "TBD",
-                    "abbr": "TBD",
-                    "logo": "",
-                    "placeholder": true
+                    "tid": 11,
+                    "name": "England",
+                    "abbr": "ENG",
+                    "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4713.png",
+                    "placeholder": false
                   },
                   "away": {
-                    "tid": 19855,
-                    "name": "TBD",
-                    "abbr": "TBD",
-                    "logo": "",
-                    "placeholder": true
+                    "tid": 1298,
+                    "name": "DR Congo",
+                    "abbr": "COD",
+                    "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4823.png",
+                    "placeholder": false
                   },
                   "result": {
                     "home": "0",
@@ -837,18 +837,18 @@
                   "status": "upcoming",
                   "live": false,
                   "home": {
-                    "tid": 19862,
-                    "name": "TBD",
-                    "abbr": "TBD",
-                    "logo": "",
-                    "placeholder": true
+                    "tid": 29,
+                    "name": "Colombia",
+                    "abbr": "COL",
+                    "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4820.png",
+                    "placeholder": false
                   },
                   "away": {
-                    "tid": 19864,
-                    "name": "TBD",
-                    "abbr": "TBD",
-                    "logo": "",
-                    "placeholder": true
+                    "tid": 1295,
+                    "name": "Ghana",
+                    "abbr": "GHA",
+                    "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4764.png",
+                    "placeholder": false
                   },
                   "result": {
                     "home": "0",
@@ -904,11 +904,11 @@
                     "placeholder": false
                   },
                   "away": {
-                    "tid": 19859,
-                    "name": "TBD",
-                    "abbr": "TBD",
-                    "logo": "",
-                    "placeholder": true
+                    "tid": 1147,
+                    "name": "Algeria",
+                    "abbr": "ALG",
+                    "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4691.png",
+                    "placeholder": false
                   },
                   "result": {
                     "home": "0",
