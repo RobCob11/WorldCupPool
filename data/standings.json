@@ -1,21 +1,35 @@
 {
-  "updatedAt": "2026-06-28T18:56:17.034Z",
+  "updatedAt": "2026-06-29T12:49:47.225Z",
   "stage": "live",
   "groupMatchesScored": 72,
   "live": false,
   "topPerformer": {
-    "tid": 25,
-    "name": "Mexico",
-    "points": 57,
-    "pool": "Pine Street"
+    "tid": 1945,
+    "name": "Canada",
+    "points": 112.5,
+    "pool": "San Luis Obispo"
   },
   "pools": [
     {
       "name": "San Luis Obispo",
-      "totalPoints": 205,
+      "totalPoints": 280,
       "scoringCount": 6,
       "live": false,
       "teams": [
+        {
+          "name": "Canada",
+          "tid": 1945,
+          "pr": 25,
+          "points": 112.5,
+          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4752.png",
+          "form": [
+            "W",
+            "L",
+            "W"
+          ],
+          "live": false,
+          "isTopPerformer": true
+        },
         {
           "name": "South Africa",
           "tid": 1291,
@@ -23,9 +37,9 @@
           "points": 54,
           "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4736.png",
           "form": [
+            "L",
             "W",
-            "D",
-            "L"
+            "D"
           ],
           "live": false,
           "isTopPerformer": false
@@ -40,20 +54,6 @@
             "D",
             "W",
             "L"
-          ],
-          "live": false,
-          "isTopPerformer": false
-        },
-        {
-          "name": "Canada",
-          "tid": 1945,
-          "pr": 25,
-          "points": 37.5,
-          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4752.png",
-          "form": [
-            "L",
-            "W",
-            "D"
           ],
           "live": false,
           "isTopPerformer": false
@@ -196,7 +196,7 @@
         }
       ],
       "rank": 2,
-      "rankChange": 4
+      "rankChange": 0
     },
     {
       "name": "Los Angeles",
@@ -290,7 +290,7 @@
         }
       ],
       "rank": 3,
-      "rankChange": -1
+      "rankChange": 0
     },
     {
       "name": "Pine Street",
@@ -310,7 +310,7 @@
             "W"
           ],
           "live": false,
-          "isTopPerformer": true
+          "isTopPerformer": false
         },
         {
           "name": "Ghana",
@@ -384,7 +384,7 @@
         }
       ],
       "rank": 4,
-      "rankChange": -1
+      "rankChange": 0
     },
     {
       "name": "Kentfield",
@@ -572,7 +572,7 @@
         }
       ],
       "rank": 6,
-      "rankChange": -2
+      "rankChange": 0
     },
     {
       "name": "Seminary",

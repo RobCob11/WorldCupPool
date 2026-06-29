@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-28T18:56:17.035Z",
+  "updatedAt": "2026-06-29T12:49:47.225Z",
   "final": {
     "mid": "305556",
     "matchNumber": 105,
@@ -121,11 +121,11 @@
               "status": "upcoming",
               "live": false,
               "home": {
-                "tid": 19865,
-                "name": "TBD",
-                "abbr": "TBD",
-                "logo": "",
-                "placeholder": true
+                "tid": 1945,
+                "name": "Canada",
+                "abbr": "CAN",
+                "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4752.png",
+                "placeholder": false
               },
               "away": {
                 "tid": 19866,
@@ -141,35 +141,6 @@
               }
             },
             "children": [
-              {
-                "match": {
-                  "mid": "305525",
-                  "matchNumber": 74,
-                  "round": "Round of 32",
-                  "date": "2026-06-28 19:00:00",
-                  "status": "upcoming",
-                  "live": false,
-                  "home": {
-                    "tid": 1291,
-                    "name": "South Africa",
-                    "abbr": "SA",
-                    "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4736.png",
-                    "placeholder": false
-                  },
-                  "away": {
-                    "tid": 1945,
-                    "name": "Canada",
-                    "abbr": "CAN",
-                    "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4752.png",
-                    "placeholder": false
-                  },
-                  "result": {
-                    "home": "0",
-                    "away": "0",
-                    "winner": ""
-                  }
-                }
-              },
               {
                 "match": {
                   "mid": "305526",
