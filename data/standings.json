@@ -1,21 +1,35 @@
 {
-  "updatedAt": "2026-06-29T21:10:15.673Z",
+  "updatedAt": "2026-06-29T23:40:33.105Z",
   "stage": "live",
   "groupMatchesScored": 72,
-  "live": true,
+  "live": false,
   "topPerformer": {
-    "tid": 1945,
-    "name": "Canada",
-    "points": 112.5,
+    "tid": 1170,
+    "name": "Paraguay",
+    "points": 126,
     "pool": "San Luis Obispo"
   },
   "pools": [
     {
       "name": "San Luis Obispo",
-      "totalPoints": 292,
+      "totalPoints": 376,
       "scoringCount": 6,
-      "live": true,
+      "live": false,
       "teams": [
+        {
+          "name": "Paraguay",
+          "tid": 1170,
+          "pr": 28,
+          "points": 126,
+          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4789.png",
+          "form": [
+            "W",
+            "D",
+            "W"
+          ],
+          "live": false,
+          "isTopPerformer": true
+        },
         {
           "name": "Canada",
           "tid": 1945,
@@ -28,7 +42,7 @@
             "W"
           ],
           "live": false,
-          "isTopPerformer": true
+          "isTopPerformer": false
         },
         {
           "name": "South Africa",
@@ -42,20 +56,6 @@
             "D"
           ],
           "live": false,
-          "isTopPerformer": false
-        },
-        {
-          "name": "Paraguay",
-          "tid": 1170,
-          "pr": 28,
-          "points": 42,
-          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4789.png",
-          "form": [
-            "D",
-            "W",
-            "L"
-          ],
-          "live": true,
           "isTopPerformer": false
         },
         {
@@ -578,7 +578,7 @@
       "name": "Seminary",
       "totalPoints": 116,
       "scoringCount": 5,
-      "live": true,
+      "live": false,
       "teams": [
         {
           "name": "Australia",
@@ -630,10 +630,10 @@
           "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4711.png",
           "form": [
             "L",
-            "W",
+            "L",
             "W"
           ],
-          "live": true,
+          "live": false,
           "isTopPerformer": false
         },
         {

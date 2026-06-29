@@ -1186,7 +1186,7 @@
   {
     "mid": "305526",
     "round": "Round of 32",
-    "status": "live",
+    "status": "result",
     "timestampstart": 1782765000,
     "timestampend": 1782775800,
     "home": "Germany",
@@ -1194,9 +1194,9 @@
     "homeTid": 10,
     "awayTid": 1170,
     "result": {
-      "home": "0",
-      "away": "0",
-      "winner": ""
+      "home": "4",
+      "away": "5",
+      "winner": "away"
     }
   },
   {
