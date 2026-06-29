@@ -1170,7 +1170,7 @@
   {
     "mid": "305528",
     "round": "Round of 32",
-    "status": "upcoming",
+    "status": "result",
     "timestampstart": 1782752400,
     "timestampend": 1782763200,
     "home": "Brazil",
@@ -1178,15 +1178,15 @@
     "homeTid": 19,
     "awayTid": 23,
     "result": {
-      "home": "0",
-      "away": "0",
-      "winner": ""
+      "home": "2",
+      "away": "1",
+      "winner": "home"
     }
   },
   {
     "mid": "305526",
     "round": "Round of 32",
-    "status": "upcoming",
+    "status": "live",
     "timestampstart": 1782765000,
     "timestampend": 1782775800,
     "home": "Germany",

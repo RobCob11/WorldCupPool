@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-29T14:34:06.054Z",
+  "updatedAt": "2026-06-29T21:10:15.674Z",
   "final": {
     "mid": "305556",
     "matchNumber": 105,
@@ -147,8 +147,8 @@
                   "matchNumber": 76,
                   "round": "Round of 32",
                   "date": "2026-06-29 20:30:00",
-                  "status": "upcoming",
-                  "live": false,
+                  "status": "live",
+                  "live": true,
                   "home": {
                     "tid": 10,
                     "name": "Germany",
@@ -207,7 +207,7 @@
                   "matchNumber": 75,
                   "round": "Round of 32",
                   "date": "2026-06-29 17:00:00",
-                  "status": "upcoming",
+                  "status": "result",
                   "live": false,
                   "home": {
                     "tid": 19,
@@ -224,9 +224,9 @@
                     "placeholder": false
                   },
                   "result": {
-                    "home": "0",
-                    "away": "0",
-                    "winner": ""
+                    "home": "2",
+                    "away": "1",
+                    "winner": "home"
                   }
                 }
               },

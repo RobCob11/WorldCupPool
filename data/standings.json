@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-06-29T14:34:06.053Z",
+  "updatedAt": "2026-06-29T21:10:15.673Z",
   "stage": "live",
   "groupMatchesScored": 72,
-  "live": false,
+  "live": true,
   "topPerformer": {
     "tid": 1945,
     "name": "Canada",
@@ -12,9 +12,9 @@
   "pools": [
     {
       "name": "San Luis Obispo",
-      "totalPoints": 280,
+      "totalPoints": 292,
       "scoringCount": 6,
-      "live": false,
+      "live": true,
       "teams": [
         {
           "name": "Canada",
@@ -55,7 +55,7 @@
             "W",
             "L"
           ],
-          "live": false,
+          "live": true,
           "isTopPerformer": false
         },
         {
@@ -90,12 +90,12 @@
           "name": "Brazil",
           "tid": 19,
           "pr": 4,
-          "points": 10,
+          "points": 22,
           "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4748.png",
           "form": [
             "W",
             "W",
-            "D"
+            "W"
           ],
           "live": false,
           "isTopPerformer": false
@@ -521,9 +521,9 @@
           "points": 30,
           "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4770.png",
           "form": [
+            "L",
             "D",
-            "W",
-            "D"
+            "W"
           ],
           "live": false,
           "isTopPerformer": false
@@ -578,7 +578,7 @@
       "name": "Seminary",
       "totalPoints": 116,
       "scoringCount": 5,
-      "live": false,
+      "live": true,
       "teams": [
         {
           "name": "Australia",
@@ -633,7 +633,7 @@
             "W",
             "W"
           ],
-          "live": false,
+          "live": true,
           "isTopPerformer": false
         },
         {
