@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-30T11:31:34.738Z",
+  "updatedAt": "2026-06-30T18:23:51.847Z",
   "final": {
     "mid": "305556",
     "matchNumber": 105,
@@ -176,8 +176,8 @@
                   "matchNumber": 78,
                   "round": "Round of 32",
                   "date": "2026-06-30 17:00:00",
-                  "status": "upcoming",
-                  "live": false,
+                  "status": "live",
+                  "live": true,
                   "home": {
                     "tid": 1165,
                     "name": "Ivory Coast",
@@ -194,7 +194,7 @@
                   },
                   "result": {
                     "home": "0",
-                    "away": "0",
+                    "away": "1",
                     "winner": ""
                   }
                 }

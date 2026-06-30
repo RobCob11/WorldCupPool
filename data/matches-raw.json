@@ -1218,7 +1218,7 @@
   {
     "mid": "305530",
     "round": "Round of 32",
-    "status": "upcoming",
+    "status": "live",
     "timestampstart": 1782838800,
     "timestampend": 1782849600,
     "home": "Ivory Coast",
@@ -1227,7 +1227,7 @@
     "awayTid": 1184,
     "result": {
       "home": "0",
-      "away": "0",
+      "away": "1",
       "winner": ""
     }
   },

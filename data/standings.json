@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-06-30T11:31:34.737Z",
+  "updatedAt": "2026-06-30T18:23:51.846Z",
   "stage": "live",
   "groupMatchesScored": 72,
-  "live": false,
+  "live": true,
   "topPerformer": {
     "tid": 1170,
     "name": "Paraguay",
@@ -202,7 +202,7 @@
       "name": "Sea Ranch",
       "totalPoints": 194.5,
       "scoringCount": 6,
-      "live": false,
+      "live": true,
       "teams": [
         {
           "name": "DR Congo",
@@ -285,7 +285,7 @@
             "W",
             "W"
           ],
-          "live": false,
+          "live": true,
           "isTopPerformer": false
         }
       ],
@@ -484,7 +484,7 @@
       "name": "Dublin",
       "totalPoints": 154.5,
       "scoringCount": 4,
-      "live": false,
+      "live": true,
       "teams": [
         {
           "name": "Iran",
@@ -511,7 +511,7 @@
             "L",
             "W"
           ],
-          "live": false,
+          "live": true,
           "isTopPerformer": false
         },
         {
