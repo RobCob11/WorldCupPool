@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-29T23:46:30.456Z",
+  "updatedAt": "2026-06-30T10:45:53.976Z",
   "stage": "live",
   "groupMatchesScored": 72,
   "live": false,
@@ -105,6 +105,100 @@
       "rankChange": 0
     },
     {
+      "name": "Los Angeles",
+      "totalPoints": 222.5,
+      "scoringCount": 6,
+      "live": false,
+      "teams": [
+        {
+          "name": "Morocco",
+          "tid": 24,
+          "pr": 12,
+          "points": 66,
+          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4778.png",
+          "form": [
+            "W",
+            "W",
+            "W"
+          ],
+          "live": false,
+          "isTopPerformer": false
+        },
+        {
+          "name": "Bosnia and Herzegovina",
+          "tid": 1187,
+          "pr": 32,
+          "points": 48,
+          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4479.png",
+          "form": [
+            "W",
+            "L",
+            "D"
+          ],
+          "live": false,
+          "isTopPerformer": false
+        },
+        {
+          "name": "Algeria",
+          "tid": 1147,
+          "pr": 30,
+          "points": 45,
+          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4691.png",
+          "form": [
+            "D",
+            "W",
+            "L"
+          ],
+          "live": false,
+          "isTopPerformer": false
+        },
+        {
+          "name": "South Korea",
+          "tid": 16,
+          "pr": 31,
+          "points": 31,
+          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4735.png",
+          "form": [
+            "L",
+            "L",
+            "W"
+          ],
+          "live": false,
+          "isTopPerformer": false
+        },
+        {
+          "name": "New Zealand",
+          "tid": 3593,
+          "pr": 41,
+          "points": 20.5,
+          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4784.png",
+          "form": [
+            "L",
+            "L",
+            "D"
+          ],
+          "live": false,
+          "isTopPerformer": false
+        },
+        {
+          "name": "Portugal",
+          "tid": 8,
+          "pr": 6,
+          "points": 12,
+          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4704.png",
+          "form": [
+            "D",
+            "W",
+            "D"
+          ],
+          "live": false,
+          "isTopPerformer": false
+        }
+      ],
+      "rank": 2,
+      "rankChange": 1
+    },
+    {
       "name": "Sea Ranch",
       "totalPoints": 194.5,
       "scoringCount": 6,
@@ -195,102 +289,8 @@
           "isTopPerformer": false
         }
       ],
-      "rank": 2,
-      "rankChange": 0
-    },
-    {
-      "name": "Los Angeles",
-      "totalPoints": 186.5,
-      "scoringCount": 6,
-      "live": false,
-      "teams": [
-        {
-          "name": "Bosnia and Herzegovina",
-          "tid": 1187,
-          "pr": 32,
-          "points": 48,
-          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4479.png",
-          "form": [
-            "W",
-            "L",
-            "D"
-          ],
-          "live": false,
-          "isTopPerformer": false
-        },
-        {
-          "name": "Algeria",
-          "tid": 1147,
-          "pr": 30,
-          "points": 45,
-          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4691.png",
-          "form": [
-            "D",
-            "W",
-            "L"
-          ],
-          "live": false,
-          "isTopPerformer": false
-        },
-        {
-          "name": "South Korea",
-          "tid": 16,
-          "pr": 31,
-          "points": 31,
-          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4735.png",
-          "form": [
-            "L",
-            "L",
-            "W"
-          ],
-          "live": false,
-          "isTopPerformer": false
-        },
-        {
-          "name": "Morocco",
-          "tid": 24,
-          "pr": 12,
-          "points": 30,
-          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4778.png",
-          "form": [
-            "W",
-            "W",
-            "D"
-          ],
-          "live": false,
-          "isTopPerformer": false
-        },
-        {
-          "name": "New Zealand",
-          "tid": 3593,
-          "pr": 41,
-          "points": 20.5,
-          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4784.png",
-          "form": [
-            "L",
-            "L",
-            "D"
-          ],
-          "live": false,
-          "isTopPerformer": false
-        },
-        {
-          "name": "Portugal",
-          "tid": 8,
-          "pr": 6,
-          "points": 12,
-          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4704.png",
-          "form": [
-            "D",
-            "W",
-            "D"
-          ],
-          "live": false,
-          "isTopPerformer": false
-        }
-      ],
       "rank": 3,
-      "rankChange": 0
+      "rankChange": -1
     },
     {
       "name": "Pine Street",
@@ -709,9 +709,9 @@
           "points": 20,
           "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4705.png",
           "form": [
+            "L",
             "W",
-            "W",
-            "D"
+            "W"
           ],
           "live": false,
           "isTopPerformer": false

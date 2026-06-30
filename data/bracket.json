@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-29T23:46:30.457Z",
+  "updatedAt": "2026-06-30T10:45:53.976Z",
   "final": {
     "mid": "305556",
     "matchNumber": 105,
@@ -128,49 +128,18 @@
                 "placeholder": false
               },
               "away": {
-                "tid": 19866,
-                "name": "TBD",
-                "abbr": "TBD",
-                "logo": "",
-                "placeholder": true
+                "tid": 24,
+                "name": "Morocco",
+                "abbr": "MAR",
+                "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4778.png",
+                "placeholder": false
               },
               "result": {
                 "home": "0",
                 "away": "0",
                 "winner": ""
               }
-            },
-            "children": [
-              {
-                "match": {
-                  "mid": "305526",
-                  "matchNumber": 76,
-                  "round": "Round of 32",
-                  "date": "2026-06-29 20:30:00",
-                  "status": "result",
-                  "live": false,
-                  "home": {
-                    "tid": 10,
-                    "name": "Germany",
-                    "abbr": "GER",
-                    "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4711.png",
-                    "placeholder": false
-                  },
-                  "away": {
-                    "tid": 1170,
-                    "name": "Paraguay",
-                    "abbr": "PAR",
-                    "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4789.png",
-                    "placeholder": false
-                  },
-                  "result": {
-                    "home": "4",
-                    "away": "5",
-                    "winner": "away"
-                  }
-                }
-              }
-            ]
+            }
           },
           {
             "match": {
@@ -181,11 +150,11 @@
               "status": "upcoming",
               "live": false,
               "home": {
-                "tid": 19867,
-                "name": "TBD",
-                "abbr": "TBD",
-                "logo": "",
-                "placeholder": true
+                "tid": 1170,
+                "name": "Paraguay",
+                "abbr": "PAR",
+                "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4789.png",
+                "placeholder": false
               },
               "away": {
                 "tid": 19868,
@@ -201,35 +170,6 @@
               }
             },
             "children": [
-              {
-                "match": {
-                  "mid": "305528",
-                  "matchNumber": 75,
-                  "round": "Round of 32",
-                  "date": "2026-06-29 17:00:00",
-                  "status": "result",
-                  "live": false,
-                  "home": {
-                    "tid": 19,
-                    "name": "Brazil",
-                    "abbr": "BRA",
-                    "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4748.png",
-                    "placeholder": false
-                  },
-                  "away": {
-                    "tid": 23,
-                    "name": "Japan",
-                    "abbr": "JPN",
-                    "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4770.png",
-                    "placeholder": false
-                  },
-                  "result": {
-                    "home": "2",
-                    "away": "1",
-                    "winner": "home"
-                  }
-                }
-              },
               {
                 "match": {
                   "mid": "305530",
@@ -541,11 +481,11 @@
               "status": "upcoming",
               "live": false,
               "home": {
-                "tid": 19869,
-                "name": "TBD",
-                "abbr": "TBD",
-                "logo": "",
-                "placeholder": true
+                "tid": 19,
+                "name": "Brazil",
+                "abbr": "BRA",
+                "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4748.png",
+                "placeholder": false
               },
               "away": {
                 "tid": 19871,
@@ -561,35 +501,6 @@
               }
             },
             "children": [
-              {
-                "match": {
-                  "mid": "305527",
-                  "matchNumber": 77,
-                  "round": "Round of 32",
-                  "date": "2026-06-30 01:00:00",
-                  "status": "upcoming",
-                  "live": false,
-                  "home": {
-                    "tid": 1196,
-                    "name": "Netherlands",
-                    "abbr": "NED",
-                    "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4705.png",
-                    "placeholder": false
-                  },
-                  "away": {
-                    "tid": 24,
-                    "name": "Morocco",
-                    "abbr": "MAR",
-                    "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4778.png",
-                    "placeholder": false
-                  },
-                  "result": {
-                    "home": "0",
-                    "away": "0",
-                    "winner": ""
-                  }
-                }
-              },
               {
                 "match": {
                   "mid": "305529",
