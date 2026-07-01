@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-01T13:40:44.143Z",
+  "updatedAt": "2026-07-01T18:32:57.746Z",
   "final": {
     "mid": "305556",
     "matchNumber": 105,
@@ -666,11 +666,11 @@
                 "placeholder": false
               },
               "away": {
-                "tid": 19881,
-                "name": "TBD",
-                "abbr": "TBD",
-                "logo": "",
-                "placeholder": true
+                "tid": 11,
+                "name": "England",
+                "abbr": "ENG",
+                "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4713.png",
+                "placeholder": false
               },
               "result": {
                 "home": "0",
@@ -714,7 +714,7 @@
                   "matchNumber": 81,
                   "round": "Round of 32",
                   "date": "2026-07-01 16:00:00",
-                  "status": "upcoming",
+                  "status": "result",
                   "live": false,
                   "home": {
                     "tid": 11,
@@ -731,9 +731,9 @@
                     "placeholder": false
                   },
                   "result": {
-                    "home": "0",
-                    "away": "0",
-                    "winner": ""
+                    "home": "2",
+                    "away": "1",
+                    "winner": "home"
                   }
                 }
               }

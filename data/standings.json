@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-01T13:40:44.142Z",
+  "updatedAt": "2026-07-01T18:32:57.745Z",
   "stage": "live",
   "groupMatchesScored": 72,
   "live": false,
@@ -305,9 +305,9 @@
           "points": 54,
           "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4823.png",
           "form": [
-            "W",
             "L",
-            "D"
+            "W",
+            "L"
           ],
           "live": false,
           "isTopPerformer": false
@@ -388,7 +388,7 @@
     },
     {
       "name": "Kentfield",
-      "totalPoints": 156.5,
+      "totalPoints": 165.5,
       "scoringCount": 5,
       "live": false,
       "teams": [
@@ -452,12 +452,12 @@
           "name": "England",
           "tid": 11,
           "pr": 3,
-          "points": 7.5,
+          "points": 16.5,
           "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4713.png",
           "form": [
             "W",
-            "D",
-            "W"
+            "W",
+            "D"
           ],
           "live": false,
           "isTopPerformer": false
