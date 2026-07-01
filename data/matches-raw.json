@@ -1218,7 +1218,7 @@
   {
     "mid": "305530",
     "round": "Round of 32",
-    "status": "live",
+    "status": "result",
     "timestampstart": 1782838800,
     "timestampend": 1782849600,
     "home": "Ivory Coast",
@@ -1226,15 +1226,15 @@
     "homeTid": 1165,
     "awayTid": 1184,
     "result": {
-      "home": "0",
-      "away": "1",
-      "winner": ""
+      "home": "1",
+      "away": "2",
+      "winner": "away"
     }
   },
   {
     "mid": "305529",
     "round": "Round of 32",
-    "status": "upcoming",
+    "status": "result",
     "timestampstart": 1782853200,
     "timestampend": 1782864000,
     "home": "France",
@@ -1242,25 +1242,25 @@
     "homeTid": 2,
     "awayTid": 3,
     "result": {
-      "home": "0",
+      "home": "3",
       "away": "0",
-      "winner": ""
+      "winner": "home"
     }
   },
   {
     "mid": "305531",
     "round": "Round of 32",
-    "status": "upcoming",
-    "timestampstart": 1782867600,
-    "timestampend": 1782878400,
+    "status": "result",
+    "timestampstart": 1782871200,
+    "timestampend": 1782882000,
     "home": "Mexico",
     "away": "Ecuador",
     "homeTid": 25,
     "awayTid": 1154,
     "result": {
-      "home": "0",
+      "home": "2",
       "away": "0",
-      "winner": ""
+      "winner": "home"
     }
   },
   {
@@ -1430,9 +1430,9 @@
     "timestampstart": 1783198800,
     "timestampend": 1783209600,
     "home": "Paraguay",
-    "away": "w77",
+    "away": "France",
     "homeTid": 1170,
-    "awayTid": 19868,
+    "awayTid": 2,
     "result": {
       "home": "0",
       "away": "0",
@@ -1446,9 +1446,9 @@
     "timestampstart": 1783281600,
     "timestampend": 1783292400,
     "home": "Brazil",
-    "away": "w78",
+    "away": "Norway",
     "homeTid": 19,
-    "awayTid": 19871,
+    "awayTid": 1184,
     "result": {
       "home": "0",
       "away": "0",
@@ -1461,9 +1461,9 @@
     "status": "upcoming",
     "timestampstart": 1783296000,
     "timestampend": 1783306800,
-    "home": "w79",
+    "home": "Mexico",
     "away": "w80",
-    "homeTid": 19872,
+    "homeTid": 25,
     "awayTid": 19881,
     "result": {
       "home": "0",

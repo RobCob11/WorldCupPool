@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-06-30T18:23:51.846Z",
+  "updatedAt": "2026-07-01T04:16:53.339Z",
   "stage": "live",
   "groupMatchesScored": 72,
-  "live": true,
+  "live": false,
   "topPerformer": {
     "tid": 1170,
     "name": "Paraguay",
@@ -79,9 +79,9 @@
           "points": 25.5,
           "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4757.webp",
           "form": [
+            "L",
             "W",
-            "D",
-            "L"
+            "D"
           ],
           "live": false,
           "isTopPerformer": false
@@ -103,6 +103,100 @@
       ],
       "rank": 1,
       "rankChange": 0
+    },
+    {
+      "name": "Pine Street",
+      "totalPoints": 223.5,
+      "scoringCount": 5,
+      "live": false,
+      "teams": [
+        {
+          "name": "Mexico",
+          "tid": 25,
+          "pr": 19,
+          "points": 114,
+          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4781.png",
+          "form": [
+            "W",
+            "W",
+            "W"
+          ],
+          "live": false,
+          "isTopPerformer": false
+        },
+        {
+          "name": "Ghana",
+          "tid": 1295,
+          "pr": 28,
+          "points": 42,
+          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4764.png",
+          "form": [
+            "L",
+            "D",
+            "W"
+          ],
+          "live": false,
+          "isTopPerformer": false
+        },
+        {
+          "name": "Switzerland",
+          "tid": 6,
+          "pr": 15,
+          "points": 37.5,
+          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4699.png",
+          "form": [
+            "W",
+            "W",
+            "D"
+          ],
+          "live": false,
+          "isTopPerformer": false
+        },
+        {
+          "name": "Colombia",
+          "tid": 29,
+          "pr": 11,
+          "points": 27.5,
+          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4820.png",
+          "form": [
+            "D",
+            "W",
+            "W"
+          ],
+          "live": false,
+          "isTopPerformer": false
+        },
+        {
+          "name": "Spain",
+          "tid": 5,
+          "pr": 1,
+          "points": 2.5,
+          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4698.png",
+          "form": [
+            "W",
+            "W",
+            "D"
+          ],
+          "live": false,
+          "isTopPerformer": false
+        },
+        {
+          "name": "Uzbekistan",
+          "tid": 1044,
+          "pr": 41,
+          "points": 0,
+          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4723.png",
+          "form": [
+            "L",
+            "L",
+            "L"
+          ],
+          "live": false,
+          "isTopPerformer": false
+        }
+      ],
+      "rank": 2,
+      "rankChange": 2
     },
     {
       "name": "Los Angeles",
@@ -195,14 +289,14 @@
           "isTopPerformer": false
         }
       ],
-      "rank": 2,
-      "rankChange": 1
+      "rank": 3,
+      "rankChange": -1
     },
     {
       "name": "Sea Ranch",
-      "totalPoints": 194.5,
+      "totalPoints": 221.5,
       "scoringCount": 6,
-      "live": true,
+      "live": false,
       "teams": [
         {
           "name": "DR Congo",
@@ -214,6 +308,20 @@
             "W",
             "L",
             "D"
+          ],
+          "live": false,
+          "isTopPerformer": false
+        },
+        {
+          "name": "Norway",
+          "tid": 1184,
+          "pr": 9,
+          "points": 45,
+          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4475.png",
+          "form": [
+            "W",
+            "L",
+            "W"
           ],
           "live": false,
           "isTopPerformer": false
@@ -253,9 +361,9 @@
           "points": 31.5,
           "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4688.png",
           "form": [
-            "D",
             "L",
-            "W"
+            "D",
+            "L"
           ],
           "live": false,
           "isTopPerformer": false
@@ -273,118 +381,10 @@
           ],
           "live": false,
           "isTopPerformer": false
-        },
-        {
-          "name": "Norway",
-          "tid": 1184,
-          "pr": 9,
-          "points": 18,
-          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4475.png",
-          "form": [
-            "L",
-            "W",
-            "W"
-          ],
-          "live": true,
-          "isTopPerformer": false
-        }
-      ],
-      "rank": 3,
-      "rankChange": -1
-    },
-    {
-      "name": "Pine Street",
-      "totalPoints": 166.5,
-      "scoringCount": 5,
-      "live": false,
-      "teams": [
-        {
-          "name": "Mexico",
-          "tid": 25,
-          "pr": 19,
-          "points": 57,
-          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4781.png",
-          "form": [
-            "W",
-            "W",
-            "W"
-          ],
-          "live": false,
-          "isTopPerformer": false
-        },
-        {
-          "name": "Ghana",
-          "tid": 1295,
-          "pr": 28,
-          "points": 42,
-          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4764.png",
-          "form": [
-            "L",
-            "D",
-            "W"
-          ],
-          "live": false,
-          "isTopPerformer": false
-        },
-        {
-          "name": "Switzerland",
-          "tid": 6,
-          "pr": 15,
-          "points": 37.5,
-          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4699.png",
-          "form": [
-            "W",
-            "W",
-            "D"
-          ],
-          "live": false,
-          "isTopPerformer": false
-        },
-        {
-          "name": "Colombia",
-          "tid": 29,
-          "pr": 11,
-          "points": 27.5,
-          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4820.png",
-          "form": [
-            "D",
-            "W",
-            "W"
-          ],
-          "live": false,
-          "isTopPerformer": false
-        },
-        {
-          "name": "Spain",
-          "tid": 5,
-          "pr": 1,
-          "points": 2.5,
-          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4698.png",
-          "form": [
-            "W",
-            "W",
-            "D"
-          ],
-          "live": false,
-          "isTopPerformer": false
-        },
-        {
-          "name": "Uzbekistan",
-          "tid": 1044,
-          "pr": 41,
-          "points": 0,
-          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4723.png",
-          "form": [
-            "L",
-            "L",
-            "L"
-          ],
-          "live": false,
-          "isTopPerformer": false
         }
       ],
       "rank": 4,
-      "rankChange": 0
+      "rankChange": -1
     },
     {
       "name": "Kentfield",
@@ -484,7 +484,7 @@
       "name": "Dublin",
       "totalPoints": 154.5,
       "scoringCount": 4,
-      "live": true,
+      "live": false,
       "teams": [
         {
           "name": "Iran",
@@ -507,11 +507,11 @@
           "points": 52,
           "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4768.png",
           "form": [
-            "W",
             "L",
-            "W"
+            "W",
+            "L"
           ],
-          "live": true,
+          "live": false,
           "isTopPerformer": false
         },
         {
@@ -670,7 +670,7 @@
     },
     {
       "name": "Boise",
-      "totalPoints": 84.5,
+      "totalPoints": 87.5,
       "scoringCount": 5,
       "live": false,
       "teams": [
@@ -734,7 +734,7 @@
           "name": "France",
           "tid": 2,
           "pr": 1,
-          "points": 3,
+          "points": 6,
           "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4481.png",
           "form": [
             "W",
