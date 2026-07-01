@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-01T18:32:57.745Z",
+  "updatedAt": "2026-07-01T23:53:08.639Z",
   "stage": "live",
   "groupMatchesScored": 72,
   "live": false,
@@ -388,7 +388,7 @@
     },
     {
       "name": "Kentfield",
-      "totalPoints": 165.5,
+      "totalPoints": 192.5,
       "scoringCount": 5,
       "live": false,
       "teams": [
@@ -421,6 +421,20 @@
           "isTopPerformer": false
         },
         {
+          "name": "Belgium",
+          "tid": 13,
+          "pr": 9,
+          "points": 45,
+          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4717.png",
+          "form": [
+            "W",
+            "W",
+            "D"
+          ],
+          "live": false,
+          "isTopPerformer": false
+        },
+        {
           "name": "Turkey",
           "tid": 1149,
           "pr": 21,
@@ -430,20 +444,6 @@
             "W",
             "L",
             "L"
-          ],
-          "live": false,
-          "isTopPerformer": false
-        },
-        {
-          "name": "Belgium",
-          "tid": 13,
-          "pr": 9,
-          "points": 18,
-          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4717.png",
-          "form": [
-            "W",
-            "D",
-            "D"
           ],
           "live": false,
           "isTopPerformer": false
@@ -535,8 +535,8 @@
           "points": 20,
           "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4739.png",
           "form": [
-            "W",
             "L",
+            "W",
             "L"
           ],
           "live": false,

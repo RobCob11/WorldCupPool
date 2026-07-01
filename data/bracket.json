@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-01T18:32:57.746Z",
+  "updatedAt": "2026-07-01T23:53:08.640Z",
   "final": {
     "mid": "305556",
     "matchNumber": 105,
@@ -426,11 +426,11 @@
                 "placeholder": true
               },
               "away": {
-                "tid": 19823,
-                "name": "TBD",
-                "abbr": "TBD",
-                "logo": "",
-                "placeholder": true
+                "tid": 13,
+                "name": "Belgium",
+                "abbr": "BEL",
+                "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4717.png",
+                "placeholder": false
               },
               "result": {
                 "home": "0",
@@ -445,7 +445,7 @@
                   "matchNumber": 82,
                   "round": "Round of 32",
                   "date": "2026-07-01 20:00:00",
-                  "status": "upcoming",
+                  "status": "result",
                   "live": false,
                   "home": {
                     "tid": 13,
@@ -462,38 +462,38 @@
                     "placeholder": false
                   },
                   "result": {
-                    "home": "0",
-                    "away": "0",
-                    "winner": ""
+                    "home": "3",
+                    "away": "2",
+                    "winner": "home"
                   }
                 }
               },
               {
                 "match": {
-                  "mid": "305532",
-                  "matchNumber": 83,
+                  "mid": "305533",
+                  "matchNumber": 82,
                   "round": "Round of 32",
-                  "date": "2026-07-02 00:00:00",
-                  "status": "upcoming",
+                  "date": "2026-07-01 20:00:00",
+                  "status": "result",
                   "live": false,
                   "home": {
-                    "tid": 1155,
-                    "name": "USA",
-                    "abbr": "USA",
-                    "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4724.png",
+                    "tid": 13,
+                    "name": "Belgium",
+                    "abbr": "BEL",
+                    "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4717.png",
                     "placeholder": false
                   },
                   "away": {
-                    "tid": 1187,
-                    "name": "Bosnia & Herzegovina",
-                    "abbr": "BHZ",
-                    "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4479.png",
+                    "tid": 17,
+                    "name": "Senegal",
+                    "abbr": "SEN",
+                    "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4739.png",
                     "placeholder": false
                   },
                   "result": {
-                    "home": "0",
-                    "away": "0",
-                    "winner": ""
+                    "home": "3",
+                    "away": "2",
+                    "winner": "home"
                   }
                 }
               }

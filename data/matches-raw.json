@@ -1282,7 +1282,7 @@
   {
     "mid": "305533",
     "round": "Round of 32",
-    "status": "upcoming",
+    "status": "result",
     "timestampstart": 1782936000,
     "timestampend": 1782946800,
     "home": "Belgium",
@@ -1290,9 +1290,9 @@
     "homeTid": 13,
     "awayTid": 17,
     "result": {
-      "home": "0",
-      "away": "0",
-      "winner": ""
+      "home": "3",
+      "away": "2",
+      "winner": "home"
     }
   },
   {
@@ -1494,9 +1494,9 @@
     "timestampstart": 1783382400,
     "timestampend": 1783393200,
     "home": "w81",
-    "away": "w82",
+    "away": "Belgium",
     "homeTid": 19822,
-    "awayTid": 19823,
+    "awayTid": 13,
     "result": {
       "home": "0",
       "away": "0",
