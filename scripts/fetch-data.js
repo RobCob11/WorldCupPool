@@ -278,6 +278,33 @@ async function main() {
     matchByNumber.set(Number(m.match_number) - 1, m);
   }
 
+  // The API has CIV/NOR (slot 77) and FRA/SWE (slot 78) swapped relative to the
+  // correct bracket draw. Swap them so the tree is built with the right pairings.
+  const slot77 = matchByNumber.get(77);
+  const slot78 = matchByNumber.get(78);
+  if (slot77 && slot78) {
+    matchByNumber.set(77, slot78);
+    matchByNumber.set(78, slot77);
+  }
+
+  // When the API replaces a W<n> placeholder with a real team name, we find the
+  // child match by searching for the team's TID in the preceding round.
+  const ROUND_CHILD = {
+    "Round of 16": "Round of 32",
+    "Quarterfinals": "Round of 16",
+    "Semifinals": "Quarterfinals",
+    "Final": "Semifinals",
+  };
+
+  function findChildByTid(tid, childRound) {
+    if (!childRound) return null;
+    return bracketMatches.find(
+      (cm) =>
+        cm.round === childRound &&
+        (Number(cm.teams.home.tid) === Number(tid) || Number(cm.teams.away.tid) === Number(tid))
+    ) || null;
+  }
+
   function resolveTeam(team) {
     const dirEntry = teamDirectory.get(Number(team.tid));
     const isPlaceholder = !dirEntry || dirEntry.iscountry !== "true";
@@ -313,14 +340,22 @@ async function main() {
     return { type: match[1].toUpperCase(), num: Number(match[2]) };
   }
 
+  function resolveChildNode(tname, tid, childRound) {
+    const ref = parseRef(tname);
+    if (ref) return buildNode(ref.num);
+    // tname was overwritten by a real team name — find the child match by TID
+    const childMatch = findChildByTid(tid, childRound);
+    if (!childMatch) return null;
+    return buildNode(Number(childMatch.match_number) - 1);
+  }
+
   function buildNode(matchNumber) {
     const m = matchByNumber.get(matchNumber);
     if (!m) return null;
-    const homeRef = parseRef(m.teams.home.tname);
-    const awayRef = parseRef(m.teams.away.tname);
-    const children = [homeRef ? buildNode(homeRef.num) : null, awayRef ? buildNode(awayRef.num) : null].filter(
-      Boolean
-    );
+    const childRound = ROUND_CHILD[m.round];
+    const homeChild = resolveChildNode(m.teams.home.tname, m.teams.home.tid, childRound);
+    const awayChild = resolveChildNode(m.teams.away.tname, m.teams.away.tid, childRound);
+    const children = [homeChild, awayChild].filter(Boolean);
     return { match: buildMatchObj(m), children: children.length ? children : undefined };
   }
 
