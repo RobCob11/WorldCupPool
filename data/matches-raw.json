@@ -1314,7 +1314,7 @@
   {
     "mid": "305537",
     "round": "Round of 32",
-    "status": "upcoming",
+    "status": "result",
     "timestampstart": 1783018800,
     "timestampend": 1783029600,
     "home": "Spain",
@@ -1322,9 +1322,9 @@
     "homeTid": 5,
     "awayTid": 1201,
     "result": {
-      "home": "0",
+      "home": "3",
       "away": "0",
-      "winner": ""
+      "winner": "home"
     }
   },
   {
@@ -1478,9 +1478,9 @@
     "timestampstart": 1783364400,
     "timestampend": 1783375200,
     "home": "w83",
-    "away": "w84",
+    "away": "Spain",
     "homeTid": 19870,
-    "awayTid": 19873,
+    "awayTid": 5,
     "result": {
       "home": "0",
       "away": "0",

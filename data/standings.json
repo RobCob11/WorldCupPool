@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-02T16:17:59.314Z",
+  "updatedAt": "2026-07-02T21:53:06.312Z",
   "stage": "live",
   "groupMatchesScored": 72,
   "live": false,
@@ -106,7 +106,7 @@
     },
     {
       "name": "Pine Street",
-      "totalPoints": 223.5,
+      "totalPoints": 226.5,
       "scoringCount": 5,
       "live": false,
       "teams": [
@@ -170,12 +170,12 @@
           "name": "Spain",
           "tid": 5,
           "pr": 1,
-          "points": 2.5,
+          "points": 5.5,
           "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4698.png",
           "form": [
             "W",
             "W",
-            "D"
+            "W"
           ],
           "live": false,
           "isTopPerformer": false
@@ -333,9 +333,9 @@
           "points": 34.5,
           "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4718.png",
           "form": [
-            "D",
             "L",
-            "W"
+            "D",
+            "L"
           ],
           "live": false,
           "isTopPerformer": false

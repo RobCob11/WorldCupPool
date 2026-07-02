@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-02T16:17:59.315Z",
+  "updatedAt": "2026-07-02T21:53:06.313Z",
   "final": {
     "mid": "305556",
     "matchNumber": 105,
@@ -337,11 +337,11 @@
                 "placeholder": true
               },
               "away": {
-                "tid": 19873,
-                "name": "TBD",
-                "abbr": "TBD",
-                "logo": "",
-                "placeholder": true
+                "tid": 5,
+                "name": "Spain",
+                "abbr": "SPN",
+                "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4698.png",
+                "placeholder": false
               },
               "result": {
                 "home": "0",
@@ -356,7 +356,7 @@
                   "matchNumber": 84,
                   "round": "Round of 32",
                   "date": "2026-07-02 19:00:00",
-                  "status": "upcoming",
+                  "status": "result",
                   "live": false,
                   "home": {
                     "tid": 5,
@@ -373,38 +373,38 @@
                     "placeholder": false
                   },
                   "result": {
-                    "home": "0",
+                    "home": "3",
                     "away": "0",
-                    "winner": ""
+                    "winner": "home"
                   }
                 }
               },
               {
                 "match": {
-                  "mid": "305536",
-                  "matchNumber": 85,
+                  "mid": "305537",
+                  "matchNumber": 84,
                   "round": "Round of 32",
-                  "date": "2026-07-02 23:00:00",
-                  "status": "upcoming",
+                  "date": "2026-07-02 19:00:00",
+                  "status": "result",
                   "live": false,
                   "home": {
-                    "tid": 8,
-                    "name": "Portugal",
-                    "abbr": "POR",
-                    "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4704.png",
+                    "tid": 5,
+                    "name": "Spain",
+                    "abbr": "SPN",
+                    "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4698.png",
                     "placeholder": false
                   },
                   "away": {
-                    "tid": 12,
-                    "name": "Croatia",
-                    "abbr": "CRO",
-                    "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4715.png",
+                    "tid": 1201,
+                    "name": "Austria",
+                    "abbr": "AUT",
+                    "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4718.png",
                     "placeholder": false
                   },
                   "result": {
-                    "home": "0",
+                    "home": "3",
                     "away": "0",
-                    "winner": ""
+                    "winner": "home"
                   }
                 }
               }
