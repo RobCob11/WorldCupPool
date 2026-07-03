@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-03T17:02:51.543Z",
+  "updatedAt": "2026-07-03T21:44:19.610Z",
   "final": {
     "mid": "305556",
     "matchNumber": 105,
@@ -786,11 +786,11 @@
                 "placeholder": true
               },
               "away": {
-                "tid": 19877,
-                "name": "TBD",
-                "abbr": "TBD",
-                "logo": "",
-                "placeholder": true
+                "tid": 21,
+                "name": "Egypt",
+                "abbr": "EGY",
+                "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4758.png",
+                "placeholder": false
               },
               "result": {
                 "home": "0",
@@ -805,7 +805,7 @@
                   "matchNumber": 87,
                   "round": "Round of 32",
                   "date": "2026-07-03 18:00:00",
-                  "status": "upcoming",
+                  "status": "result",
                   "live": false,
                   "home": {
                     "tid": 18,
@@ -822,38 +822,38 @@
                     "placeholder": false
                   },
                   "result": {
-                    "home": "0",
-                    "away": "0",
-                    "winner": ""
+                    "home": "3",
+                    "away": "5",
+                    "winner": "away"
                   }
                 }
               },
               {
                 "match": {
-                  "mid": "305539",
-                  "matchNumber": 89,
+                  "mid": "305538",
+                  "matchNumber": 87,
                   "round": "Round of 32",
-                  "date": "2026-07-04 01:30:00",
-                  "status": "upcoming",
+                  "date": "2026-07-03 18:00:00",
+                  "status": "result",
                   "live": false,
                   "home": {
-                    "tid": 29,
-                    "name": "Colombia",
-                    "abbr": "COL",
-                    "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4820.png",
+                    "tid": 18,
+                    "name": "Australia",
+                    "abbr": "AUS",
+                    "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4741.png",
                     "placeholder": false
                   },
                   "away": {
-                    "tid": 1295,
-                    "name": "Ghana",
-                    "abbr": "GHA",
-                    "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4764.png",
+                    "tid": 21,
+                    "name": "Egypt",
+                    "abbr": "EGY",
+                    "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4758.png",
                     "placeholder": false
                   },
                   "result": {
-                    "home": "0",
-                    "away": "0",
-                    "winner": ""
+                    "home": "3",
+                    "away": "5",
+                    "winner": "away"
                   }
                 }
               }

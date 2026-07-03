@@ -998,24 +998,24 @@
         "totalPoints": 376
       },
       {
-        "name": "Pine Street",
+        "name": "Kentfield",
         "rank": 2,
+        "totalPoints": 276.5
+      },
+      {
+        "name": "Pine Street",
+        "rank": 3,
         "totalPoints": 271.5
       },
       {
         "name": "Los Angeles",
-        "rank": 3,
+        "rank": 4,
         "totalPoints": 240.5
       },
       {
         "name": "Sea Ranch",
-        "rank": 4,
-        "totalPoints": 221.5
-      },
-      {
-        "name": "Kentfield",
         "rank": 5,
-        "totalPoints": 192.5
+        "totalPoints": 221.5
       },
       {
         "name": "Dublin",
