@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-02T21:53:06.313Z",
+  "updatedAt": "2026-07-03T09:46:59.675Z",
   "final": {
     "mid": "305556",
     "matchNumber": 105,
@@ -330,11 +330,11 @@
               "status": "upcoming",
               "live": false,
               "home": {
-                "tid": 19870,
-                "name": "TBD",
-                "abbr": "TBD",
-                "logo": "",
-                "placeholder": true
+                "tid": 8,
+                "name": "Portugal",
+                "abbr": "POR",
+                "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4704.png",
+                "placeholder": false
               },
               "away": {
                 "tid": 5,
@@ -352,29 +352,29 @@
             "children": [
               {
                 "match": {
-                  "mid": "305537",
-                  "matchNumber": 84,
+                  "mid": "305536",
+                  "matchNumber": 85,
                   "round": "Round of 32",
-                  "date": "2026-07-02 19:00:00",
+                  "date": "2026-07-02 23:00:00",
                   "status": "result",
                   "live": false,
                   "home": {
-                    "tid": 5,
-                    "name": "Spain",
-                    "abbr": "SPN",
-                    "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4698.png",
+                    "tid": 8,
+                    "name": "Portugal",
+                    "abbr": "POR",
+                    "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4704.png",
                     "placeholder": false
                   },
                   "away": {
-                    "tid": 1201,
-                    "name": "Austria",
-                    "abbr": "AUT",
-                    "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4718.png",
+                    "tid": 12,
+                    "name": "Croatia",
+                    "abbr": "CRO",
+                    "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4715.png",
                     "placeholder": false
                   },
                   "result": {
-                    "home": "3",
-                    "away": "0",
+                    "home": "2",
+                    "away": "1",
                     "winner": "home"
                   }
                 }
@@ -698,7 +698,7 @@
                     "tid": 1154,
                     "name": "Ecuador",
                     "abbr": "ECU",
-                    "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4757.webp",
+                    "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4757.png",
                     "placeholder": false
                   },
                   "result": {
@@ -868,11 +868,11 @@
               "status": "upcoming",
               "live": false,
               "home": {
-                "tid": 19875,
-                "name": "TBD",
-                "abbr": "TBD",
-                "logo": "",
-                "placeholder": true
+                "tid": 6,
+                "name": "Switzerland",
+                "abbr": "SUI",
+                "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4699.png",
+                "placeholder": false
               },
               "away": {
                 "tid": 19878,
@@ -894,7 +894,7 @@
                   "matchNumber": 86,
                   "round": "Round of 32",
                   "date": "2026-07-03 03:00:00",
-                  "status": "upcoming",
+                  "status": "result",
                   "live": false,
                   "home": {
                     "tid": 6,
@@ -911,9 +911,9 @@
                     "placeholder": false
                   },
                   "result": {
-                    "home": "0",
+                    "home": "2",
                     "away": "0",
-                    "winner": ""
+                    "winner": "home"
                   }
                 }
               },

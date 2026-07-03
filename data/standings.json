@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-02T21:53:06.312Z",
+  "updatedAt": "2026-07-03T09:46:59.674Z",
   "stage": "live",
   "groupMatchesScored": 72,
   "live": false,
@@ -77,7 +77,7 @@
           "tid": 1154,
           "pr": 17,
           "points": 25.5,
-          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4757.webp",
+          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4757.png",
           "form": [
             "L",
             "W",
@@ -106,7 +106,7 @@
     },
     {
       "name": "Pine Street",
-      "totalPoints": 226.5,
+      "totalPoints": 271.5,
       "scoringCount": 5,
       "live": false,
       "teams": [
@@ -125,6 +125,20 @@
           "isTopPerformer": false
         },
         {
+          "name": "Switzerland",
+          "tid": 6,
+          "pr": 15,
+          "points": 82.5,
+          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4699.png",
+          "form": [
+            "W",
+            "W",
+            "W"
+          ],
+          "live": false,
+          "isTopPerformer": false
+        },
+        {
           "name": "Ghana",
           "tid": 1295,
           "pr": 28,
@@ -134,20 +148,6 @@
             "L",
             "D",
             "W"
-          ],
-          "live": false,
-          "isTopPerformer": false
-        },
-        {
-          "name": "Switzerland",
-          "tid": 6,
-          "pr": 15,
-          "points": 37.5,
-          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4699.png",
-          "form": [
-            "W",
-            "W",
-            "D"
           ],
           "live": false,
           "isTopPerformer": false
@@ -200,7 +200,7 @@
     },
     {
       "name": "Los Angeles",
-      "totalPoints": 222.5,
+      "totalPoints": 240.5,
       "scoringCount": 6,
       "live": false,
       "teams": [
@@ -239,9 +239,9 @@
           "points": 45,
           "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4691.png",
           "form": [
+            "L",
             "D",
-            "W",
-            "L"
+            "W"
           ],
           "live": false,
           "isTopPerformer": false
@@ -261,6 +261,20 @@
           "isTopPerformer": false
         },
         {
+          "name": "Portugal",
+          "tid": 8,
+          "pr": 6,
+          "points": 30,
+          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4704.png",
+          "form": [
+            "W",
+            "D",
+            "W"
+          ],
+          "live": false,
+          "isTopPerformer": false
+        },
+        {
           "name": "New Zealand",
           "tid": 3593,
           "pr": 41,
@@ -269,20 +283,6 @@
           "form": [
             "L",
             "L",
-            "D"
-          ],
-          "live": false,
-          "isTopPerformer": false
-        },
-        {
-          "name": "Portugal",
-          "tid": 8,
-          "pr": 6,
-          "points": 12,
-          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4704.png",
-          "form": [
-            "D",
-            "W",
             "D"
           ],
           "live": false,
@@ -347,9 +347,9 @@
           "points": 34,
           "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4715.png",
           "form": [
+            "L",
             "W",
-            "W",
-            "L"
+            "W"
           ],
           "live": false,
           "isTopPerformer": false
@@ -666,7 +666,7 @@
         }
       ],
       "rank": 7,
-      "rankChange": 1
+      "rankChange": 0
     },
     {
       "name": "Seminary",
@@ -760,7 +760,7 @@
         }
       ],
       "rank": 8,
-      "rankChange": -1
+      "rankChange": 0
     }
   ]
 }
