@@ -1426,7 +1426,7 @@
   {
     "mid": "305541",
     "round": "Round of 16",
-    "status": "live",
+    "status": "result",
     "timestampstart": 1783198800,
     "timestampend": 1783209600,
     "home": "Paraguay",
@@ -1435,8 +1435,8 @@
     "awayTid": 2,
     "result": {
       "home": "0",
-      "away": "0",
-      "winner": ""
+      "away": "1",
+      "winner": "away"
     }
   },
   {
@@ -1541,9 +1541,9 @@
     "status": "upcoming",
     "timestampstart": 1783627200,
     "timestampend": 1783638000,
-    "home": "w89",
+    "home": "France",
     "away": "Morocco",
-    "homeTid": 19876,
+    "homeTid": 2,
     "awayTid": 24,
     "result": {
       "home": "0",

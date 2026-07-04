@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-07-04T21:16:12.067Z",
+  "updatedAt": "2026-07-04T23:45:36.407Z",
   "stage": "live",
   "groupMatchesScored": 72,
-  "live": true,
+  "live": false,
   "topPerformer": {
     "tid": 21,
     "name": "Egypt",
@@ -14,7 +14,7 @@
       "name": "San Luis Obispo",
       "totalPoints": 376,
       "scoringCount": 6,
-      "live": true,
+      "live": false,
       "teams": [
         {
           "name": "Paraguay",
@@ -23,11 +23,11 @@
           "points": 126,
           "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4789.png",
           "form": [
+            "L",
             "W",
-            "D",
-            "W"
+            "D"
           ],
-          "live": true,
+          "live": false,
           "isTopPerformer": false
         },
         {
@@ -575,6 +575,100 @@
       "rankChange": 0
     },
     {
+      "name": "Boise",
+      "totalPoints": 134.5,
+      "scoringCount": 5,
+      "live": false,
+      "teams": [
+        {
+          "name": "USA",
+          "tid": 1155,
+          "pr": 14,
+          "points": 70,
+          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4724.png",
+          "form": [
+            "W",
+            "L",
+            "W"
+          ],
+          "live": false,
+          "isTopPerformer": false
+        },
+        {
+          "name": "Qatar",
+          "tid": 1056,
+          "pr": 41,
+          "points": 20.5,
+          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4792.png",
+          "form": [
+            "L",
+            "L",
+            "D"
+          ],
+          "live": false,
+          "isTopPerformer": false
+        },
+        {
+          "name": "Netherlands",
+          "tid": 1196,
+          "pr": 8,
+          "points": 20,
+          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4705.png",
+          "form": [
+            "L",
+            "W",
+            "W"
+          ],
+          "live": false,
+          "isTopPerformer": false
+        },
+        {
+          "name": "Czechia",
+          "tid": 1153,
+          "pr": 26,
+          "points": 13,
+          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4714.png",
+          "form": [
+            "L",
+            "D",
+            "L"
+          ],
+          "live": false,
+          "isTopPerformer": false
+        },
+        {
+          "name": "France",
+          "tid": 2,
+          "pr": 1,
+          "points": 11,
+          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4481.png",
+          "form": [
+            "W",
+            "W",
+            "W"
+          ],
+          "live": false,
+          "isTopPerformer": false
+        },
+        {
+          "name": "Jordan",
+          "tid": 1051,
+          "pr": 45,
+          "points": 0,
+          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4771.png",
+          "form": [
+            "L",
+            "L",
+            "L"
+          ],
+          "live": false,
+          "isTopPerformer": false
+        }
+      ],
+      "rank": 7,
+      "rankChange": 0
+    },
+    {
       "name": "Seminary",
       "totalPoints": 131,
       "scoringCount": 5,
@@ -665,102 +759,8 @@
           "isTopPerformer": false
         }
       ],
-      "rank": 7,
-      "rankChange": 1
-    },
-    {
-      "name": "Boise",
-      "totalPoints": 129.5,
-      "scoringCount": 5,
-      "live": true,
-      "teams": [
-        {
-          "name": "USA",
-          "tid": 1155,
-          "pr": 14,
-          "points": 70,
-          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4724.png",
-          "form": [
-            "W",
-            "L",
-            "W"
-          ],
-          "live": false,
-          "isTopPerformer": false
-        },
-        {
-          "name": "Qatar",
-          "tid": 1056,
-          "pr": 41,
-          "points": 20.5,
-          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4792.png",
-          "form": [
-            "L",
-            "L",
-            "D"
-          ],
-          "live": false,
-          "isTopPerformer": false
-        },
-        {
-          "name": "Netherlands",
-          "tid": 1196,
-          "pr": 8,
-          "points": 20,
-          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4705.png",
-          "form": [
-            "L",
-            "W",
-            "W"
-          ],
-          "live": false,
-          "isTopPerformer": false
-        },
-        {
-          "name": "Czechia",
-          "tid": 1153,
-          "pr": 26,
-          "points": 13,
-          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4714.png",
-          "form": [
-            "L",
-            "D",
-            "L"
-          ],
-          "live": false,
-          "isTopPerformer": false
-        },
-        {
-          "name": "France",
-          "tid": 2,
-          "pr": 1,
-          "points": 6,
-          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4481.png",
-          "form": [
-            "W",
-            "W",
-            "W"
-          ],
-          "live": true,
-          "isTopPerformer": false
-        },
-        {
-          "name": "Jordan",
-          "tid": 1051,
-          "pr": 45,
-          "points": 0,
-          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4771.png",
-          "form": [
-            "L",
-            "L",
-            "L"
-          ],
-          "live": false,
-          "isTopPerformer": false
-        }
-      ],
       "rank": 8,
-      "rankChange": -1
+      "rankChange": 0
     }
   ]
 }
