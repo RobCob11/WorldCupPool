@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-03T21:44:19.610Z",
+  "updatedAt": "2026-07-04T08:07:08.542Z",
   "final": {
     "mid": "305556",
     "matchNumber": 105,
@@ -779,11 +779,11 @@
               "status": "upcoming",
               "live": false,
               "home": {
-                "tid": 19874,
-                "name": "TBD",
-                "abbr": "TBD",
-                "logo": "",
-                "placeholder": true
+                "tid": 28,
+                "name": "Argentina",
+                "abbr": "ARG",
+                "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4819.png",
+                "placeholder": false
               },
               "away": {
                 "tid": 21,
@@ -801,30 +801,30 @@
             "children": [
               {
                 "match": {
-                  "mid": "305538",
-                  "matchNumber": 87,
+                  "mid": "305540",
+                  "matchNumber": 88,
                   "round": "Round of 32",
-                  "date": "2026-07-03 18:00:00",
+                  "date": "2026-07-03 22:00:00",
                   "status": "result",
                   "live": false,
                   "home": {
-                    "tid": 18,
-                    "name": "Australia",
-                    "abbr": "AUS",
-                    "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4741.png",
+                    "tid": 28,
+                    "name": "Argentina",
+                    "abbr": "ARG",
+                    "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4819.png",
                     "placeholder": false
                   },
                   "away": {
-                    "tid": 21,
-                    "name": "Egypt",
-                    "abbr": "EGY",
-                    "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4758.png",
+                    "tid": 1953,
+                    "name": "Cape Verde",
+                    "abbr": "CPV",
+                    "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4753.png",
                     "placeholder": false
                   },
                   "result": {
                     "home": "3",
-                    "away": "5",
-                    "winner": "away"
+                    "away": "2",
+                    "winner": "home"
                   }
                 }
               },
@@ -875,11 +875,11 @@
                 "placeholder": false
               },
               "away": {
-                "tid": 19878,
-                "name": "TBD",
-                "abbr": "TBD",
-                "logo": "",
-                "placeholder": true
+                "tid": 29,
+                "name": "Colombia",
+                "abbr": "COL",
+                "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4820.png",
+                "placeholder": false
               },
               "result": {
                 "home": "0",
@@ -919,30 +919,30 @@
               },
               {
                 "match": {
-                  "mid": "305540",
-                  "matchNumber": 88,
+                  "mid": "305539",
+                  "matchNumber": 89,
                   "round": "Round of 32",
-                  "date": "2026-07-03 22:00:00",
-                  "status": "upcoming",
+                  "date": "2026-07-04 01:30:00",
+                  "status": "result",
                   "live": false,
                   "home": {
-                    "tid": 28,
-                    "name": "Argentina",
-                    "abbr": "ARG",
-                    "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4819.png",
+                    "tid": 29,
+                    "name": "Colombia",
+                    "abbr": "COL",
+                    "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4820.png",
                     "placeholder": false
                   },
                   "away": {
-                    "tid": 1953,
-                    "name": "Cape Verde",
-                    "abbr": "CPV",
-                    "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4753.png",
+                    "tid": 1295,
+                    "name": "Ghana",
+                    "abbr": "GHA",
+                    "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4764.png",
                     "placeholder": false
                   },
                   "result": {
-                    "home": "0",
+                    "home": "1",
                     "away": "0",
-                    "winner": ""
+                    "winner": "home"
                   }
                 }
               }

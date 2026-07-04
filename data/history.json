@@ -1033,5 +1033,50 @@
         "totalPoints": 116
       }
     ]
+  },
+  {
+    "date": "2026-07-04",
+    "pools": [
+      {
+        "name": "San Luis Obispo",
+        "rank": 1,
+        "totalPoints": 376
+      },
+      {
+        "name": "Pine Street",
+        "rank": 2,
+        "totalPoints": 304.5
+      },
+      {
+        "name": "Kentfield",
+        "rank": 3,
+        "totalPoints": 276.5
+      },
+      {
+        "name": "Los Angeles",
+        "rank": 4,
+        "totalPoints": 240.5
+      },
+      {
+        "name": "Sea Ranch",
+        "rank": 5,
+        "totalPoints": 221.5
+      },
+      {
+        "name": "Dublin",
+        "rank": 6,
+        "totalPoints": 154.5
+      },
+      {
+        "name": "Seminary",
+        "rank": 7,
+        "totalPoints": 131
+      },
+      {
+        "name": "Boise",
+        "rank": 8,
+        "totalPoints": 129.5
+      }
+    ]
   }
 ]

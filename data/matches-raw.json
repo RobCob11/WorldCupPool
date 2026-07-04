@@ -1378,7 +1378,7 @@
   {
     "mid": "305540",
     "round": "Round of 32",
-    "status": "upcoming",
+    "status": "result",
     "timestampstart": 1783116000,
     "timestampend": 1783126800,
     "home": "Argentina",
@@ -1386,15 +1386,15 @@
     "homeTid": 28,
     "awayTid": 1953,
     "result": {
-      "home": "0",
-      "away": "0",
-      "winner": ""
+      "home": "3",
+      "away": "2",
+      "winner": "home"
     }
   },
   {
     "mid": "305539",
     "round": "Round of 32",
-    "status": "upcoming",
+    "status": "result",
     "timestampstart": 1783128600,
     "timestampend": 1783139400,
     "home": "Colombia",
@@ -1402,9 +1402,9 @@
     "homeTid": 29,
     "awayTid": 1295,
     "result": {
-      "home": "0",
+      "home": "1",
       "away": "0",
-      "winner": ""
+      "winner": "home"
     }
   },
   {
@@ -1509,9 +1509,9 @@
     "status": "upcoming",
     "timestampstart": 1783440000,
     "timestampend": 1783450800,
-    "home": "w86",
+    "home": "Argentina",
     "away": "Egypt",
-    "homeTid": 19874,
+    "homeTid": 28,
     "awayTid": 21,
     "result": {
       "home": "0",
@@ -1526,9 +1526,9 @@
     "timestampstart": 1783454400,
     "timestampend": 1783465200,
     "home": "Switzerland",
-    "away": "w87",
+    "away": "Colombia",
     "homeTid": 6,
-    "awayTid": 19878,
+    "awayTid": 29,
     "result": {
       "home": "0",
       "away": "0",
