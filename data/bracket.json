@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-04T15:46:04.265Z",
+  "updatedAt": "2026-07-04T21:16:12.068Z",
   "final": {
     "mid": "305556",
     "matchNumber": 105,
@@ -99,11 +99,11 @@
             "placeholder": true
           },
           "away": {
-            "tid": 19879,
-            "name": "TBD",
-            "abbr": "TBD",
-            "logo": "",
-            "placeholder": true
+            "tid": 24,
+            "name": "Morocco",
+            "abbr": "MAR",
+            "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4778.png",
+            "placeholder": false
           },
           "result": {
             "home": "0",
@@ -118,7 +118,7 @@
               "matchNumber": 90,
               "round": "Round of 16",
               "date": "2026-07-04 17:00:00",
-              "status": "upcoming",
+              "status": "result",
               "live": false,
               "home": {
                 "tid": 1945,
@@ -136,8 +136,8 @@
               },
               "result": {
                 "home": "0",
-                "away": "0",
-                "winner": ""
+                "away": "3",
+                "winner": "away"
               }
             },
             "children": [
@@ -203,87 +203,87 @@
           },
           {
             "match": {
-              "mid": "305541",
-              "matchNumber": 91,
+              "mid": "305542",
+              "matchNumber": 90,
               "round": "Round of 16",
-              "date": "2026-07-04 21:00:00",
-              "status": "upcoming",
+              "date": "2026-07-04 17:00:00",
+              "status": "result",
               "live": false,
               "home": {
-                "tid": 1170,
-                "name": "Paraguay",
-                "abbr": "PAR",
-                "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4789.png",
+                "tid": 1945,
+                "name": "Canada",
+                "abbr": "CAN",
+                "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4752.png",
                 "placeholder": false
               },
               "away": {
-                "tid": 2,
-                "name": "France",
-                "abbr": "FRA",
-                "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4481.png",
+                "tid": 24,
+                "name": "Morocco",
+                "abbr": "MAR",
+                "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4778.png",
                 "placeholder": false
               },
               "result": {
                 "home": "0",
-                "away": "0",
-                "winner": ""
+                "away": "3",
+                "winner": "away"
               }
             },
             "children": [
               {
                 "match": {
-                  "mid": "305526",
-                  "matchNumber": 76,
+                  "mid": "305525",
+                  "matchNumber": 74,
                   "round": "Round of 32",
-                  "date": "2026-06-29 20:30:00",
+                  "date": "2026-06-28 19:00:00",
                   "status": "result",
                   "live": false,
                   "home": {
-                    "tid": 10,
-                    "name": "Germany",
-                    "abbr": "GER",
-                    "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4711.png",
+                    "tid": 1291,
+                    "name": "South Africa",
+                    "abbr": "SA",
+                    "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4736.png",
                     "placeholder": false
                   },
                   "away": {
-                    "tid": 1170,
-                    "name": "Paraguay",
-                    "abbr": "PAR",
-                    "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4789.png",
+                    "tid": 1945,
+                    "name": "Canada",
+                    "abbr": "CAN",
+                    "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4752.png",
                     "placeholder": false
                   },
                   "result": {
-                    "home": "4",
-                    "away": "5",
+                    "home": "0",
+                    "away": "1",
                     "winner": "away"
                   }
                 }
               },
               {
                 "match": {
-                  "mid": "305530",
-                  "matchNumber": 78,
+                  "mid": "305527",
+                  "matchNumber": 77,
                   "round": "Round of 32",
-                  "date": "2026-06-30 17:00:00",
+                  "date": "2026-06-30 01:00:00",
                   "status": "result",
                   "live": false,
                   "home": {
-                    "tid": 1165,
-                    "name": "Ivory Coast",
-                    "abbr": "CIV",
-                    "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4768.png",
+                    "tid": 1196,
+                    "name": "Netherlands",
+                    "abbr": "NED",
+                    "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4705.png",
                     "placeholder": false
                   },
                   "away": {
-                    "tid": 1184,
-                    "name": "Norway",
-                    "abbr": "NOR",
-                    "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4475.png",
+                    "tid": 24,
+                    "name": "Morocco",
+                    "abbr": "MAR",
+                    "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4778.png",
                     "placeholder": false
                   },
                   "result": {
-                    "home": "1",
-                    "away": "2",
+                    "home": "3",
+                    "away": "4",
                     "winner": "away"
                   }
                 }

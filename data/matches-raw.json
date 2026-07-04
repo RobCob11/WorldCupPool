@@ -1410,7 +1410,7 @@
   {
     "mid": "305542",
     "round": "Round of 16",
-    "status": "upcoming",
+    "status": "result",
     "timestampstart": 1783184400,
     "timestampend": 1783195200,
     "home": "Canada",
@@ -1419,14 +1419,14 @@
     "awayTid": 24,
     "result": {
       "home": "0",
-      "away": "0",
-      "winner": ""
+      "away": "3",
+      "winner": "away"
     }
   },
   {
     "mid": "305541",
     "round": "Round of 16",
-    "status": "upcoming",
+    "status": "live",
     "timestampstart": 1783198800,
     "timestampend": 1783209600,
     "home": "Paraguay",
@@ -1542,9 +1542,9 @@
     "timestampstart": 1783627200,
     "timestampend": 1783638000,
     "home": "w89",
-    "away": "w90",
+    "away": "Morocco",
     "homeTid": 19876,
-    "awayTid": 19879,
+    "awayTid": 24,
     "result": {
       "home": "0",
       "away": "0",
