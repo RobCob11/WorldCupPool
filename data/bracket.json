@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-05T15:55:46.597Z",
+  "updatedAt": "2026-07-05T21:37:46.304Z",
   "final": {
     "mid": "305556",
     "matchNumber": 105,
@@ -567,8 +567,8 @@
               "matchNumber": 92,
               "round": "Round of 16",
               "date": "2026-07-05 20:00:00",
-              "status": "upcoming",
-              "live": false,
+              "status": "live",
+              "live": true,
               "home": {
                 "tid": 19,
                 "name": "Brazil",

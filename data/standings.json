@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-07-05T15:55:46.596Z",
+  "updatedAt": "2026-07-05T21:37:46.302Z",
   "stage": "live",
   "groupMatchesScored": 72,
-  "live": false,
+  "live": true,
   "topPerformer": {
     "tid": 21,
     "name": "Egypt",
@@ -14,7 +14,7 @@
       "name": "San Luis Obispo",
       "totalPoints": 376,
       "scoringCount": 6,
-      "live": false,
+      "live": true,
       "teams": [
         {
           "name": "Paraguay",
@@ -97,7 +97,7 @@
             "W",
             "W"
           ],
-          "live": false,
+          "live": true,
           "isTopPerformer": false
         }
       ],
@@ -390,7 +390,7 @@
       "name": "Sea Ranch",
       "totalPoints": 221.5,
       "scoringCount": 6,
-      "live": false,
+      "live": true,
       "teams": [
         {
           "name": "DR Congo",
@@ -417,7 +417,7 @@
             "L",
             "W"
           ],
-          "live": false,
+          "live": true,
           "isTopPerformer": false
         },
         {
