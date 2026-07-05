@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-04T23:45:36.407Z",
+  "updatedAt": "2026-07-05T00:14:24.578Z",
   "stage": "live",
   "groupMatchesScored": 72,
   "live": false,
@@ -196,7 +196,7 @@
         }
       ],
       "rank": 2,
-      "rankChange": 1
+      "rankChange": 0
     },
     {
       "name": "Los Angeles",
@@ -290,7 +290,7 @@
         }
       ],
       "rank": 3,
-      "rankChange": 1
+      "rankChange": 0
     },
     {
       "name": "Kentfield",
@@ -384,7 +384,7 @@
         }
       ],
       "rank": 4,
-      "rankChange": -2
+      "rankChange": 0
     },
     {
       "name": "Sea Ranch",
