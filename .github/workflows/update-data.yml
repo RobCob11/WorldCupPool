@@ -6,10 +6,10 @@ on:
     # the precise match-end triggers below, regenerated daily by schedule-updates.yml.
     - cron: "0 */3 * * *"
     # BEGIN AUTO-GENERATED MATCH TRIGGERS
-    - cron: "15 20 4 7 *"
-    - cron: "40 20 4 7 *"
-    - cron: "15 0 5 7 *"
-    - cron: "40 0 5 7 *"
+    - cron: "15 23 5 7 *"
+    - cron: "40 23 5 7 *"
+    - cron: "15 3 6 7 *"
+    - cron: "40 3 6 7 *"
     # END AUTO-GENERATED MATCH TRIGGERS
   workflow_dispatch: {}
 
