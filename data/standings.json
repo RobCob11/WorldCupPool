@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-07-05T21:37:46.302Z",
+  "updatedAt": "2026-07-06T13:06:10.779Z",
   "stage": "live",
   "groupMatchesScored": 72,
-  "live": true,
+  "live": false,
   "topPerformer": {
     "tid": 21,
     "name": "Egypt",
@@ -14,7 +14,7 @@
       "name": "San Luis Obispo",
       "totalPoints": 376,
       "scoringCount": 6,
-      "live": true,
+      "live": false,
       "teams": [
         {
           "name": "Paraguay",
@@ -93,11 +93,11 @@
           "points": 22,
           "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4748.png",
           "form": [
-            "W",
+            "L",
             "W",
             "W"
           ],
-          "live": true,
+          "live": false,
           "isTopPerformer": false
         }
       ],
@@ -117,7 +117,7 @@
           "points": 114,
           "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4781.png",
           "form": [
-            "W",
+            "L",
             "W",
             "W"
           ],
@@ -294,7 +294,7 @@
     },
     {
       "name": "Kentfield",
-      "totalPoints": 276.5,
+      "totalPoints": 291.5,
       "scoringCount": 5,
       "live": false,
       "teams": [
@@ -341,6 +341,20 @@
           "isTopPerformer": false
         },
         {
+          "name": "England",
+          "tid": 11,
+          "pr": 3,
+          "points": 31.5,
+          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4713.png",
+          "form": [
+            "W",
+            "W",
+            "W"
+          ],
+          "live": false,
+          "isTopPerformer": false
+        },
+        {
           "name": "Turkey",
           "tid": 1149,
           "pr": 21,
@@ -350,20 +364,6 @@
             "W",
             "L",
             "L"
-          ],
-          "live": false,
-          "isTopPerformer": false
-        },
-        {
-          "name": "England",
-          "tid": 11,
-          "pr": 3,
-          "points": 16.5,
-          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4713.png",
-          "form": [
-            "W",
-            "W",
-            "D"
           ],
           "live": false,
           "isTopPerformer": false
@@ -388,10 +388,24 @@
     },
     {
       "name": "Sea Ranch",
-      "totalPoints": 221.5,
+      "totalPoints": 266.5,
       "scoringCount": 6,
-      "live": true,
+      "live": false,
       "teams": [
+        {
+          "name": "Norway",
+          "tid": 1184,
+          "pr": 9,
+          "points": 90,
+          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4475.png",
+          "form": [
+            "W",
+            "W",
+            "L"
+          ],
+          "live": false,
+          "isTopPerformer": false
+        },
         {
           "name": "DR Congo",
           "tid": 1298,
@@ -404,20 +418,6 @@
             "L"
           ],
           "live": false,
-          "isTopPerformer": false
-        },
-        {
-          "name": "Norway",
-          "tid": 1184,
-          "pr": 9,
-          "points": 45,
-          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4475.png",
-          "form": [
-            "W",
-            "L",
-            "W"
-          ],
-          "live": true,
           "isTopPerformer": false
         },
         {

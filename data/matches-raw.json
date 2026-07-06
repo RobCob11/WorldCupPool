@@ -1442,7 +1442,7 @@
   {
     "mid": "305543",
     "round": "Round of 16",
-    "status": "live",
+    "status": "result",
     "timestampstart": 1783281600,
     "timestampend": 1783292400,
     "home": "Brazil",
@@ -1450,25 +1450,25 @@
     "homeTid": 19,
     "awayTid": 1184,
     "result": {
-      "home": "0",
-      "away": "0",
-      "winner": ""
+      "home": "1",
+      "away": "2",
+      "winner": "away"
     }
   },
   {
     "mid": "305544",
     "round": "Round of 16",
-    "status": "upcoming",
-    "timestampstart": 1783296000,
-    "timestampend": 1783306800,
+    "status": "result",
+    "timestampstart": 1783299600,
+    "timestampend": 1783310400,
     "home": "Mexico",
     "away": "England",
     "homeTid": 25,
     "awayTid": 11,
     "result": {
-      "home": "0",
-      "away": "0",
-      "winner": ""
+      "home": "2",
+      "away": "3",
+      "winner": "away"
     }
   },
   {
@@ -1573,10 +1573,10 @@
     "status": "upcoming",
     "timestampstart": 1783803600,
     "timestampend": 1783814400,
-    "home": "w91",
-    "away": "w92",
-    "homeTid": 19883,
-    "awayTid": 19884,
+    "home": "Norway",
+    "away": "England",
+    "homeTid": 1184,
+    "awayTid": 11,
     "result": {
       "home": "0",
       "away": "0",
