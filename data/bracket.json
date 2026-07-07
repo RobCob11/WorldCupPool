@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-07T12:40:11.988Z",
+  "updatedAt": "2026-07-07T19:16:29.862Z",
   "final": {
     "mid": "305556",
     "matchNumber": 105,
@@ -750,11 +750,11 @@
           "status": "upcoming",
           "live": false,
           "home": {
-            "tid": 19887,
-            "name": "TBD",
-            "abbr": "TBD",
-            "logo": "",
-            "placeholder": true
+            "tid": 28,
+            "name": "Argentina",
+            "abbr": "ARG",
+            "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4819.png",
+            "placeholder": false
           },
           "away": {
             "tid": 19890,
@@ -776,7 +776,7 @@
               "matchNumber": 96,
               "round": "Round of 16",
               "date": "2026-07-07 16:00:00",
-              "status": "upcoming",
+              "status": "result",
               "live": false,
               "home": {
                 "tid": 28,
@@ -793,9 +793,9 @@
                 "placeholder": false
               },
               "result": {
-                "home": "0",
-                "away": "0",
-                "winner": ""
+                "home": "3",
+                "away": "2",
+                "winner": "home"
               }
             },
             "children": [

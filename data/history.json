@@ -1198,19 +1198,19 @@
         "totalPoints": 266.5
       },
       {
-        "name": "Dublin",
+        "name": "Seminary",
         "rank": 6,
+        "totalPoints": 156
+      },
+      {
+        "name": "Dublin",
+        "rank": 7,
         "totalPoints": 154.5
       },
       {
         "name": "Boise",
-        "rank": 7,
-        "totalPoints": 134.5
-      },
-      {
-        "name": "Seminary",
         "rank": 8,
-        "totalPoints": 131
+        "totalPoints": 134.5
       }
     ]
   }

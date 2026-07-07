@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-07T12:40:11.987Z",
+  "updatedAt": "2026-07-07T19:16:29.861Z",
   "stage": "live",
   "groupMatchesScored": 72,
   "live": false,
@@ -117,9 +117,9 @@
           "points": 140,
           "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4758.png",
           "form": [
+            "L",
             "W",
-            "D",
-            "W"
+            "D"
           ],
           "live": false,
           "isTopPerformer": true
@@ -481,6 +481,100 @@
       "rankChange": 0
     },
     {
+      "name": "Seminary",
+      "totalPoints": 156,
+      "scoringCount": 5,
+      "live": false,
+      "teams": [
+        {
+          "name": "Argentina",
+          "tid": 28,
+          "pr": 5,
+          "points": 55,
+          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4819.png",
+          "form": [
+            "W",
+            "W",
+            "W"
+          ],
+          "live": false,
+          "isTopPerformer": false
+        },
+        {
+          "name": "Australia",
+          "tid": 18,
+          "pr": 34,
+          "points": 51,
+          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4741.png",
+          "form": [
+            "L",
+            "D",
+            "L"
+          ],
+          "live": false,
+          "isTopPerformer": false
+        },
+        {
+          "name": "Scotland",
+          "tid": 1194,
+          "pr": 24,
+          "points": 24,
+          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4695.png",
+          "form": [
+            "L",
+            "L",
+            "W"
+          ],
+          "live": false,
+          "isTopPerformer": false
+        },
+        {
+          "name": "Germany",
+          "tid": 10,
+          "pr": 7,
+          "points": 14,
+          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4711.png",
+          "form": [
+            "L",
+            "L",
+            "W"
+          ],
+          "live": false,
+          "isTopPerformer": false
+        },
+        {
+          "name": "Uruguay",
+          "tid": 14,
+          "pr": 12,
+          "points": 12,
+          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4725.png",
+          "form": [
+            "L",
+            "D",
+            "D"
+          ],
+          "live": false,
+          "isTopPerformer": false
+        },
+        {
+          "name": "Iraq",
+          "tid": 1050,
+          "pr": 41,
+          "points": 0,
+          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4767.png",
+          "form": [
+            "L",
+            "L",
+            "L"
+          ],
+          "live": false,
+          "isTopPerformer": false
+        }
+      ],
+      "rank": 6,
+      "rankChange": 2
+    },
+    {
       "name": "Dublin",
       "totalPoints": 154.5,
       "scoringCount": 4,
@@ -571,8 +665,8 @@
           "isTopPerformer": false
         }
       ],
-      "rank": 6,
-      "rankChange": 0
+      "rank": 7,
+      "rankChange": -1
     },
     {
       "name": "Boise",
@@ -665,102 +759,8 @@
           "isTopPerformer": false
         }
       ],
-      "rank": 7,
-      "rankChange": 0
-    },
-    {
-      "name": "Seminary",
-      "totalPoints": 131,
-      "scoringCount": 5,
-      "live": false,
-      "teams": [
-        {
-          "name": "Australia",
-          "tid": 18,
-          "pr": 34,
-          "points": 51,
-          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4741.png",
-          "form": [
-            "L",
-            "D",
-            "L"
-          ],
-          "live": false,
-          "isTopPerformer": false
-        },
-        {
-          "name": "Argentina",
-          "tid": 28,
-          "pr": 5,
-          "points": 30,
-          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4819.png",
-          "form": [
-            "W",
-            "W",
-            "W"
-          ],
-          "live": false,
-          "isTopPerformer": false
-        },
-        {
-          "name": "Scotland",
-          "tid": 1194,
-          "pr": 24,
-          "points": 24,
-          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4695.png",
-          "form": [
-            "L",
-            "L",
-            "W"
-          ],
-          "live": false,
-          "isTopPerformer": false
-        },
-        {
-          "name": "Germany",
-          "tid": 10,
-          "pr": 7,
-          "points": 14,
-          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4711.png",
-          "form": [
-            "L",
-            "L",
-            "W"
-          ],
-          "live": false,
-          "isTopPerformer": false
-        },
-        {
-          "name": "Uruguay",
-          "tid": 14,
-          "pr": 12,
-          "points": 12,
-          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4725.png",
-          "form": [
-            "L",
-            "D",
-            "D"
-          ],
-          "live": false,
-          "isTopPerformer": false
-        },
-        {
-          "name": "Iraq",
-          "tid": 1050,
-          "pr": 41,
-          "points": 0,
-          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4767.png",
-          "form": [
-            "L",
-            "L",
-            "L"
-          ],
-          "live": false,
-          "isTopPerformer": false
-        }
-      ],
       "rank": 8,
-      "rankChange": 0
+      "rankChange": -1
     }
   ]
 }
