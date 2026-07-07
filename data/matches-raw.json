@@ -1490,7 +1490,7 @@
   {
     "mid": "305546",
     "round": "Round of 16",
-    "status": "upcoming",
+    "status": "result",
     "timestampstart": 1783382400,
     "timestampend": 1783393200,
     "home": "USA",
@@ -1498,9 +1498,9 @@
     "homeTid": 1155,
     "awayTid": 13,
     "result": {
-      "home": "0",
-      "away": "0",
-      "winner": ""
+      "home": "1",
+      "away": "4",
+      "winner": "away"
     }
   },
   {
@@ -1558,9 +1558,9 @@
     "timestampstart": 1783710000,
     "timestampend": 1783720800,
     "home": "Spain",
-    "away": "w94",
+    "away": "Belgium",
     "homeTid": 5,
-    "awayTid": 19882,
+    "awayTid": 13,
     "result": {
       "home": "0",
       "away": "0",
