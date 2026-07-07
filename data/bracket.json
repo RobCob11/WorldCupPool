@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-07T19:16:29.862Z",
+  "updatedAt": "2026-07-07T22:47:03.636Z",
   "final": {
     "mid": "305556",
     "matchNumber": 105,
@@ -865,8 +865,8 @@
               "matchNumber": 97,
               "round": "Round of 16",
               "date": "2026-07-07 20:00:00",
-              "status": "upcoming",
-              "live": false,
+              "status": "live",
+              "live": true,
               "home": {
                 "tid": 6,
                 "name": "Switzerland",
@@ -882,8 +882,8 @@
                 "placeholder": false
               },
               "result": {
-                "home": "0",
-                "away": "0",
+                "home": "2",
+                "away": "1",
                 "winner": ""
               }
             },
