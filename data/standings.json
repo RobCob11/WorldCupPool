@@ -1,15 +1,109 @@
 {
-  "updatedAt": "2026-07-07T22:47:03.635Z",
+  "updatedAt": "2026-07-07T23:15:11.284Z",
   "stage": "live",
   "groupMatchesScored": 72,
-  "live": true,
+  "live": false,
   "topPerformer": {
-    "tid": 21,
-    "name": "Egypt",
-    "points": 140,
-    "pool": "Kentfield"
+    "tid": 6,
+    "name": "Switzerland",
+    "points": 157.5,
+    "pool": "Pine Street"
   },
   "pools": [
+    {
+      "name": "Pine Street",
+      "totalPoints": 384.5,
+      "scoringCount": 5,
+      "live": false,
+      "teams": [
+        {
+          "name": "Switzerland",
+          "tid": 6,
+          "pr": 15,
+          "points": 157.5,
+          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4699.png",
+          "form": [
+            "W",
+            "W",
+            "W"
+          ],
+          "live": false,
+          "isTopPerformer": true
+        },
+        {
+          "name": "Mexico",
+          "tid": 25,
+          "pr": 19,
+          "points": 114,
+          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4781.png",
+          "form": [
+            "L",
+            "W",
+            "W"
+          ],
+          "live": false,
+          "isTopPerformer": false
+        },
+        {
+          "name": "Colombia",
+          "tid": 29,
+          "pr": 11,
+          "points": 60.5,
+          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4820.png",
+          "form": [
+            "L",
+            "W",
+            "D"
+          ],
+          "live": false,
+          "isTopPerformer": false
+        },
+        {
+          "name": "Ghana",
+          "tid": 1295,
+          "pr": 28,
+          "points": 42,
+          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4764.png",
+          "form": [
+            "L",
+            "L",
+            "D"
+          ],
+          "live": false,
+          "isTopPerformer": false
+        },
+        {
+          "name": "Spain",
+          "tid": 5,
+          "pr": 1,
+          "points": 10.5,
+          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4698.png",
+          "form": [
+            "W",
+            "W",
+            "W"
+          ],
+          "live": false,
+          "isTopPerformer": false
+        },
+        {
+          "name": "Uzbekistan",
+          "tid": 1044,
+          "pr": 41,
+          "points": 0,
+          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4723.png",
+          "form": [
+            "L",
+            "L",
+            "L"
+          ],
+          "live": false,
+          "isTopPerformer": false
+        }
+      ],
+      "rank": 1,
+      "rankChange": 1
+    },
     {
       "name": "San Luis Obispo",
       "totalPoints": 376,
@@ -101,8 +195,8 @@
           "isTopPerformer": false
         }
       ],
-      "rank": 1,
-      "rankChange": 0
+      "rank": 2,
+      "rankChange": -1
     },
     {
       "name": "Kentfield",
@@ -122,7 +216,7 @@
             "D"
           ],
           "live": false,
-          "isTopPerformer": true
+          "isTopPerformer": false
         },
         {
           "name": "Belgium",
@@ -195,102 +289,8 @@
           "isTopPerformer": false
         }
       ],
-      "rank": 2,
-      "rankChange": 2
-    },
-    {
-      "name": "Pine Street",
-      "totalPoints": 309.5,
-      "scoringCount": 5,
-      "live": true,
-      "teams": [
-        {
-          "name": "Mexico",
-          "tid": 25,
-          "pr": 19,
-          "points": 114,
-          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4781.png",
-          "form": [
-            "L",
-            "W",
-            "W"
-          ],
-          "live": false,
-          "isTopPerformer": false
-        },
-        {
-          "name": "Switzerland",
-          "tid": 6,
-          "pr": 15,
-          "points": 82.5,
-          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4699.png",
-          "form": [
-            "W",
-            "W",
-            "W"
-          ],
-          "live": true,
-          "isTopPerformer": false
-        },
-        {
-          "name": "Colombia",
-          "tid": 29,
-          "pr": 11,
-          "points": 60.5,
-          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4820.png",
-          "form": [
-            "W",
-            "D",
-            "W"
-          ],
-          "live": true,
-          "isTopPerformer": false
-        },
-        {
-          "name": "Ghana",
-          "tid": 1295,
-          "pr": 28,
-          "points": 42,
-          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4764.png",
-          "form": [
-            "L",
-            "L",
-            "D"
-          ],
-          "live": false,
-          "isTopPerformer": false
-        },
-        {
-          "name": "Spain",
-          "tid": 5,
-          "pr": 1,
-          "points": 10.5,
-          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4698.png",
-          "form": [
-            "W",
-            "W",
-            "W"
-          ],
-          "live": false,
-          "isTopPerformer": false
-        },
-        {
-          "name": "Uzbekistan",
-          "tid": 1044,
-          "pr": 41,
-          "points": 0,
-          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4723.png",
-          "form": [
-            "L",
-            "L",
-            "L"
-          ],
-          "live": false,
-          "isTopPerformer": false
-        }
-      ],
       "rank": 3,
-      "rankChange": -1
+      "rankChange": 1
     },
     {
       "name": "Los Angeles",

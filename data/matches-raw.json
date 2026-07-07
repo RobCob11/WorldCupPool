@@ -1522,7 +1522,7 @@
   {
     "mid": "305548",
     "round": "Round of 16",
-    "status": "live",
+    "status": "result",
     "timestampstart": 1783454400,
     "timestampend": 1783465200,
     "home": "Switzerland",
@@ -1530,9 +1530,9 @@
     "homeTid": 6,
     "awayTid": 29,
     "result": {
-      "home": "2",
-      "away": "1",
-      "winner": ""
+      "home": "4",
+      "away": "3",
+      "winner": "home"
     }
   },
   {
@@ -1590,9 +1590,9 @@
     "timestampstart": 1783818000,
     "timestampend": 1783828800,
     "home": "Argentina",
-    "away": "w96",
+    "away": "Switzerland",
     "homeTid": 28,
-    "awayTid": 19890,
+    "awayTid": 6,
     "result": {
       "home": "0",
       "away": "0",

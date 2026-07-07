@@ -1173,19 +1173,19 @@
     "date": "2026-07-07",
     "pools": [
       {
-        "name": "San Luis Obispo",
+        "name": "Pine Street",
         "rank": 1,
+        "totalPoints": 384.5
+      },
+      {
+        "name": "San Luis Obispo",
+        "rank": 2,
         "totalPoints": 376
       },
       {
         "name": "Kentfield",
-        "rank": 2,
-        "totalPoints": 336.5
-      },
-      {
-        "name": "Pine Street",
         "rank": 3,
-        "totalPoints": 309.5
+        "totalPoints": 336.5
       },
       {
         "name": "Los Angeles",
