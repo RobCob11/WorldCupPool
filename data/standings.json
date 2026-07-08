@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-07T23:15:11.284Z",
+  "updatedAt": "2026-07-08T00:15:56.933Z",
   "stage": "live",
   "groupMatchesScored": 72,
   "live": false,
@@ -102,7 +102,7 @@
         }
       ],
       "rank": 1,
-      "rankChange": 1
+      "rankChange": 0
     },
     {
       "name": "San Luis Obispo",
@@ -196,7 +196,7 @@
         }
       ],
       "rank": 2,
-      "rankChange": -1
+      "rankChange": 0
     },
     {
       "name": "Kentfield",
@@ -290,7 +290,7 @@
         }
       ],
       "rank": 3,
-      "rankChange": 1
+      "rankChange": 0
     },
     {
       "name": "Los Angeles",
@@ -384,7 +384,7 @@
         }
       ],
       "rank": 4,
-      "rankChange": -1
+      "rankChange": 0
     },
     {
       "name": "Sea Ranch",
@@ -572,7 +572,7 @@
         }
       ],
       "rank": 6,
-      "rankChange": 2
+      "rankChange": 0
     },
     {
       "name": "Dublin",
@@ -666,7 +666,7 @@
         }
       ],
       "rank": 7,
-      "rankChange": -1
+      "rankChange": 0
     },
     {
       "name": "Boise",
@@ -760,7 +760,7 @@
         }
       ],
       "rank": 8,
-      "rankChange": -1
+      "rankChange": 0
     }
   ]
 }
