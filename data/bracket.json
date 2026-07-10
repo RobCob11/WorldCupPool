@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-10T16:37:47.194Z",
+  "updatedAt": "2026-07-10T21:38:41.676Z",
   "final": {
     "mid": "305556",
     "matchNumber": 105,
@@ -70,11 +70,11 @@
         "placeholder": false
       },
       "away": {
-        "tid": 19886,
-        "name": "TBD",
-        "abbr": "TBD",
-        "logo": "",
-        "placeholder": true
+        "tid": 5,
+        "name": "Spain",
+        "abbr": "SPN",
+        "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4698.png",
+        "placeholder": false
       },
       "result": {
         "home": "0",
@@ -298,7 +298,7 @@
           "matchNumber": 99,
           "round": "Quarterfinals",
           "date": "2026-07-10 19:00:00",
-          "status": "upcoming",
+          "status": "result",
           "live": false,
           "home": {
             "tid": 5,
@@ -315,9 +315,9 @@
             "placeholder": false
           },
           "result": {
-            "home": "0",
-            "away": "0",
-            "winner": ""
+            "home": "2",
+            "away": "1",
+            "winner": "home"
           }
         },
         "children": [

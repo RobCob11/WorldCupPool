@@ -1554,7 +1554,7 @@
   {
     "mid": "305550",
     "round": "Quarterfinals",
-    "status": "upcoming",
+    "status": "result",
     "timestampstart": 1783710000,
     "timestampend": 1783720800,
     "home": "Spain",
@@ -1562,9 +1562,9 @@
     "homeTid": 5,
     "awayTid": 13,
     "result": {
-      "home": "0",
-      "away": "0",
-      "winner": ""
+      "home": "2",
+      "away": "1",
+      "winner": "home"
     }
   },
   {
@@ -1606,9 +1606,9 @@
     "timestampstart": 1784055600,
     "timestampend": 1784066400,
     "home": "France",
-    "away": "W98",
+    "away": "Spain",
     "homeTid": 2,
-    "awayTid": 19886,
+    "awayTid": 5,
     "result": {
       "home": "0",
       "away": "0",
