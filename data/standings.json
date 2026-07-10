@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-09T18:27:02.717Z",
+  "updatedAt": "2026-07-10T08:52:33.904Z",
   "stage": "live",
   "groupMatchesScored": 72,
   "live": false,
@@ -305,7 +305,7 @@
           "points": 126,
           "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4778.png",
           "form": [
-            "W",
+            "L",
             "W",
             "W"
           ],
@@ -670,7 +670,7 @@
     },
     {
       "name": "Boise",
-      "totalPoints": 134.5,
+      "totalPoints": 141.5,
       "scoringCount": 5,
       "live": false,
       "teams": [
@@ -717,6 +717,20 @@
           "isTopPerformer": false
         },
         {
+          "name": "France",
+          "tid": 2,
+          "pr": 1,
+          "points": 18,
+          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4481.png",
+          "form": [
+            "W",
+            "W",
+            "W"
+          ],
+          "live": false,
+          "isTopPerformer": false
+        },
+        {
           "name": "Czechia",
           "tid": 1153,
           "pr": 26,
@@ -726,20 +740,6 @@
             "L",
             "D",
             "L"
-          ],
-          "live": false,
-          "isTopPerformer": false
-        },
-        {
-          "name": "France",
-          "tid": 2,
-          "pr": 1,
-          "points": 11,
-          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4481.png",
-          "form": [
-            "W",
-            "W",
-            "W"
           ],
           "live": false,
           "isTopPerformer": false

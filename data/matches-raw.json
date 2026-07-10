@@ -1538,7 +1538,7 @@
   {
     "mid": "305549",
     "round": "Quarterfinals",
-    "status": "upcoming",
+    "status": "result",
     "timestampstart": 1783627200,
     "timestampend": 1783638000,
     "home": "France",
@@ -1546,9 +1546,9 @@
     "homeTid": 2,
     "awayTid": 24,
     "result": {
-      "home": "0",
+      "home": "2",
       "away": "0",
-      "winner": ""
+      "winner": "home"
     }
   },
   {
@@ -1605,9 +1605,9 @@
     "status": "upcoming",
     "timestampstart": 1784055600,
     "timestampend": 1784066400,
-    "home": "w97",
-    "away": "w98",
-    "homeTid": 19885,
+    "home": "France",
+    "away": "W98",
+    "homeTid": 2,
     "awayTid": 19886,
     "result": {
       "home": "0",
@@ -1621,8 +1621,8 @@
     "status": "upcoming",
     "timestampstart": 1784142000,
     "timestampend": 1784152800,
-    "home": "w99",
-    "away": "w100",
+    "home": "W99",
+    "away": "W100",
     "homeTid": 19888,
     "awayTid": 19893,
     "result": {
@@ -1637,8 +1637,8 @@
     "status": "upcoming",
     "timestampstart": 1784408400,
     "timestampend": 1784419200,
-    "home": "l101",
-    "away": "l102",
+    "home": "L101",
+    "away": "L102",
     "homeTid": 19889,
     "awayTid": 19891,
     "result": {
@@ -1653,8 +1653,8 @@
     "status": "upcoming",
     "timestampstart": 1784487600,
     "timestampend": 1784498400,
-    "home": "w101",
-    "away": "w102",
+    "home": "W101",
+    "away": "W102",
     "homeTid": 19892,
     "awayTid": 19894,
     "result": {

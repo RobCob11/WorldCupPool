@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-09T18:27:02.718Z",
+  "updatedAt": "2026-07-10T08:52:33.905Z",
   "final": {
     "mid": "305556",
     "matchNumber": 105,
@@ -63,11 +63,11 @@
       "status": "upcoming",
       "live": false,
       "home": {
-        "tid": 19885,
-        "name": "TBD",
-        "abbr": "TBD",
-        "logo": "",
-        "placeholder": true
+        "tid": 2,
+        "name": "France",
+        "abbr": "FRA",
+        "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4481.png",
+        "placeholder": false
       },
       "away": {
         "tid": 19886,
@@ -89,7 +89,7 @@
           "matchNumber": 98,
           "round": "Quarterfinals",
           "date": "2026-07-09 20:00:00",
-          "status": "upcoming",
+          "status": "result",
           "live": false,
           "home": {
             "tid": 2,
@@ -106,9 +106,9 @@
             "placeholder": false
           },
           "result": {
-            "home": "0",
+            "home": "2",
             "away": "0",
-            "winner": ""
+            "winner": "home"
           }
         },
         "children": [
