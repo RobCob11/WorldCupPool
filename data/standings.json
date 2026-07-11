@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-07-11T20:31:12.476Z",
+  "updatedAt": "2026-07-11T23:38:56.889Z",
   "stage": "live",
   "groupMatchesScored": 72,
-  "live": false,
+  "live": true,
   "topPerformer": {
     "tid": 6,
     "name": "Switzerland",
@@ -202,7 +202,7 @@
       "name": "Kentfield",
       "totalPoints": 336.5,
       "scoringCount": 5,
-      "live": false,
+      "live": true,
       "teams": [
         {
           "name": "Egypt",
@@ -257,7 +257,7 @@
             "W",
             "W"
           ],
-          "live": false,
+          "live": true,
           "isTopPerformer": false
         },
         {
@@ -390,7 +390,7 @@
       "name": "Sea Ranch",
       "totalPoints": 266.5,
       "scoringCount": 6,
-      "live": false,
+      "live": true,
       "teams": [
         {
           "name": "Norway",
@@ -403,7 +403,7 @@
             "W",
             "L"
           ],
-          "live": false,
+          "live": true,
           "isTopPerformer": false
         },
         {

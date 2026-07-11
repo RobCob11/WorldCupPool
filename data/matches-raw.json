@@ -1570,7 +1570,7 @@
   {
     "mid": "305551",
     "round": "Quarterfinals",
-    "status": "upcoming",
+    "status": "live",
     "timestampstart": 1783803600,
     "timestampend": 1783814400,
     "home": "Norway",
@@ -1578,8 +1578,8 @@
     "homeTid": 1184,
     "awayTid": 11,
     "result": {
-      "home": "0",
-      "away": "0",
+      "home": "1",
+      "away": "2",
       "winner": ""
     }
   },

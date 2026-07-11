@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-11T20:31:12.477Z",
+  "updatedAt": "2026-07-11T23:38:56.890Z",
   "final": {
     "mid": "305556",
     "matchNumber": 105,
@@ -538,8 +538,8 @@
           "matchNumber": 100,
           "round": "Quarterfinals",
           "date": "2026-07-11 21:00:00",
-          "status": "upcoming",
-          "live": false,
+          "status": "live",
+          "live": true,
           "home": {
             "tid": 1184,
             "name": "Norway",
@@ -555,8 +555,8 @@
             "placeholder": false
           },
           "result": {
-            "home": "0",
-            "away": "0",
+            "home": "1",
+            "away": "2",
             "winner": ""
           }
         },
