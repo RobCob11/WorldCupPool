@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-07-11T23:38:56.889Z",
+  "updatedAt": "2026-07-12T07:50:36.165Z",
   "stage": "live",
   "groupMatchesScored": 72,
-  "live": true,
+  "live": false,
   "topPerformer": {
     "tid": 6,
     "name": "Switzerland",
@@ -23,7 +23,7 @@
           "points": 157.5,
           "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4699.png",
           "form": [
-            "W",
+            "L",
             "W",
             "W"
           ],
@@ -200,9 +200,9 @@
     },
     {
       "name": "Kentfield",
-      "totalPoints": 336.5,
+      "totalPoints": 357.5,
       "scoringCount": 5,
-      "live": true,
+      "live": false,
       "teams": [
         {
           "name": "Egypt",
@@ -250,14 +250,14 @@
           "name": "England",
           "tid": 11,
           "pr": 3,
-          "points": 31.5,
+          "points": 52.5,
           "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4713.png",
           "form": [
             "W",
             "W",
             "W"
           ],
-          "live": true,
+          "live": false,
           "isTopPerformer": false
         },
         {
@@ -390,7 +390,7 @@
       "name": "Sea Ranch",
       "totalPoints": 266.5,
       "scoringCount": 6,
-      "live": true,
+      "live": false,
       "teams": [
         {
           "name": "Norway",
@@ -399,11 +399,11 @@
           "points": 90,
           "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4475.png",
           "form": [
+            "L",
             "W",
-            "W",
-            "L"
+            "W"
           ],
-          "live": true,
+          "live": false,
           "isTopPerformer": false
         },
         {
@@ -482,7 +482,7 @@
     },
     {
       "name": "Seminary",
-      "totalPoints": 156,
+      "totalPoints": 191,
       "scoringCount": 5,
       "live": false,
       "teams": [
@@ -490,7 +490,7 @@
           "name": "Argentina",
           "tid": 28,
           "pr": 5,
-          "points": 55,
+          "points": 90,
           "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4819.png",
           "form": [
             "W",

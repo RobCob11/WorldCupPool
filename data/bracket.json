@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-11T23:38:56.890Z",
+  "updatedAt": "2026-07-12T07:50:36.167Z",
   "final": {
     "mid": "305556",
     "matchNumber": 105,
@@ -512,18 +512,18 @@
       "status": "upcoming",
       "live": false,
       "home": {
-        "tid": 19888,
-        "name": "TBD",
-        "abbr": "TBD",
-        "logo": "",
-        "placeholder": true
+        "tid": 11,
+        "name": "England",
+        "abbr": "ENG",
+        "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4713.png",
+        "placeholder": false
       },
       "away": {
-        "tid": 19893,
-        "name": "TBD",
-        "abbr": "TBD",
-        "logo": "",
-        "placeholder": true
+        "tid": 28,
+        "name": "Argentina",
+        "abbr": "ARG",
+        "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4819.png",
+        "placeholder": false
       },
       "result": {
         "home": "0",
@@ -538,8 +538,8 @@
           "matchNumber": 100,
           "round": "Quarterfinals",
           "date": "2026-07-11 21:00:00",
-          "status": "live",
-          "live": true,
+          "status": "result",
+          "live": false,
           "home": {
             "tid": 1184,
             "name": "Norway",
@@ -557,7 +557,7 @@
           "result": {
             "home": "1",
             "away": "2",
-            "winner": ""
+            "winner": "away"
           }
         },
         "children": [
@@ -747,7 +747,7 @@
           "matchNumber": 101,
           "round": "Quarterfinals",
           "date": "2026-07-12 01:00:00",
-          "status": "upcoming",
+          "status": "result",
           "live": false,
           "home": {
             "tid": 28,
@@ -764,9 +764,9 @@
             "placeholder": false
           },
           "result": {
-            "home": "0",
-            "away": "0",
-            "winner": ""
+            "home": "3",
+            "away": "1",
+            "winner": "home"
           }
         },
         "children": [

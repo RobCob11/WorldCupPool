@@ -1570,7 +1570,7 @@
   {
     "mid": "305551",
     "round": "Quarterfinals",
-    "status": "live",
+    "status": "result",
     "timestampstart": 1783803600,
     "timestampend": 1783814400,
     "home": "Norway",
@@ -1580,13 +1580,13 @@
     "result": {
       "home": "1",
       "away": "2",
-      "winner": ""
+      "winner": "away"
     }
   },
   {
     "mid": "305552",
     "round": "Quarterfinals",
-    "status": "upcoming",
+    "status": "result",
     "timestampstart": 1783818000,
     "timestampend": 1783828800,
     "home": "Argentina",
@@ -1594,9 +1594,9 @@
     "homeTid": 28,
     "awayTid": 6,
     "result": {
-      "home": "0",
-      "away": "0",
-      "winner": ""
+      "home": "3",
+      "away": "1",
+      "winner": "home"
     }
   },
   {
@@ -1621,10 +1621,10 @@
     "status": "upcoming",
     "timestampstart": 1784142000,
     "timestampend": 1784152800,
-    "home": "W99",
-    "away": "W100",
-    "homeTid": 19888,
-    "awayTid": 19893,
+    "home": "England",
+    "away": "Argentina",
+    "homeTid": 11,
+    "awayTid": 28,
     "result": {
       "home": "0",
       "away": "0",
