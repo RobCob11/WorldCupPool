@@ -1637,8 +1637,8 @@
     "status": "upcoming",
     "timestampstart": 1784408400,
     "timestampend": 1784419200,
-    "home": "L101",
-    "away": "L102",
+    "home": "l101",
+    "away": "l102",
     "homeTid": 19889,
     "awayTid": 19891,
     "result": {
@@ -1653,8 +1653,8 @@
     "status": "upcoming",
     "timestampstart": 1784487600,
     "timestampend": 1784498400,
-    "home": "W101",
-    "away": "W102",
+    "home": "w101",
+    "away": "w102",
     "homeTid": 19892,
     "awayTid": 19894,
     "result": {
