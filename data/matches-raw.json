@@ -1618,7 +1618,7 @@
   {
     "mid": "305554",
     "round": "Semifinals",
-    "status": "upcoming",
+    "status": "result",
     "timestampstart": 1784142000,
     "timestampend": 1784152800,
     "home": "England",
@@ -1626,9 +1626,9 @@
     "homeTid": 11,
     "awayTid": 28,
     "result": {
-      "home": "0",
-      "away": "0",
-      "winner": ""
+      "home": "1",
+      "away": "2",
+      "winner": "away"
     }
   },
   {
@@ -1638,9 +1638,9 @@
     "timestampstart": 1784408400,
     "timestampend": 1784419200,
     "home": "France",
-    "away": "L102",
+    "away": "England",
     "homeTid": 2,
-    "awayTid": 19891,
+    "awayTid": 11,
     "result": {
       "home": "0",
       "away": "0",
@@ -1654,9 +1654,9 @@
     "timestampstart": 1784487600,
     "timestampend": 1784498400,
     "home": "Spain",
-    "away": "W102",
+    "away": "Argentina",
     "homeTid": 5,
-    "awayTid": 19894,
+    "awayTid": 28,
     "result": {
       "home": "0",
       "away": "0",

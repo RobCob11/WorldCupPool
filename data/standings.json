@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-15T15:08:04.862Z",
+  "updatedAt": "2026-07-15T21:31:28.040Z",
   "stage": "live",
   "groupMatchesScored": 72,
   "live": false,
@@ -253,7 +253,7 @@
           "points": 52.5,
           "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4713.png",
           "form": [
-            "W",
+            "L",
             "W",
             "W"
           ],
@@ -482,7 +482,7 @@
     },
     {
       "name": "Seminary",
-      "totalPoints": 191,
+      "totalPoints": 236,
       "scoringCount": 5,
       "live": false,
       "teams": [
@@ -490,7 +490,7 @@
           "name": "Argentina",
           "tid": 28,
           "pr": 5,
-          "points": 90,
+          "points": 135,
           "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4819.png",
           "form": [
             "W",
