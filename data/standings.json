@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-18T18:08:22.157Z",
+  "updatedAt": "2026-07-18T23:37:53.934Z",
   "stage": "live",
   "groupMatchesScored": 72,
   "live": false,
@@ -105,6 +105,100 @@
       "rankChange": 0
     },
     {
+      "name": "Kentfield",
+      "totalPoints": 390.5,
+      "scoringCount": 5,
+      "live": false,
+      "teams": [
+        {
+          "name": "Egypt",
+          "tid": 21,
+          "pr": 28,
+          "points": 140,
+          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4758.png",
+          "form": [
+            "L",
+            "W",
+            "D"
+          ],
+          "live": false,
+          "isTopPerformer": false
+        },
+        {
+          "name": "Belgium",
+          "tid": 13,
+          "pr": 9,
+          "points": 90,
+          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4717.png",
+          "form": [
+            "L",
+            "W",
+            "W"
+          ],
+          "live": false,
+          "isTopPerformer": false
+        },
+        {
+          "name": "England",
+          "tid": 11,
+          "pr": 3,
+          "points": 85.5,
+          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4713.png",
+          "form": [
+            "W",
+            "L",
+            "W"
+          ],
+          "live": false,
+          "isTopPerformer": false
+        },
+        {
+          "name": "Cape Verde",
+          "tid": 1953,
+          "pr": 36,
+          "points": 54,
+          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4753.png",
+          "form": [
+            "L",
+            "D",
+            "D"
+          ],
+          "live": false,
+          "isTopPerformer": false
+        },
+        {
+          "name": "Turkey",
+          "tid": 1149,
+          "pr": 21,
+          "points": 21,
+          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4700.png",
+          "form": [
+            "W",
+            "L",
+            "L"
+          ],
+          "live": false,
+          "isTopPerformer": false
+        },
+        {
+          "name": "Tunisia",
+          "tid": 15,
+          "pr": 32,
+          "points": 0,
+          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4729.png",
+          "form": [
+            "L",
+            "L",
+            "L"
+          ],
+          "live": false,
+          "isTopPerformer": false
+        }
+      ],
+      "rank": 2,
+      "rankChange": 1
+    },
+    {
       "name": "San Luis Obispo",
       "totalPoints": 376,
       "scoringCount": 6,
@@ -195,102 +289,8 @@
           "isTopPerformer": false
         }
       ],
-      "rank": 2,
-      "rankChange": 0
-    },
-    {
-      "name": "Kentfield",
-      "totalPoints": 357.5,
-      "scoringCount": 5,
-      "live": false,
-      "teams": [
-        {
-          "name": "Egypt",
-          "tid": 21,
-          "pr": 28,
-          "points": 140,
-          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4758.png",
-          "form": [
-            "L",
-            "W",
-            "D"
-          ],
-          "live": false,
-          "isTopPerformer": false
-        },
-        {
-          "name": "Belgium",
-          "tid": 13,
-          "pr": 9,
-          "points": 90,
-          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4717.png",
-          "form": [
-            "L",
-            "W",
-            "W"
-          ],
-          "live": false,
-          "isTopPerformer": false
-        },
-        {
-          "name": "Cape Verde",
-          "tid": 1953,
-          "pr": 36,
-          "points": 54,
-          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4753.png",
-          "form": [
-            "L",
-            "D",
-            "D"
-          ],
-          "live": false,
-          "isTopPerformer": false
-        },
-        {
-          "name": "England",
-          "tid": 11,
-          "pr": 3,
-          "points": 52.5,
-          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4713.png",
-          "form": [
-            "L",
-            "W",
-            "W"
-          ],
-          "live": false,
-          "isTopPerformer": false
-        },
-        {
-          "name": "Turkey",
-          "tid": 1149,
-          "pr": 21,
-          "points": 21,
-          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4700.png",
-          "form": [
-            "W",
-            "L",
-            "L"
-          ],
-          "live": false,
-          "isTopPerformer": false
-        },
-        {
-          "name": "Tunisia",
-          "tid": 15,
-          "pr": 32,
-          "points": 0,
-          "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4729.png",
-          "form": [
-            "L",
-            "L",
-            "L"
-          ],
-          "live": false,
-          "isTopPerformer": false
-        }
-      ],
       "rank": 3,
-      "rankChange": 0
+      "rankChange": -1
     },
     {
       "name": "Los Angeles",
@@ -724,7 +724,7 @@
           "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4481.png",
           "form": [
             "L",
-            "W",
+            "L",
             "W"
           ],
           "live": false,

@@ -1634,7 +1634,7 @@
   {
     "mid": "305555",
     "round": "Match for 3rd place",
-    "status": "upcoming",
+    "status": "result",
     "timestampstart": 1784408400,
     "timestampend": 1784419200,
     "home": "France",
@@ -1642,9 +1642,9 @@
     "homeTid": 2,
     "awayTid": 11,
     "result": {
-      "home": "0",
-      "away": "0",
-      "winner": ""
+      "home": "4",
+      "away": "6",
+      "winner": "away"
     }
   },
   {
