@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-18T23:37:53.934Z",
+  "updatedAt": "2026-07-19T07:51:25.923Z",
   "stage": "live",
   "groupMatchesScored": 72,
   "live": false,
@@ -196,7 +196,7 @@
         }
       ],
       "rank": 2,
-      "rankChange": 1
+      "rankChange": 0
     },
     {
       "name": "San Luis Obispo",
@@ -290,7 +290,7 @@
         }
       ],
       "rank": 3,
-      "rankChange": -1
+      "rankChange": 0
     },
     {
       "name": "Los Angeles",
