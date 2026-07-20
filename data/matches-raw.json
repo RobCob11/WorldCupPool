@@ -1650,7 +1650,7 @@
   {
     "mid": "305556",
     "round": "Final",
-    "status": "upcoming",
+    "status": "result",
     "timestampstart": 1784487600,
     "timestampend": 1784498400,
     "home": "Spain",
@@ -1658,9 +1658,9 @@
     "homeTid": 5,
     "awayTid": 28,
     "result": {
-      "home": "0",
+      "home": "1",
       "away": "0",
-      "winner": ""
+      "winner": "home"
     }
   }
 ]

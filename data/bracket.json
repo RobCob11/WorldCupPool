@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-07-19T18:09:35.425Z",
+  "updatedAt": "2026-07-20T00:16:12.850Z",
   "final": {
     "mid": "305556",
     "matchNumber": 104,
     "round": "Final",
     "date": "2026-07-19 19:00:00",
-    "status": "upcoming",
+    "status": "result",
     "live": false,
     "home": {
       "tid": 5,
@@ -22,9 +22,9 @@
       "placeholder": false
     },
     "result": {
-      "home": "0",
+      "home": "1",
       "away": "0",
-      "winner": ""
+      "winner": "home"
     }
   },
   "bronze": {
