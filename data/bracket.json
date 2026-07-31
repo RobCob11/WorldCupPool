@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-31T02:25:22.825Z",
+  "updatedAt": "2026-07-31T06:07:53.978Z",
   "final": {
     "mid": "305556",
     "matchNumber": 104,
@@ -11,14 +11,14 @@
       "tid": 5,
       "name": "Spain",
       "abbr": "SPN",
-      "logo": "https://images.entitysport.com/soccer/team-s2/4698.png",
+      "logo": "https://images.entitysport.com/soccer/team-s2/4698.png?p=f",
       "placeholder": false
     },
     "away": {
       "tid": 28,
       "name": "Argentina",
       "abbr": "ARG",
-      "logo": "https://images.entitysport.com/soccer/team-s2/4819.png",
+      "logo": "https://images.entitysport.com/soccer/team-s2/4819.png?p=f",
       "placeholder": false
     },
     "result": {
@@ -38,14 +38,14 @@
       "tid": 2,
       "name": "France",
       "abbr": "FRA",
-      "logo": "https://images.entitysport.com/soccer/team-s2/4481.png",
+      "logo": "https://images.entitysport.com/soccer/team-s2/4481.png?p=f",
       "placeholder": false
     },
     "away": {
       "tid": 11,
       "name": "England",
       "abbr": "ENG",
-      "logo": "https://images.entitysport.com/soccer/team-s2/4713.png",
+      "logo": "https://images.entitysport.com/soccer/team-s2/4713.png?p=f",
       "placeholder": false
     },
     "result": {
