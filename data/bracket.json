@@ -1,7 +1,59 @@
 {
-  "updatedAt": "2026-11-18T02:42:06.836Z",
-  "final": null,
-  "bronze": null,
+  "updatedAt": "2026-11-18T11:01:10.645Z",
+  "final": {
+    "mid": "305556",
+    "matchNumber": 104,
+    "round": "Final",
+    "date": "2026-07-19 19:00:00",
+    "status": "result",
+    "live": false,
+    "home": {
+      "tid": 5,
+      "name": "Spain",
+      "abbr": "SPN",
+      "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4698.png",
+      "placeholder": false
+    },
+    "away": {
+      "tid": 28,
+      "name": "Argentina",
+      "abbr": "ARG",
+      "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4819.png",
+      "placeholder": false
+    },
+    "result": {
+      "home": "1",
+      "away": "0",
+      "winner": "home"
+    }
+  },
+  "bronze": {
+    "mid": "305555",
+    "matchNumber": 103,
+    "round": "Match for 3rd place",
+    "date": "2026-07-18 21:00:00",
+    "status": "result",
+    "live": false,
+    "home": {
+      "tid": 2,
+      "name": "France",
+      "abbr": "FRA",
+      "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4481.png",
+      "placeholder": false
+    },
+    "away": {
+      "tid": 11,
+      "name": "England",
+      "abbr": "ENG",
+      "logo": "https://gcdnimages.entitysport.com/soccer/team-s2/4713.png",
+      "placeholder": false
+    },
+    "result": {
+      "home": "4",
+      "away": "6",
+      "winner": "away"
+    }
+  },
   "left": null,
   "right": null
 }
